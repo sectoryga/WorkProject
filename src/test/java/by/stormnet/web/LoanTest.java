@@ -38,7 +38,7 @@ public class LoanTest {
 
     @Test(priority = 4)
     public void giveOutLoan(){ loanApproval.openApproval().giveoutLoan(); }
-`
+
     @Test(priority = 5)
     public void stopCashFromLoan() {
         loanActiveHelper.openUrlLoanPage().stopCash();
