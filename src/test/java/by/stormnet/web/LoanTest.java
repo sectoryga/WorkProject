@@ -28,7 +28,7 @@ public class LoanTest {
     @Test(priority = 1,invocationCount = 2)
     public void approvalLoan() { verifyLoanHelper.openUrl().approvalLoan(); }
 
-    @Test(priority = 2)
+    @Test(priority = 2,invocationCount = 2)
     public void approvalLoanClient() { loanApproval.openUrl1().approvalClienLoan(); }
 
     @Test(priority = 3,skipFailedInvocations = true)
