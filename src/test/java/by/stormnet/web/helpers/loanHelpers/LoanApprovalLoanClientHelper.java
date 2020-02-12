@@ -8,16 +8,30 @@ public class LoanApprovalLoanClientHelper extends AbsractHelper {
     LoanApprovalLoanClientPage approvalLoanClientPage = new LoanApprovalLoanClientPage();
 
     public LoanApprovalLoanClientHelper openUrl1() {
-        approvalLoanClientPage.navigateToPageClient();
+        approvalLoanClientPage.navigateGiveOut();
         return this;
     }
+
+    public LoanApprovalLoanClientHelper openApproval(){
+        approvalLoanClientPage.navigateApprobalPage();
+        return this;
+    }
+
 
     public LoanApprovalLoanClientHelper approvalClienLoan() {
         approvalLoanClientPage.clickMainButton();
         approvalLoanClientPage.clickApproveButton()
                 .clickSaveButton()
                 .checkMessage();
-        approvalLoanClientPage.geteLoan().clickCheckBox().clickFinalButton().checkMessage();
+        return this;
+    }
+
+    public LoanApprovalLoanClientHelper giveoutLoan() {
+        approvalLoanClientPage.clickMainButton();
+        approvalLoanClientPage.geteLoan()
+                .clickCheckBox()
+                .clickFinalButton()
+                .checkMessage();
         return this;
     }
 }

@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class LoanTest {
 
     private LoanDMEHelper verifyLoanHelper = new LoanDMEHelper();
-    private LoanApprovalLoanClientHelper loanApprova = new LoanApprovalLoanClientHelper();
+    private LoanApprovalLoanClientHelper loanApproval = new LoanApprovalLoanClientHelper();
     private LoanStopHelper loanStopHelper = new LoanStopHelper();
     private LoanActiveHelper loanActiveHelper = new LoanActiveHelper();
     private IncameHelper incameHelper = new IncameHelper();
@@ -26,10 +26,10 @@ public class LoanTest {
     }
 
     @Test(priority = 1,invocationCount = 2)
-    public void approvalLoan() { verifyLoanHelper.approvalLoan(); }
+    public void approvalLoan() { verifyLoanHelper.openUrl().approvalLoan(); }
 
     @Test(priority = 2)
-    public void approvalLoanClient() { loanApprova.openUrl1().approvalClienLoan(); }
+    public void approvalLoanClient() { loanApproval.openUrl1().approvalClienLoan(); }
 
     @Test(priority = 3,skipFailedInvocations = true)
     public void stopFromLoan() {
@@ -37,40 +37,43 @@ public class LoanTest {
     }
 
     @Test(priority = 4)
+    public void giveOutLoan(){ loanApproval.openApproval().giveoutLoan(); }
+`
+    @Test(priority = 5)
     public void stopCashFromLoan() {
         loanActiveHelper.openUrlLoanPage().stopCash();
     }
 
-    @Test(priority = 5)
+    @Test(priority = 6)
     public void returnCashFromLoan() {
         loanActiveHelper.openUrlLoanPage().returnCash();
     }
 
-    @Test(priority = 6)
+    @Test(priority = 7)
     public void assigmentVerifier() throws InterruptedException { loanActiveHelper.openUrlLoanPage().assigmentVerifier(); }
 
-    @Test(priority = 7)
+    @Test(priority = 8)
     public void errorWorkingLoan() { loanActiveHelper.openUrlLoanPage().errorLoan(); }
 
-    @Test(priority = 8)
+    @Test(priority = 9)
     public void changeLoanDate() {
         loanActiveHelper.openUrlLoanPage().changeDate();
     }
 
-    @Test(priority = 9)
+    @Test(priority = 10)
     public void makeOverdue() {
         loanActiveHelper.openUrlLoanPage().makeOverdueLoan();
     }
 
-    @Test(priority = 10)
+    @Test(priority = 11)
     public void addCommenFromLoan() { loanActiveHelper.openUrlLoanPage().addCommentLoan(); }
 
-    @Test(priority = 11, skipFailedInvocations = true)
+    @Test(priority = 12, skipFailedInvocations = true)
     public void closeLoan() {
         loanActiveHelper.openUrlLoanPage().closeLoan();
     }
 
-    @Test(priority = 12,invocationCount = 5)
+    @Test(priority = 13,invocationCount = 3)
     public void incameTest(){ incameHelper.openUrlLoanPage().addIncameLoan(); }
 
 }
