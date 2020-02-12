@@ -9,8 +9,6 @@
             <class name="by.stormnet.web.LoanTest"/>
             <class name="by.stormnet.web.CollectionTest"/>
             <class name="by.stormnet.web.SettingsTest"/>
-<!--            <class name="by.stormnet.web.OnlinerNewsTest"/>-->
-<!--            <class name="by.stormnet.web.OnlinerCatalogTest"/>-->
         </classes>
     </test>
 </suite>
