@@ -18,10 +18,8 @@
 .idea/
 .target/
 .allure/
-.allure-results/
 target/
 allure/
-allure-results/
 .chromedriver.exe
 chromedriver.exe
 
