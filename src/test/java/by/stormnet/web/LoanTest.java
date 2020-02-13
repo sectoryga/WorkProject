@@ -28,7 +28,7 @@ public class LoanTest {
     @Test(priority = 1,invocationCount = 2)
     public void approvalLoan() { verifyLoanHelper.openUrl().approvalLoan(); }
 
-    @Test(priority = 2)
+    @Test(priority = 2,invocationCount = 2)
     public void approvalLoanClient() { loanApproval.openUrl1().approvalClienLoan(); }
 
     @Test(priority = 3,skipFailedInvocations = true)
@@ -38,7 +38,7 @@ public class LoanTest {
 
     @Test(priority = 4)
     public void giveOutLoan(){ loanApproval.openApproval().giveoutLoan(); }
-`
+
     @Test(priority = 5)
     public void stopCashFromLoan() {
         loanActiveHelper.openUrlLoanPage().stopCash();
