@@ -1,1 +1,0 @@
-{"uuid":"0060f447-3d50-4cb8-84bd-1589f721959d","name":"login test","start":1580815588730,"stop":1580815610630,"children":["bb5db5c5-8b27-48a7-856b-e58b1fc79d7d","5f31e3d3-a86d-4e7a-9ae1-c264a976e926","3a8d28dd-9c8c-4df2-838c-20919d4569e5"],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","start":1580815608540,"stop":1580815610616}]}

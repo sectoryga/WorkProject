@@ -1,1 +1,0 @@
-{"uuid":"54fcdd21-85eb-47f0-9052-43cbf576b188","name":"by.stormnet.web.SettingsTest","start":1581083281396,"stop":1581083361492,"children":["23b67ae0-86d4-4b8d-b22b-c4cbed97a8b0","7eca97d0-caba-40f4-80cc-671b47d28e67"],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","start":1581083361371,"stop":1581083361440}]}

@@ -1,1 +1,0 @@
-{"uuid":"bf67e2b5-9fd7-4154-ae53-488b666f991f","name":"AutomationFramework","start":1580797875609,"stop":1580797879280,"children":["8455872a-87ae-49b1-8fa3-b4ef925a763d"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","start":1580797875621,"stop":1580797879086}]}

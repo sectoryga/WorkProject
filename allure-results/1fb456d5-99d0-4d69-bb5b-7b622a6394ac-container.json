@@ -1,1 +1,0 @@
-{"uuid":"1fb456d5-99d0-4d69-bb5b-7b622a6394ac","name":"by.stormnet.web.LoanTest","start":1581408331362,"stop":1581408337731,"children":["572e7f8a-607a-4dc7-a959-11ca9669408a"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","start":1581408331385,"stop":1581408335105}]}

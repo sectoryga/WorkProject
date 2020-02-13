@@ -1,1 +1,0 @@
-{"uuid":"f16f9391-12a2-4a5d-8621-7cf815d7ff10","name":"by.stormnet.web.LoginOnlinerTest","start":1579765518487,"stop":1579765712474,"children":["e0b77944-0741-416b-b108-3716aab7e621"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","start":1579765518507,"stop":1579765525183}]}
