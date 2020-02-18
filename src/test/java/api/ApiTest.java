@@ -70,10 +70,10 @@ public class ApiTest {
             tr += (i + 1) * strToArray[i];
         }
         int sum = tr % 11;
-        if (sum == 10) {
-            sum = sum-2;
-        } else {
+        if (sum <= 10) {
             inn = "" + date + sum;
+        } else {
+            registrationStepThree();
         }
         RestAssured.baseURI = url + UserId;
         JSONObject requestParams = new JSONObject();
@@ -148,9 +148,8 @@ public class ApiTest {
         LoanId = myResposnseBody.getInt("id");
         logger.info("LoanRequest sent successfully");
         Assert.assertEquals(response.getStatusCode(), 200);
-        System.out.println(UserId);
-        System.out.println(UserToken);
-        System.out.println(LoanId);
+        System.out.println("Create User id = " + UserId);
+        System.out.println("Create Loan id = " + LoanId);
     }
 
 }

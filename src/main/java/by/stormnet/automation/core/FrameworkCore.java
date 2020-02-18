@@ -21,6 +21,8 @@ public class FrameworkCore {
     public static String baseUrl8 = IOUtils.loadGenericProperties("baseUrl8", "configuration");
     public static String baseUrl9 = IOUtils.loadGenericProperties("baseUrl9", "configuration");
     public static String baseUrl10 = IOUtils.loadGenericProperties("baseUrl10", "configuration");
+    public static String baseUrl11 = IOUtils.loadGenericProperties("baseUrl11", "configuration");
+    public static String baseUrl12 = IOUtils.loadGenericProperties("baseUrl12", "configuration");
 
     public static WebDriver getInstance() {
         if (browser.equals(BrowserConstants.CHROME)) {

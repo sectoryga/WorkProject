@@ -18,7 +18,7 @@ public class SettingsTest {
     private AddAffilateHelper addAffilateHelper = new AddAffilateHelper();
     private AddRegionHelper addRegionHelper = new AddRegionHelper();
     private AddCityHelper addCityHelper = new AddCityHelper();
-      private LoanDMEHelper verifyLoanHelper = new LoanDMEHelper();
+    private LoanDMEHelper verifyLoanHelper = new LoanDMEHelper();
 
 //    private String username;
 //    private String password;
@@ -43,19 +43,28 @@ public class SettingsTest {
     }
 
     @Test(priority = 3)
-    public void addRemainder() { addRemainderHelper.openUrlRemainderPage().addRemainder(); }
+    public void addRemainder() {
+        addRemainderHelper.openUrlRemainderPage().addRemainder();
+    }
 
     @Test(priority = 4)
-    public void addMarketingSettings()  { addMarketingHelper.OpenUrlMarketingPage().addMarketingSettings(); }
+    public void addMarketingSettings() {
+        addMarketingHelper.OpenUrlMarketingPage().addMarketingSettings();
+    }
 
     @Test(priority = 5)
-    public void addRegion(){ addRegionHelper.openUrlRemainderPage(); }
+    public void addRegion() {
+        addRegionHelper.openUrlRemainderPage();
+    }
 
     @Test(priority = 6)
-    public void addCity(){ addCityHelper.openUrlCityPage(); }
+    public void addCity() {
+        addCityHelper.openUrlCityPage();
+    }
 
     @AfterClass
-    public void tearDown() {
-        adminAddHelper.close();
+    public void tearDowmn() {
+        addCityHelper.close();
     }
+
 }

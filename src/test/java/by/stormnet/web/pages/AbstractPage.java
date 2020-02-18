@@ -108,6 +108,9 @@ public class AbstractPage extends FrameworkCore {
     public static By getElementBy(String element) {
         return By.xpath(element);
     }
+    public static By getElementByCssWaiter(String element){
+        return By.cssSelector(element);
+    }
 
     public static By getElementByClass(String element) {
         return By.className(element);
