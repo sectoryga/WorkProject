@@ -70,10 +70,10 @@ public class ApiTest {
             tr += (i + 1) * strToArray[i];
         }
         int sum = tr % 11;
-        if (sum <= 10) {
-            inn = "" + date + sum;
+        if (sum == 10) {
+            sum = sum-2;
         } else {
-            registrationStepThree();
+            inn = "" + date + sum;
         }
         RestAssured.baseURI = url + UserId;
         JSONObject requestParams = new JSONObject();
