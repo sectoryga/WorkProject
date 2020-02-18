@@ -18,7 +18,7 @@ public class ApiTest {
     private String url = "https://api3.kz.aventus.work/user/";
 
 
-    @Test(priority = 1)
+    @Test
     public void registrationStepOne() {
         RestAssured.baseURI = "https://api3.kz.aventus.work";
         JSONObject requestParams = new JSONObject();
