@@ -70,20 +70,20 @@ public class LoanTest {
         loanActiveHelper.openUrlLoanPage().changeDate();
     }
 
-//    @Test(priority = 10, skipFailedInvocations = true)
-//    public void makeOverdue() {
-//        loanActiveHelper.openUrlLoanPage().makeOverdueLoan();
-//    }
-//
-//    @Test(priority = 11, skipFailedInvocations = true)
-//    public void addCommenFromLoan() {
-//        loanActiveHelper.openUrlLoanPage().addCommentLoan();
-//    }
-//
-//    @Test(priority = 12, skipFailedInvocations = true)
-//    public void closeLoan() {
-//        loanActiveHelper.openUrlLoanPage().closeLoan();
-//    }
+    @Test(priority = 10, skipFailedInvocations = true)
+    public void makeOverdue() {
+        loanActiveHelper.openUrlLoanPage().makeOverdueLoan();
+    }
+
+    @Test(priority = 11, skipFailedInvocations = true)
+    public void addCommenFromLoan() {
+        loanActiveHelper.openUrlLoanPage().addCommentLoan();
+    }
+
+    @Test(priority = 12, skipFailedInvocations = true)
+    public void closeLoan() {
+        loanActiveHelper.openUrlLoanPage().closeLoan();
+    }
 
     @Test(priority = 13, invocationCount = 3)
     public void incameTest() {
