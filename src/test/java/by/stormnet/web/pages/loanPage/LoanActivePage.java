@@ -22,11 +22,11 @@ public class LoanActivePage extends AbstractPage {
     private String listVerifiresButton = ".btn.btn-info.btn-sm.sonata-ba-action";
     private String verifireName = "//tr[4]//td[5]//a[1]";
     private String finalButton = "//button[@name='btn_update_and_edit']";
-    private String overdueButton = "//button[4]";
-    private String closeButton = "//*[@id=\"divsd7abac8d1f_transition\"]/button[2]";
+    private String overdueButton = "//button[5]";
+    private String closeButton = "//*[@id=\"divsd7abac8d1f_transition\"]/button[1]";
     private String errorButton = ".btn.btn-danger";
     private String errorButton2 = "//button[@class='btn btn-danger']";
-    private String addCommentLoanButton = "//button[6]";
+    private String addCommentLoanButton = "//button[5]";
     private String fieldComment = "//textarea[@id='sd7abac8d1f_comment']";
     private String textComment = "ВОЗВРАЩЕН В ОФИСЕ КОМПАНИИ";
     private String fielfCommentClose = "//input[@id='sd7abac8d1f_force_close_reason']";
@@ -42,6 +42,11 @@ public class LoanActivePage extends AbstractPage {
 
     public LoanActivePage clickChangeButton() {
         getElement(changeDataButton).click();
+        return this;
+    }
+
+    public LoanActivePage clearDateField(){
+        getElement(dataField).clear();
         return this;
     }
 

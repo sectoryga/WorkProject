@@ -43,6 +43,7 @@ public class LoanDMEPage extends AbstractPage {
     }
 
     public LoanDMEPage checkApproval() {
+        waitForElementClickable(getElementBy(checkApproval));
         getElement(checkApproval).click();
         return getVerifyLoanPage();
     }

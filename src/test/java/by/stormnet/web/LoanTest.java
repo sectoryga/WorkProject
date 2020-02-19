@@ -13,19 +13,19 @@ public class LoanTest {
     private LoanActiveHelper loanActiveHelper = new LoanActiveHelper();
     private IncameHelper incameHelper = new IncameHelper();
 
-//    private String username;
-//    private String password;
-//
-//    @BeforeClass
-//    public void setUp() {
-//        username = IOUtils.loadGenericProperties("username", "configuration");
-//        password = IOUtils.loadGenericProperties("password", "configuration");
-//        verifyLoanHelper.openUrl();
-//        verifyLoanHelper.loginAdmin(username, password);
-//
-//    }
+    private String username;
+    private String password;
 
-    @Test(priority = 1)
+    @BeforeClass
+    public void setUp() {
+        username = IOUtils.loadGenericProperties("username", "configuration");
+        password = IOUtils.loadGenericProperties("password", "configuration");
+        verifyLoanHelper.openUrl();
+        verifyLoanHelper.loginAdmin(username, password);
+
+    }
+
+    @Test(priority = 1, invocationCount = 2, skipFailedInvocations = true)
     public void approvalLoan() {
         verifyLoanHelper.openUrl().approvalLoan();
     }
@@ -36,56 +36,56 @@ public class LoanTest {
     }
 
     @Test(priority = 3, skipFailedInvocations = true)
-    public void stopFromLoan() {
-        loanStopHelper.openUrlLoan().stopLoan();
-    }
-
-    @Test(priority = 4)
     public void giveOutLoan() {
         loanApproval.openApproval().giveoutLoan();
     }
 
-    @Test(priority = 5)
-    public void stopCashFromLoan() {
-        loanActiveHelper.openUrlLoanPage().stopCash();
+    @Test(priority = 4, skipFailedInvocations = true)
+    public void addCommenFromLoan() {
+        loanActiveHelper.addCommentLoan();
     }
 
-    @Test(priority = 6)
-    public void returnCashFromLoan() {
-        loanActiveHelper.openUrlLoanPage().returnCash();
-    }
-
-    @Test(priority = 7)
+    @Test(priority = 5, skipFailedInvocations = true)
     public void assigmentVerifier() throws InterruptedException {
-        loanActiveHelper.openUrlLoanPage().assigmentVerifier();
+        loanActiveHelper.assigmentVerifier();
     }
 
-    @Test(priority = 8)
+    @Test(priority = 6, skipFailedInvocations = true)
+    public void stopCashFromLoan() {
+        loanActiveHelper.stopCash();
+    }
+
+    @Test(priority = 7, skipFailedInvocations = true)
+    public void returnCashFromLoan() {
+        loanActiveHelper.returnCash();
+    }
+
+    @Test(priority = 8, skipFailedInvocations = true)
+    public void changeLoanDate() {
+        loanActiveHelper.changeDate();
+    }
+
+    @Test(priority = 9, skipFailedInvocations = true)
+    public void makeOverdue() {
+        loanActiveHelper.makeOverdueLoan();
+    }
+
+    @Test(priority = 10, skipFailedInvocations = true)
+    public void closeLoan() {
+        loanActiveHelper.closeLoan();
+    }
+
+    @Test(priority = 11, skipFailedInvocations = true)
+    public void stopFromLoan() {
+        loanStopHelper.openUrlLoan().stopLoan();
+    }
+
+    @Test(priority = 12, skipFailedInvocations = true)
     public void errorWorkingLoan() {
         loanActiveHelper.openUrlLoanPage().errorLoan();
     }
 
-    @Test(priority = 9)
-    public void changeLoanDate() {
-        loanActiveHelper.openUrlLoanPage().changeDate();
-    }
-
-    @Test(priority = 10, skipFailedInvocations = true)
-    public void makeOverdue() {
-        loanActiveHelper.openUrlLoanPage().makeOverdueLoan();
-    }
-
-    @Test(priority = 11, skipFailedInvocations = true)
-    public void addCommenFromLoan() {
-        loanActiveHelper.openUrlLoanPage().addCommentLoan();
-    }
-
-    @Test(priority = 12, skipFailedInvocations = true)
-    public void closeLoan() {
-        loanActiveHelper.openUrlLoanPage().closeLoan();
-    }
-
-    @Test(priority = 13, invocationCount = 3)
+    @Test(priority = 13, invocationCount = 3, skipFailedInvocations = true)
     public void incameTest() {
         incameHelper.openUrlLoanPage().addIncameLoan();
     }

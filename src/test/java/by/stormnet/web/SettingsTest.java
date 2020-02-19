@@ -62,9 +62,4 @@ public class SettingsTest {
         addCityHelper.openUrlCityPage();
     }
 
-    @AfterClass
-    public void tearDowmn() {
-        addCityHelper.close();
-    }
-
 }

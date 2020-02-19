@@ -13,26 +13,22 @@ public class LoanActiveHelper extends AbsractHelper {
     }
 
     public LoanActiveHelper changeDate() {
-        loanChangeDatePage.clickMainButton();
-        loanChangeDatePage.clickChangeButton().fillDate().getFinalButton().clickFinalButton();
+        loanChangeDatePage.clickChangeButton().clearDateField().fillDate().getFinalButton().clickFinalButton();
         loanChangeDatePage.checkDateChange();
         return this;
     }
 
     public LoanActiveHelper makeOverdueLoan() {
-        loanChangeDatePage.clickMainButton();
         loanChangeDatePage.clickOverdueButton().clickFinalButton().checkMessage();
         return this;
     }
 
     public LoanActiveHelper addCommentLoan() {
-        loanChangeDatePage.clickMainButton();
         loanChangeDatePage.clickAddCommentButton().fillCommentField().clickFinalButton().checkMessage();
         return this;
     }
 
     public LoanActiveHelper closeLoan() {
-        loanChangeDatePage.clickMainButton();
         loanChangeDatePage.clickCloseLoanButton().fillDateClose().fillCommentCloseLoan().clickFinalButton();
         loanChangeDatePage.checkCommisionLoanChange();
         return this;
@@ -46,19 +42,16 @@ public class LoanActiveHelper extends AbsractHelper {
     }
 
     public LoanActiveHelper stopCash() {
-        loanChangeDatePage.clickMainButton();
         loanChangeDatePage.clickStopCashButton().clickFinalButton().checkMessage();
         return this;
     }
 
     public LoanActiveHelper returnCash() {
-        loanChangeDatePage.clickMainButton();
         loanChangeDatePage.clickStopCashButton().clickFinalButton().checkMessage();
         return this;
     }
 
     public LoanActiveHelper assigmentVerifier() throws InterruptedException {
-        loanChangeDatePage.clickMainButton();
         loanChangeDatePage.clickButtonVerifire()
                 .clickListVerifires();
         Thread.sleep(2000);
