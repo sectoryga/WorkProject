@@ -28,38 +28,41 @@ public class RegistrationStepTwoPage extends AbstractPage {
     }
 
     public RegistrationStepTwoPage fillFirstName() {
+        waitForElementVisible(getElementBy(firstNameField));
         getElement(firstNameField).sendKeys(firstName);
         return this;
     }
 
     public RegistrationStepTwoPage fillMiddleName() {
+        waitForElementVisible(getElementBy(middleNameField));
         getElement(middleNameField).sendKeys(middleName);
         return this;
     }
 
-    public RegistrationStepTwoPage fillInn(String inn){
+    public RegistrationStepTwoPage fillInn(String inn) {
+        waitForElementVisible(getElementBy(innField));
         getElement(innField).sendKeys(inn);
         return this;
     }
 
-    public RegistrationStepTwoPage clickContinueButton(){
+    public RegistrationStepTwoPage clickContinueButton() {
         getElement(continueButton).click();
         return this;
     }
 
-    public RegistrationStepTwoPage fillNumberPassport(String number){
+    public RegistrationStepTwoPage fillNumberPassport(String number) {
         waitForElementVisible(getElementBy(numberField));
         getElement(numberField).sendKeys(number);
         return this;
     }
 
-    public RegistrationStepTwoPage clickGiveOutPassport(){
+    public RegistrationStepTwoPage clickGiveOutPassport() {
         getElement(giveOutOne).click();
         getElementByCss(giveOutTwo).click();
         return this;
     }
 
-    public RegistrationStepTwoPage fillDateGiveOut(){
+    public RegistrationStepTwoPage fillDateGiveOut() {
         getElement(dateField).sendKeys(date);
         return this;
     }
