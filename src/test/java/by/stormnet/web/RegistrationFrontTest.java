@@ -35,9 +35,5 @@ public class RegistrationFrontTest {
         registrationStepFourHelper.updateInformationEmployment();
     }
 
-    @AfterClass
-    public void tearDowmn() {
-        registrationStepOneHelper.close();
-    }
 
 }

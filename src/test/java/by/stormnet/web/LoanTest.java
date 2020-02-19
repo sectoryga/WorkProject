@@ -13,24 +13,24 @@ public class LoanTest {
     private LoanActiveHelper loanActiveHelper = new LoanActiveHelper();
     private IncameHelper incameHelper = new IncameHelper();
 
-    private String username;
-    private String password;
+//    private String username;
+//    private String password;
+//
+//    @BeforeClass
+//    public void setUp() {
+//        username = IOUtils.loadGenericProperties("username", "configuration");
+//        password = IOUtils.loadGenericProperties("password", "configuration");
+//        verifyLoanHelper.openUrl();
+//        verifyLoanHelper.loginAdmin(username, password);
+//
+//    }
 
-    @BeforeClass
-    public void setUp() {
-        username = IOUtils.loadGenericProperties("username", "configuration");
-        password = IOUtils.loadGenericProperties("password", "configuration");
-        verifyLoanHelper.openUrl();
-        verifyLoanHelper.loginAdmin(username, password);
-
-    }
-
-    @Test(priority = 1, invocationCount = 2, skipFailedInvocations = true)
+    @Test(priority = 1, invocationCount = 1, skipFailedInvocations = true)
     public void approvalLoan() {
         verifyLoanHelper.openUrl().approvalLoan();
     }
 
-    @Test(priority = 2, invocationCount = 2, skipFailedInvocations = true)
+    @Test(priority = 2, invocationCount = 1, skipFailedInvocations = true)
     public void approvalLoanClient() {
         loanApproval.openUrl1().approvalClienLoan();
     }

@@ -6,11 +6,11 @@
     </listeners>
     <test verbose="2" name="login test">
         <classes>
+            <class name="by.stormnet.web.RegistrationFrontTest"/>
             <class name="api.ApiTest"/>
             <class name="by.stormnet.web.LoanTest"/>
             <class name="by.stormnet.web.CollectionTest"/>
             <class name="by.stormnet.web.SettingsTest"/>
-            <class name="by.stormnet.web.RegistrationFrontTest"/>
         </classes>
     </test>
 </suite>
