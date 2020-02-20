@@ -50,6 +50,8 @@ public class ApiTest {
         httpRequest.header("apikey", UserToken);
         httpRequest.body(requestParams.toString());
         io.restassured.response.Response response = httpRequest.request(Method.POST);
+        String responseHeader = response.getHeader("X-Debug-Token-Link");
+        logger.info(responseHeader);
         Assert.assertEquals(response.getStatusCode(), 200);
         logger.info("PhoneConfirmation complited");
     }

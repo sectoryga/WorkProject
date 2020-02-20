@@ -16,9 +16,7 @@
 # Generated files
 .idea/**/contentModel.xml
 .idea/
-.target/
 .allure/
-target/
 allure/
 .chromedriver.exe
 chromedriver.exe

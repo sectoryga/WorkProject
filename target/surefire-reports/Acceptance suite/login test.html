@@ -1,0 +1,249 @@
+<html>
+<head>
+<title>TestNG:  login test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>login test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>34/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Feb 20 10:19:53 MSK 2020</td>
+</tr>
+<tr><td>Total time:</td><td>117 seconds (117054 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='by.stormnet.web.SettingsTest.addAffilate()'><b>addAffilate</b><br>Test class: by.stormnet.web.SettingsTest</td>
+<td></td>
+<td>2</td>
+<td>by.stormnet.web.SettingsTest@2a3888c1</td></tr>
+<tr>
+<td title='by.stormnet.web.SettingsTest.addCity()'><b>addCity</b><br>Test class: by.stormnet.web.SettingsTest</td>
+<td></td>
+<td>2</td>
+<td>by.stormnet.web.SettingsTest@2a3888c1</td></tr>
+<tr>
+<td title='by.stormnet.web.LoanTest.addCommenFromLoan()'><b>addCommenFromLoan</b><br>Test class: by.stormnet.web.LoanTest</td>
+<td></td>
+<td>1</td>
+<td>by.stormnet.web.LoanTest@6c372fe6</td></tr>
+<tr>
+<td title='by.stormnet.web.CollectionTest.addCommentCollector()'><b>addCommentCollector</b><br>Test class: by.stormnet.web.CollectionTest</td>
+<td></td>
+<td>5</td>
+<td>by.stormnet.web.CollectionTest@58594a11</td></tr>
+<tr>
+<td title='by.stormnet.web.SettingsTest.addMarketingSettings()'><b>addMarketingSettings</b><br>Test class: by.stormnet.web.SettingsTest</td>
+<td></td>
+<td>4</td>
+<td>by.stormnet.web.SettingsTest@2a3888c1</td></tr>
+<tr>
+<td title='by.stormnet.web.SettingsTest.addNewAdmin()'><b>addNewAdmin</b><br>Test class: by.stormnet.web.SettingsTest</td>
+<td></td>
+<td>2</td>
+<td>by.stormnet.web.SettingsTest@2a3888c1</td></tr>
+<tr>
+<td title='by.stormnet.web.SettingsTest.addRegion()'><b>addRegion</b><br>Test class: by.stormnet.web.SettingsTest</td>
+<td></td>
+<td>2</td>
+<td>by.stormnet.web.SettingsTest@2a3888c1</td></tr>
+<tr>
+<td title='by.stormnet.web.SettingsTest.addRemainder()'><b>addRemainder</b><br>Test class: by.stormnet.web.SettingsTest</td>
+<td></td>
+<td>2</td>
+<td>by.stormnet.web.SettingsTest@2a3888c1</td></tr>
+<tr>
+<td title='by.stormnet.web.LoanTest.approvalLoan()'><b>approvalLoan</b><br>Test class: by.stormnet.web.LoanTest</td>
+<td></td>
+<td>5</td>
+<td>by.stormnet.web.LoanTest@6c372fe6</td></tr>
+<tr>
+<td title='by.stormnet.web.LoanTest.approvalLoanClient()'><b>approvalLoanClient</b><br>Test class: by.stormnet.web.LoanTest</td>
+<td></td>
+<td>3</td>
+<td>by.stormnet.web.LoanTest@6c372fe6</td></tr>
+<tr>
+<td title='by.stormnet.web.CollectionTest.assigmentCollector()'><b>assigmentCollector</b><br>Test class: by.stormnet.web.CollectionTest</td>
+<td></td>
+<td>4</td>
+<td>by.stormnet.web.CollectionTest@58594a11</td></tr>
+<tr>
+<td title='by.stormnet.web.LoanTest.assigmentVerifier()'><b>assigmentVerifier</b><br>Test class: by.stormnet.web.LoanTest</td>
+<td></td>
+<td>5</td>
+<td>by.stormnet.web.LoanTest@6c372fe6</td></tr>
+<tr>
+<td title='by.stormnet.web.LoanTest.changeLoanDate()'><b>changeLoanDate</b><br>Test class: by.stormnet.web.LoanTest</td>
+<td></td>
+<td>1</td>
+<td>by.stormnet.web.LoanTest@6c372fe6</td></tr>
+<tr>
+<td title='by.stormnet.web.LoanTest.closeLoan()'><b>closeLoan</b><br>Test class: by.stormnet.web.LoanTest</td>
+<td></td>
+<td>1</td>
+<td>by.stormnet.web.LoanTest@6c372fe6</td></tr>
+<tr>
+<td title='by.stormnet.web.LoanTest.errorWorkingLoan()'><b>errorWorkingLoan</b><br>Test class: by.stormnet.web.LoanTest</td>
+<td></td>
+<td>3</td>
+<td>by.stormnet.web.LoanTest@6c372fe6</td></tr>
+<tr>
+<td title='by.stormnet.web.LoanTest.giveOutLoan()'><b>giveOutLoan</b><br>Test class: by.stormnet.web.LoanTest</td>
+<td></td>
+<td>3</td>
+<td>by.stormnet.web.LoanTest@6c372fe6</td></tr>
+<tr>
+<td title='by.stormnet.web.LoanTest.incameTest()'><b>incameTest</b><br>Test class: by.stormnet.web.LoanTest</td>
+<td></td>
+<td>5</td>
+<td>by.stormnet.web.LoanTest@6c372fe6</td></tr>
+<tr>
+<td title='by.stormnet.web.LoanTest.incameTest()'><b>incameTest</b><br>Test class: by.stormnet.web.LoanTest</td>
+<td></td>
+<td>4</td>
+<td>by.stormnet.web.LoanTest@6c372fe6</td></tr>
+<tr>
+<td title='by.stormnet.web.LoanTest.incameTest()'><b>incameTest</b><br>Test class: by.stormnet.web.LoanTest</td>
+<td></td>
+<td>5</td>
+<td>by.stormnet.web.LoanTest@6c372fe6</td></tr>
+<tr>
+<td title='by.stormnet.web.CollectionTest.loanCollectionForLegalExpert()'><b>loanCollectionForLegalExpert</b><br>Test class: by.stormnet.web.CollectionTest</td>
+<td></td>
+<td>4</td>
+<td>by.stormnet.web.CollectionTest@58594a11</td></tr>
+<tr>
+<td title='by.stormnet.web.CollectionTest.loanCollectionForOutSource()'><b>loanCollectionForOutSource</b><br>Test class: by.stormnet.web.CollectionTest</td>
+<td></td>
+<td>4</td>
+<td>by.stormnet.web.CollectionTest@58594a11</td></tr>
+<tr>
+<td title='by.stormnet.web.CollectionTest.loanCollectionForSale()'><b>loanCollectionForSale</b><br>Test class: by.stormnet.web.CollectionTest</td>
+<td></td>
+<td>4</td>
+<td>by.stormnet.web.CollectionTest@58594a11</td></tr>
+<tr>
+<td title='by.stormnet.web.LoanTest.makeOverdue()'><b>makeOverdue</b><br>Test class: by.stormnet.web.LoanTest</td>
+<td></td>
+<td>1</td>
+<td>by.stormnet.web.LoanTest@6c372fe6</td></tr>
+<tr>
+<td title='api.ApiTest.registrationStepFour()'><b>registrationStepFour</b><br>Test class: api.ApiTest</td>
+<td></td>
+<td>2</td>
+<td>api.ApiTest@4f74980d</td></tr>
+<tr>
+<td title='api.ApiTest.registrationStepOne()'><b>registrationStepOne</b><br>Test class: api.ApiTest</td>
+<td></td>
+<td>1</td>
+<td>api.ApiTest@4f74980d</td></tr>
+<tr>
+<td title='by.stormnet.web.RegistrationFrontTest.registrationStepOneTest()'><b>registrationStepOneTest</b><br>Test class: by.stormnet.web.RegistrationFrontTest</td>
+<td></td>
+<td>12</td>
+<td>by.stormnet.web.RegistrationFrontTest@68034211</td></tr>
+<tr>
+<td title='api.ApiTest.registrationStepThree()'><b>registrationStepThree</b><br>Test class: api.ApiTest</td>
+<td></td>
+<td>2</td>
+<td>api.ApiTest@4f74980d</td></tr>
+<tr>
+<td title='api.ApiTest.registrationStepTwo()'><b>registrationStepTwo</b><br>Test class: api.ApiTest</td>
+<td></td>
+<td>0</td>
+<td>api.ApiTest@4f74980d</td></tr>
+<tr>
+<td title='by.stormnet.web.RegistrationFrontTest.registrationStepTwoFour()'><b>registrationStepTwoFour</b><br>Test class: by.stormnet.web.RegistrationFrontTest</td>
+<td></td>
+<td>4</td>
+<td>by.stormnet.web.RegistrationFrontTest@68034211</td></tr>
+<tr>
+<td title='by.stormnet.web.RegistrationFrontTest.registrationStepTwoTest()'><b>registrationStepTwoTest</b><br>Test class: by.stormnet.web.RegistrationFrontTest</td>
+<td></td>
+<td>3</td>
+<td>by.stormnet.web.RegistrationFrontTest@68034211</td></tr>
+<tr>
+<td title='by.stormnet.web.RegistrationFrontTest.registrationStepTwoThree()'><b>registrationStepTwoThree</b><br>Test class: by.stormnet.web.RegistrationFrontTest</td>
+<td></td>
+<td>3</td>
+<td>by.stormnet.web.RegistrationFrontTest@68034211</td></tr>
+<tr>
+<td title='by.stormnet.web.LoanTest.returnCashFromLoan()'><b>returnCashFromLoan</b><br>Test class: by.stormnet.web.LoanTest</td>
+<td></td>
+<td>1</td>
+<td>by.stormnet.web.LoanTest@6c372fe6</td></tr>
+<tr>
+<td title='by.stormnet.web.LoanTest.stopCashFromLoan()'><b>stopCashFromLoan</b><br>Test class: by.stormnet.web.LoanTest</td>
+<td></td>
+<td>1</td>
+<td>by.stormnet.web.LoanTest@6c372fe6</td></tr>
+<tr>
+<td title='by.stormnet.web.LoanTest.stopFromLoan()'><b>stopFromLoan</b><br>Test class: by.stormnet.web.LoanTest</td>
+<td></td>
+<td>3</td>
+<td>by.stormnet.web.LoanTest@6c372fe6</td></tr>
+</table><p>
+</body>
+</html>

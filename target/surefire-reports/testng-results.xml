@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="34" passed="34">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Acceptance suite" duration-ms="117054" started-at="2020-02-20T10:19:53 MSK" finished-at="2020-02-20T10:21:50 MSK">
+    <groups>
+    </groups>
+    <test name="login test" duration-ms="117054" started-at="2020-02-20T10:19:53 MSK" finished-at="2020-02-20T10:21:50 MSK">
+      <class name="by.stormnet.web.SettingsTest">
+        <test-method status="PASS" signature="addNewAdmin()[pri:1, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addNewAdmin" duration-ms="2493" started-at="2020-02-20T10:21:34 MSK" finished-at="2020-02-20T10:21:37 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewAdmin -->
+        <test-method status="PASS" signature="addAffilate()[pri:2, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addAffilate" duration-ms="2186" started-at="2020-02-20T10:21:37 MSK" finished-at="2020-02-20T10:21:39 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAffilate -->
+        <test-method status="PASS" signature="addRemainder()[pri:3, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addRemainder" duration-ms="2085" started-at="2020-02-20T10:21:39 MSK" finished-at="2020-02-20T10:21:41 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addRemainder -->
+        <test-method status="PASS" signature="addMarketingSettings()[pri:4, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addMarketingSettings" duration-ms="4964" started-at="2020-02-20T10:21:41 MSK" finished-at="2020-02-20T10:21:46 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMarketingSettings -->
+        <test-method status="PASS" signature="addRegion()[pri:5, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addRegion" duration-ms="2253" started-at="2020-02-20T10:21:46 MSK" finished-at="2020-02-20T10:21:48 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addRegion -->
+        <test-method status="PASS" signature="addCity()[pri:6, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addCity" duration-ms="2088" started-at="2020-02-20T10:21:48 MSK" finished-at="2020-02-20T10:21:50 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCity -->
+        <test-method status="PASS" signature="tearDowmn()[pri:0, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="tearDowmn" is-config="true" duration-ms="56" started-at="2020-02-20T10:21:50 MSK" finished-at="2020-02-20T10:21:50 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowmn -->
+      </class> <!-- by.stormnet.web.SettingsTest -->
+      <class name="by.stormnet.web.RegistrationFrontTest">
+        <test-method status="PASS" signature="registrationStepOneTest()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211]" name="registrationStepOneTest" duration-ms="12569" started-at="2020-02-20T10:19:53 MSK" finished-at="2020-02-20T10:20:06 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationStepOneTest -->
+        <test-method status="PASS" signature="registrationStepTwoTest()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211]" name="registrationStepTwoTest" duration-ms="3333" started-at="2020-02-20T10:20:06 MSK" depends-on-methods="by.stormnet.web.RegistrationFrontTest.registrationStepOneTest" finished-at="2020-02-20T10:20:09 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationStepTwoTest -->
+        <test-method status="PASS" signature="registrationStepTwoThree()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211]" name="registrationStepTwoThree" duration-ms="3807" started-at="2020-02-20T10:20:09 MSK" depends-on-methods="by.stormnet.web.RegistrationFrontTest.registrationStepTwoTest" finished-at="2020-02-20T10:20:13 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationStepTwoThree -->
+        <test-method status="PASS" signature="registrationStepTwoFour()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211]" name="registrationStepTwoFour" duration-ms="4060" started-at="2020-02-20T10:20:13 MSK" depends-on-methods="by.stormnet.web.RegistrationFrontTest.registrationStepTwoThree" finished-at="2020-02-20T10:20:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationStepTwoFour -->
+      </class> <!-- by.stormnet.web.RegistrationFrontTest -->
+      <class name="by.stormnet.web.CollectionTest">
+        <test-method status="PASS" signature="loanCollectionForSale()[pri:1, instance:by.stormnet.web.CollectionTest@58594a11]" name="loanCollectionForSale" duration-ms="4417" started-at="2020-02-20T10:21:11 MSK" finished-at="2020-02-20T10:21:15 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanCollectionForSale -->
+        <test-method status="PASS" signature="loanCollectionForOutSource()[pri:2, instance:by.stormnet.web.CollectionTest@58594a11]" name="loanCollectionForOutSource" duration-ms="4223" started-at="2020-02-20T10:21:15 MSK" finished-at="2020-02-20T10:21:19 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanCollectionForOutSource -->
+        <test-method status="PASS" signature="loanCollectionForLegalExpert()[pri:3, instance:by.stormnet.web.CollectionTest@58594a11]" name="loanCollectionForLegalExpert" duration-ms="4977" started-at="2020-02-20T10:21:19 MSK" finished-at="2020-02-20T10:21:24 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanCollectionForLegalExpert -->
+        <test-method status="PASS" signature="assigmentCollector()[pri:4, instance:by.stormnet.web.CollectionTest@58594a11]" name="assigmentCollector" duration-ms="4625" started-at="2020-02-20T10:21:24 MSK" finished-at="2020-02-20T10:21:29 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assigmentCollector -->
+        <test-method status="PASS" signature="addCommentCollector()[pri:5, instance:by.stormnet.web.CollectionTest@58594a11]" name="addCommentCollector" duration-ms="5194" started-at="2020-02-20T10:21:29 MSK" finished-at="2020-02-20T10:21:34 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCommentCollector -->
+      </class> <!-- by.stormnet.web.CollectionTest -->
+      <class name="api.ApiTest">
+        <test-method status="PASS" signature="registrationStepOne()[pri:0, instance:api.ApiTest@4f74980d]" name="registrationStepOne" duration-ms="1969" started-at="2020-02-20T10:20:17 MSK" finished-at="2020-02-20T10:20:19 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationStepOne -->
+        <test-method status="PASS" signature="registrationStepTwo()[pri:0, instance:api.ApiTest@4f74980d]" name="registrationStepTwo" duration-ms="207" started-at="2020-02-20T10:20:19 MSK" depends-on-methods="api.ApiTest.registrationStepOne" finished-at="2020-02-20T10:20:20 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationStepTwo -->
+        <test-method status="PASS" signature="registrationStepThree()[pri:0, instance:api.ApiTest@4f74980d]" name="registrationStepThree" duration-ms="2022" started-at="2020-02-20T10:20:20 MSK" depends-on-methods="api.ApiTest.registrationStepTwo" finished-at="2020-02-20T10:20:22 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationStepThree -->
+        <test-method status="PASS" signature="registrationStepFour()[pri:0, instance:api.ApiTest@4f74980d]" name="registrationStepFour" duration-ms="2145" started-at="2020-02-20T10:20:22 MSK" depends-on-methods="api.ApiTest.registrationStepThree" finished-at="2020-02-20T10:20:24 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationStepFour -->
+      </class> <!-- api.ApiTest -->
+      <class name="by.stormnet.web.LoanTest">
+        <test-method status="PASS" signature="approvalLoan()[pri:1, instance:by.stormnet.web.LoanTest@6c372fe6]" name="approvalLoan" duration-ms="5804" started-at="2020-02-20T10:20:24 MSK" finished-at="2020-02-20T10:20:30 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- approvalLoan -->
+        <test-method status="PASS" signature="approvalLoanClient()[pri:2, instance:by.stormnet.web.LoanTest@6c372fe6]" name="approvalLoanClient" duration-ms="3508" started-at="2020-02-20T10:20:30 MSK" finished-at="2020-02-20T10:20:33 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- approvalLoanClient -->
+        <test-method status="PASS" signature="giveOutLoan()[pri:3, instance:by.stormnet.web.LoanTest@6c372fe6]" name="giveOutLoan" duration-ms="3088" started-at="2020-02-20T10:20:33 MSK" finished-at="2020-02-20T10:20:36 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- giveOutLoan -->
+        <test-method status="PASS" signature="addCommenFromLoan()[pri:4, instance:by.stormnet.web.LoanTest@6c372fe6]" name="addCommenFromLoan" duration-ms="1221" started-at="2020-02-20T10:20:36 MSK" finished-at="2020-02-20T10:20:37 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCommenFromLoan -->
+        <test-method status="PASS" signature="assigmentVerifier()[pri:5, instance:by.stormnet.web.LoanTest@6c372fe6]" name="assigmentVerifier" duration-ms="5206" started-at="2020-02-20T10:20:37 MSK" finished-at="2020-02-20T10:20:43 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assigmentVerifier -->
+        <test-method status="PASS" signature="stopCashFromLoan()[pri:6, instance:by.stormnet.web.LoanTest@6c372fe6]" name="stopCashFromLoan" duration-ms="1058" started-at="2020-02-20T10:20:43 MSK" finished-at="2020-02-20T10:20:44 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopCashFromLoan -->
+        <test-method status="PASS" signature="returnCashFromLoan()[pri:7, instance:by.stormnet.web.LoanTest@6c372fe6]" name="returnCashFromLoan" duration-ms="1021" started-at="2020-02-20T10:20:44 MSK" finished-at="2020-02-20T10:20:45 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnCashFromLoan -->
+        <test-method status="PASS" signature="changeLoanDate()[pri:8, instance:by.stormnet.web.LoanTest@6c372fe6]" name="changeLoanDate" duration-ms="1406" started-at="2020-02-20T10:20:45 MSK" finished-at="2020-02-20T10:20:46 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeLoanDate -->
+        <test-method status="PASS" signature="makeOverdue()[pri:9, instance:by.stormnet.web.LoanTest@6c372fe6]" name="makeOverdue" duration-ms="1117" started-at="2020-02-20T10:20:46 MSK" finished-at="2020-02-20T10:20:47 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeOverdue -->
+        <test-method status="PASS" signature="closeLoan()[pri:10, instance:by.stormnet.web.LoanTest@6c372fe6]" name="closeLoan" duration-ms="1675" started-at="2020-02-20T10:20:47 MSK" finished-at="2020-02-20T10:20:49 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeLoan -->
+        <test-method status="PASS" signature="stopFromLoan()[pri:11, instance:by.stormnet.web.LoanTest@6c372fe6]" name="stopFromLoan" duration-ms="3279" started-at="2020-02-20T10:20:49 MSK" finished-at="2020-02-20T10:20:52 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopFromLoan -->
+        <test-method status="PASS" signature="errorWorkingLoan()[pri:12, instance:by.stormnet.web.LoanTest@6c372fe6]" name="errorWorkingLoan" duration-ms="3521" started-at="2020-02-20T10:20:52 MSK" finished-at="2020-02-20T10:20:56 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorWorkingLoan -->
+        <test-method status="PASS" signature="incameTest()[pri:13, instance:by.stormnet.web.LoanTest@6c372fe6]" name="incameTest" duration-ms="5177" started-at="2020-02-20T10:20:56 MSK" finished-at="2020-02-20T10:21:01 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incameTest -->
+        <test-method status="PASS" signature="incameTest()[pri:13, instance:by.stormnet.web.LoanTest@6c372fe6]" name="incameTest" duration-ms="4841" started-at="2020-02-20T10:21:01 MSK" finished-at="2020-02-20T10:21:06 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incameTest -->
+        <test-method status="PASS" signature="incameTest()[pri:13, instance:by.stormnet.web.LoanTest@6c372fe6]" name="incameTest" duration-ms="5172" started-at="2020-02-20T10:21:06 MSK" finished-at="2020-02-20T10:21:11 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incameTest -->
+      </class> <!-- by.stormnet.web.LoanTest -->
+    </test> <!-- login test -->
+  </suite> <!-- Acceptance suite -->
+</testng-results>
