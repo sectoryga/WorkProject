@@ -41,6 +41,7 @@ public class RegistrationStepTwoPage extends AbstractPage {
 
     public RegistrationStepTwoPage fillInn(String inn) {
         waitForElementVisible(getElementBy(innField));
+        getElement(innField).clear();
         getElement(innField).sendKeys(inn);
         return this;
     }
