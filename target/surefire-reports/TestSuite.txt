@@ -1,28 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 43, Failures: 2, Errors: 0, Skipped: 11, Time elapsed: 131.858 s <<< FAILURE! - in TestSuite
-by.stormnet.web.LoanTest.stopFromLoan  Time elapsed: 0.553 s  <<< FAILURE!
+Tests run: 43, Failures: 1, Errors: 0, Skipped: 23, Time elapsed: 73.925 s <<< FAILURE! - in TestSuite
+by.stormnet.web.LoanTest.setUp  Time elapsed: 3.545 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":".fa.fa-pencil"}
+no such element: Unable to locate element: {"method":"css selector","selector":"#username"}
   (Session info: chrome=80.0.3987.116)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60192}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0eda29c8a65e69007704440e3e3263bc
-*** Element info: {Using=css selector, value=.fa.fa-pencil}
-	at by.stormnet.web.LoanTest.stopFromLoan(LoanTest.java:80)
-
-by.stormnet.web.LoanTest.incameTest  Time elapsed: 4.932 s  <<< FAILURE!
-org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element <button class="btn btn-success" type="submit" name="btn_preview_approve">...</button> is not clickable at point (724, 678). Other element would receive the click: <span class="sf-toolbar-info-piece-additional-detail">...</span>
-  (Session info: chrome=80.0.3987.116)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60192}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0eda29c8a65e69007704440e3e3263bc
-	at by.stormnet.web.LoanTest.incameTest(LoanTest.java:90)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60761}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 18cc2dfd41a057d9cbf7f4751cbc5650
+*** Element info: {Using=id, value=username}
+	at by.stormnet.web.LoanTest.setUp(LoanTest.java:24)
 

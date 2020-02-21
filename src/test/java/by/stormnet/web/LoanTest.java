@@ -25,12 +25,12 @@ public class LoanTest {
 
     }
 
-    @Test(priority = 1, invocationCount = 3, skipFailedInvocations = true)
+    @Test(priority = 1, invocationCount = 2, skipFailedInvocations = true)
     public void approvalLoan() {
         verifyLoanHelper.openUrl().approvalLoan();
     }
 
-    @Test(priority = 2, invocationCount = 3, skipFailedInvocations = true)
+    @Test(priority = 2, invocationCount = 2, skipFailedInvocations = true)
     public void approvalLoanClient() {
         loanApproval.openUrl1().approvalClienLoan();
     }
@@ -46,38 +46,38 @@ public class LoanTest {
     }
 
     @Test(priority = 5, skipFailedInvocations = true)
-    public void assigmentVerifier() throws InterruptedException {
-        loanActiveHelper.assigmentVerifier();
-    }
-
-    @Test(priority = 6, skipFailedInvocations = true)
-    public void stopCashFromLoan() {
-        loanActiveHelper.stopCash();
-    }
-
-    @Test(priority = 7, skipFailedInvocations = true)
-    public void returnCashFromLoan() {
-        loanActiveHelper.returnCash();
-    }
-
-    @Test(priority = 8, skipFailedInvocations = true)
     public void changeLoanDate() {
         loanActiveHelper.changeDate();
     }
 
+    @Test(priority = 6, invocationCount = 3, skipFailedInvocations = true)
+    public void incameTest() {
+        incameHelper.addIncameLoan();
+    }
+
+    @Test(priority = 7, skipFailedInvocations = true)
+    public void assigmentVerifier() throws InterruptedException {
+        loanActiveHelper.assigmentVerifier();
+    }
+
+    @Test(priority = 8, skipFailedInvocations = true)
+    public void stopCashFromLoan() {
+        loanActiveHelper.stopCash();
+    }
+
     @Test(priority = 9, skipFailedInvocations = true)
+    public void returnCashFromLoan() {
+        loanActiveHelper.returnCash();
+    }
+
+    @Test(priority = 10, skipFailedInvocations = true)
     public void makeOverdue() {
         loanActiveHelper.makeOverdueLoan();
     }
 
-    @Test(priority = 10, skipFailedInvocations = true)
+    @Test(priority = 11, skipFailedInvocations = true)
     public void closeLoan() {
         loanActiveHelper.closeLoan();
-    }
-
-    @Test(priority = 11, skipFailedInvocations = true)
-    public void stopFromLoan() {
-        loanStopHelper.openUrlLoan().stopLoan();
     }
 
     @Test(priority = 12, skipFailedInvocations = true)
@@ -85,9 +85,9 @@ public class LoanTest {
         loanActiveHelper.openUrlLoanPage().errorLoan();
     }
 
-    @Test(priority = 13, invocationCount = 3, skipFailedInvocations = true)
-    public void incameTest() {
-        incameHelper.openUrlLoanPage().addIncameLoan();
+    @Test(priority = 13, skipFailedInvocations = true)
+    public void stopFromLoan() {
+        loanStopHelper.openUrlLoan().stopLoan();
     }
 
 }

@@ -23,7 +23,7 @@ public class LoanActivePage extends AbstractPage {
     private String verifireName = "//tr[4]//td[5]//a[1]";
     private String finalButton = "//button[@name='btn_update_and_edit']";
     private String overdueButton = "//button[5]";
-    private String closeButton = "//*[@id=\"divsd7abac8d1f_transition\"]/button[1]";
+    private String closeButton = "//*[@id=\"divsd7abac8d1f_transition\"]/button[2]";
     private String errorButton = ".btn.btn-danger";
     private String errorButton2 = "//button[@class='btn btn-danger']";
     private String addCommentLoanButton = "//button[5]";
@@ -31,7 +31,7 @@ public class LoanActivePage extends AbstractPage {
     private String textComment = "ВОЗВРАЩЕН В ОФИСЕ КОМПАНИИ";
     private String fielfCommentClose = "//input[@id='sd7abac8d1f_force_close_reason']";
     private String commentClose = "ВОЗВРАЩЕН В ОФИСЕ ПО ПРОСЬБЕ МЕНЕДЖЕРА НАШЕЙ КОМПАНИИ";
-    private String date = "2019-11-11T10:00:00";
+    private String date = "2019-11-11T23:00:23";
     private String other = "//div[@class='row']//button[2]";
 
 

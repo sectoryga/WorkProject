@@ -13,9 +13,8 @@ public class IncameHelper extends AbsractHelper {
     }
 
     public IncameHelper addIncameLoan() {
-        incamePage.clickMainButton();
-        incamePage.clickIncame()
-                .click();
+        incamePage.clickButtonAdd()
+                .clickButtonElse();
         incamePage.fillDateCash()
                 .fillCash(getRandom())
                 .clickView()
