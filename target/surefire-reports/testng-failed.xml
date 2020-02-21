@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Acceptance suite]">
+  <listeners>
+    <listener class-name="by.stormnet.automation.core.common.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="login test(failed)">
+    <classes>
+      <class name="by.stormnet.web.LoanTest">
+        <methods>
+          <include name="assigmentVerifier"/>
+          <include name="returnCashFromLoan"/>
+          <include name="closeLoan"/>
+          <include name="stopCashFromLoan"/>
+          <include name="incameTest"/>
+          <include name="approvalLoanTwo"/>
+          <include name="makeOverdue"/>
+        </methods>
+      </class> <!-- by.stormnet.web.LoanTest -->
+      <class name="api.ApiTest">
+        <methods>
+          <include name="registrationStepOne"/>
+        </methods>
+      </class> <!-- api.ApiTest -->
+      <class name="by.stormnet.web.RegistrationFrontTest">
+        <methods>
+          <include name="registrationStepTwoTest"/>
+          <include name="registrationStepOneTest"/>
+          <include name="registrationStepTwoThree"/>
+          <include name="registrationStepTwoFour"/>
+        </methods>
+      </class> <!-- by.stormnet.web.RegistrationFrontTest -->
+    </classes>
+  </test> <!-- login test(failed) -->
+</suite> <!-- Failed suite [Acceptance suite] -->
