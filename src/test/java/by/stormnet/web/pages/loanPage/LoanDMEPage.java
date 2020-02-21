@@ -8,7 +8,8 @@ public class LoanDMEPage extends AbstractPage {
     private String saveButton = "/html/body/div[1]/div/section[2]/div/form/div[2]/button[1]";
     private String decideButton = "//button[@class='btn btn-decision']";
     private String approval = "//*[@id='select2-chosen-20']";
-    private String checkApproval = "//*[@id='select2-result-label-50']";
+    private String checkApprovalOne = "//*[@id='select2-result-label-50']";
+    private String checkApprovalTwo = "//*[@id='select2-result-label-52']";
     private String checkBox = ".icheckbox_square-blue.checked";
 
     public LoanDMEPage navigateToPage() {
@@ -42,9 +43,15 @@ public class LoanDMEPage extends AbstractPage {
         return getVerifyLoanPage();
     }
 
-    public LoanDMEPage checkApproval() {
-        waitForElementClickable(getElementBy(checkApproval));
-        getElement(checkApproval).click();
+    public LoanDMEPage checkApprovalOne() {
+        waitForElementClickable(getElementBy(checkApprovalOne));
+        getElement(checkApprovalOne).click();
+        return getVerifyLoanPage();
+    }
+
+    public LoanDMEPage checkApprovalTwo() {
+        waitForElementClickable(getElementBy(checkApprovalTwo));
+        getElement(checkApprovalTwo).click();
         return getVerifyLoanPage();
     }
 

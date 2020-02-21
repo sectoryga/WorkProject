@@ -12,13 +12,26 @@ public class LoanDMEHelper extends AbsractHelper {
         return this;
     }
 
-    public LoanDMEHelper approvalLoan() {
+    public LoanDMEHelper approvalLoanOne() {
         verifyLoanPage.clickMainButton();
         verifyLoanPage.clickBeVerify()
                 .clickSaveButton()
                 .clickDecidebutton()
                 .clickApproval()
-                .checkApproval()
+                .checkApprovalOne()
+                .checkBox()
+                .clickFinalButton()
+                .checkMessage();
+        return this;
+    }
+
+    public LoanDMEHelper approvalLoanTwo() {
+        verifyLoanPage.clickMainButton();
+        verifyLoanPage.clickBeVerify()
+                .clickSaveButton()
+                .clickDecidebutton()
+                .clickApproval()
+                .checkApprovalTwo()
                 .checkBox()
                 .clickFinalButton()
                 .checkMessage();
