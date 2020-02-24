@@ -32,6 +32,7 @@ public class LoanDMEPage extends AbstractPage {
     }
 
     public LoanDMEPage clickDecidebutton() {
+        waitForElementClickable(getElementBy(decideButton));
         getElement(decideButton).click();
         return getVerifyLoanPage();
     }

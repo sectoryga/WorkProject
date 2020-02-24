@@ -26,10 +26,13 @@ public class LoanTest {
 //    }
 
     @Test(priority = 1, skipFailedInvocations = true)
-    public void approvalLoanOne() { verifyLoanHelper.openUrl().approvalLoanOne();
+    public void approvalLoanOne() {
+        verifyLoanHelper.openUrl().approvalLoanOne();
     }
+
     @Test(priority = 1, skipFailedInvocations = true)
-    public void approvalLoanTwo() { verifyLoanHelper.openUrl().approvalLoanTwo();
+    public void approvalLoanTwo() {
+        verifyLoanHelper.openUrl().approvalLoanTwo();
     }
 
     @Test(priority = 2, invocationCount = 2, skipFailedInvocations = true)
@@ -52,7 +55,7 @@ public class LoanTest {
         loanActiveHelper.changeDate();
     }
 
-    @Test(priority = 6, invocationCount = 2, skipFailedInvocations = true)
+    @Test(priority = 6, invocationCount = 3, skipFailedInvocations = true)
     public void incameTest() {
         incameHelper.addIncameLoan();
     }

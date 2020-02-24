@@ -7,11 +7,6 @@ public class IncameHelper extends AbsractHelper {
 
     IncamePage incamePage = new IncamePage();
 
-    public IncameHelper openUrlLoanPage() {
-        incamePage.navigateToPageLoan();
-        return this;
-    }
-
     public IncameHelper addIncameLoan() {
         incamePage.clickButtonAdd()
                 .clickButtonElse();

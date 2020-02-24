@@ -6,9 +6,21 @@
   </listeners>
   <test thread-count="5" verbose="0" name="login test(failed)">
     <classes>
+      <class name="by.stormnet.web.LoanTest">
+        <methods>
+          <include name="assigmentVerifier"/>
+          <include name="returnCashFromLoan"/>
+          <include name="closeLoan"/>
+          <include name="stopCashFromLoan"/>
+          <include name="incameTest"/>
+          <include name="makeOverdue"/>
+        </methods>
+      </class> <!-- by.stormnet.web.LoanTest -->
       <class name="api.ApiTest">
         <methods>
+          <include name="registrationStepThree"/>
           <include name="registrationStepOne"/>
+          <include name="registrationStepTwo"/>
         </methods>
       </class> <!-- api.ApiTest -->
     </classes>

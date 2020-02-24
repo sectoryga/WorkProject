@@ -85,7 +85,7 @@
                         <suiteXmlFile>src\test\resources\TestNG.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <systemPropertyVariables>
-                        <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
+                        <allure.results.directory>C:\Users\USER\.jenkins\workspace\ProjectJob\allure-results</allure.results.directory>
                     </systemPropertyVariables>
                 </configuration>
             </plugin>

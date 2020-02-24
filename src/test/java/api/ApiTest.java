@@ -18,11 +18,11 @@ public class ApiTest {
     private String url = "https://api3.kz.aventus.work/user/";
 
 
-    @Test
+    @Test(priority = 1, skipFailedInvocations = true)
     public void registrationStepOne() {
         RestAssured.baseURI = "https://api3.kz.aventus.work";
-        JSONObject requestParams = new JSONObject();
         RequestSpecification httpRequest = io.restassured.RestAssured.given();
+        JSONObject requestParams = new JSONObject();
         requestParams.put("mobile_phone", "777" + (int) (Math.random() * 9999999 + 10));
         requestParams.put("email", "test" + (int) (Math.random() * 999 + 10) + "@mail.ru");
         requestParams.put("agreed", "1");
@@ -30,6 +30,8 @@ public class ApiTest {
         httpRequest.body(requestParams.toString());
         io.restassured.response.Response response = httpRequest.request(Method.POST, "/user");
         String responseBody = response.body().asString();
+        String responseHeader = response.getHeader("X-Debug-Token-Link");
+        logger.info(responseHeader);
         JSONObject myResposnseBody = new JSONObject(responseBody);
         SmsCode = myResposnseBody.getInt("code");
         UserId = myResposnseBody.getInt("id");
@@ -40,7 +42,7 @@ public class ApiTest {
     }
 
 
-    @Test(dependsOnMethods = "registrationStepOne")
+    @Test(dependsOnMethods = "registrationStepOne", skipFailedInvocations = true)
     protected void registrationStepTwo() {
         RestAssured.baseURI = url + UserId + "/phone-confirmation";
         JSONObject requestParams = new JSONObject();
@@ -56,7 +58,7 @@ public class ApiTest {
         logger.info("PhoneConfirmation complited");
     }
 
-    @Test(dependsOnMethods = "registrationStepTwo")
+    @Test(dependsOnMethods = "registrationStepTwo", skipFailedInvocations = true)
     public void registrationStepThree() {
         int tr = 0;
         String inn = "";
@@ -72,10 +74,10 @@ public class ApiTest {
             tr += (i + 1) * strToArray[i];
         }
         int sum = tr % 11;
-        if (sum == 10) {
-            sum = sum-2;
-        } else {
+        if (sum < 10 && sum != 0) {
             inn = "" + date + sum;
+        } else {
+            registrationStepThree();
         }
         RestAssured.baseURI = url + UserId;
         JSONObject requestParams = new JSONObject();
@@ -130,7 +132,7 @@ public class ApiTest {
         logger.info("UpdateUserInformation complited");
     }
 
-    @Test(dependsOnMethods = "registrationStepThree")
+    @Test(dependsOnMethods = "registrationStepThree", skipFailedInvocations = true)
     public void registrationStepFour() {
         RestAssured.baseURI = "https://api3.kz.aventus.work/loan";
         JSONObject requestParams = new JSONObject();
