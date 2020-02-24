@@ -2,82 +2,161 @@
 <testng-results skipped="0" failed="6" ignored="0" retried="26" total="60" passed="28">
   <reporter-output>
   </reporter-output>
-  <suite name="Acceptance suite" duration-ms="107741" started-at="2020-02-24T16:19:48 MSK" finished-at="2020-02-24T16:21:35 MSK">
+  <suite name="Acceptance suite" duration-ms="110432" started-at="2020-02-24T16:25:04 MSK" finished-at="2020-02-24T16:26:54 MSK">
     <groups>
     </groups>
-    <test name="login test" duration-ms="107741" started-at="2020-02-24T16:19:48 MSK" finished-at="2020-02-24T16:21:35 MSK">
+    <test name="login test" duration-ms="110432" started-at="2020-02-24T16:25:04 MSK" finished-at="2020-02-24T16:26:54 MSK">
       <class name="by.stormnet.web.SettingsTest">
-        <test-method status="PASS" signature="addNewAdmin()[pri:1, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addNewAdmin" duration-ms="2460" started-at="2020-02-24T16:21:20 MSK" finished-at="2020-02-24T16:21:23 MSK">
+        <test-method status="PASS" signature="addNewAdmin()[pri:1, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addNewAdmin" duration-ms="2594" started-at="2020-02-24T16:26:39 MSK" finished-at="2020-02-24T16:26:41 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewAdmin -->
-        <test-method status="PASS" signature="addAffilate()[pri:2, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addAffilate" duration-ms="2290" started-at="2020-02-24T16:21:23 MSK" finished-at="2020-02-24T16:21:25 MSK">
+        <test-method status="PASS" signature="addAffilate()[pri:2, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addAffilate" duration-ms="2147" started-at="2020-02-24T16:26:41 MSK" finished-at="2020-02-24T16:26:43 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addAffilate -->
-        <test-method status="PASS" signature="addRemainder()[pri:3, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addRemainder" duration-ms="2084" started-at="2020-02-24T16:21:25 MSK" finished-at="2020-02-24T16:21:27 MSK">
+        <test-method status="PASS" signature="addRemainder()[pri:3, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addRemainder" duration-ms="2150" started-at="2020-02-24T16:26:43 MSK" finished-at="2020-02-24T16:26:46 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addRemainder -->
-        <test-method status="PASS" signature="addMarketingSettings()[pri:4, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addMarketingSettings" duration-ms="4508" started-at="2020-02-24T16:21:27 MSK" finished-at="2020-02-24T16:21:31 MSK">
+        <test-method status="PASS" signature="addMarketingSettings()[pri:4, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addMarketingSettings" duration-ms="4720" started-at="2020-02-24T16:26:46 MSK" finished-at="2020-02-24T16:26:50 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addMarketingSettings -->
-        <test-method status="PASS" signature="addRegion()[pri:5, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addRegion" duration-ms="1912" started-at="2020-02-24T16:21:31 MSK" finished-at="2020-02-24T16:21:33 MSK">
+        <test-method status="PASS" signature="addRegion()[pri:5, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addRegion" duration-ms="2072" started-at="2020-02-24T16:26:50 MSK" finished-at="2020-02-24T16:26:52 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addRegion -->
-        <test-method status="PASS" signature="addCity()[pri:6, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addCity" duration-ms="1905" started-at="2020-02-24T16:21:33 MSK" finished-at="2020-02-24T16:21:35 MSK">
+        <test-method status="PASS" signature="addCity()[pri:6, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addCity" duration-ms="1981" started-at="2020-02-24T16:26:52 MSK" finished-at="2020-02-24T16:26:54 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCity -->
-        <test-method status="PASS" signature="tearDowmn()[pri:0, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="tearDowmn" is-config="true" duration-ms="47" started-at="2020-02-24T16:21:35 MSK" finished-at="2020-02-24T16:21:35 MSK">
+        <test-method status="PASS" signature="tearDowmn()[pri:0, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="tearDowmn" is-config="true" duration-ms="50" started-at="2020-02-24T16:26:54 MSK" finished-at="2020-02-24T16:26:54 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDowmn -->
       </class> <!-- by.stormnet.web.SettingsTest -->
       <class name="by.stormnet.web.RegistrationFrontTest">
-        <test-method status="PASS" signature="registrationStepOneTest()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211]" name="registrationStepOneTest" duration-ms="11375" started-at="2020-02-24T16:19:48 MSK" finished-at="2020-02-24T16:19:59 MSK">
+        <test-method status="PASS" signature="registrationStepOneTest()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211]" name="registrationStepOneTest" duration-ms="11135" started-at="2020-02-24T16:25:04 MSK" finished-at="2020-02-24T16:25:15 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationStepOneTest -->
-        <test-method status="PASS" signature="registrationStepTwoTest()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211]" name="registrationStepTwoTest" duration-ms="2926" started-at="2020-02-24T16:19:59 MSK" depends-on-methods="by.stormnet.web.RegistrationFrontTest.registrationStepOneTest" finished-at="2020-02-24T16:20:02 MSK">
+        <test-method status="SKIP" signature="registrationStepTwoTest()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211]" name="registrationStepTwoTest" duration-ms="5019" retried="true" started-at="2020-02-24T16:25:15 MSK" depends-on-methods="by.stormnet.web.RegistrationFrontTest.registrationStepOneTest" finished-at="2020-02-24T16:25:20 MSK">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@data-id='doc-int-number']"}
+  (Session info: chrome=80.0.3987.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
+*** Element info: {Using=xpath, value=//input[@data-id='doc-int-number']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@data-id='doc-int-number']"}
+  (Session info: chrome=80.0.3987.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
+*** Element info: {Using=xpath, value=//input[@data-id='doc-int-number']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at by.stormnet.web.pages.AbstractPage.getElement(AbstractPage.java:120)
+at by.stormnet.web.pages.registartionPage.RegistrationStepTwoPage.fillNumberPassport(RegistrationStepTwoPage.java:56)
+at by.stormnet.web.helpers.registrationHelpers.RegistrationStepTwoHelper.uploadInformation(RegistrationStepTwoHelper.java:17)
+at by.stormnet.web.RegistrationFrontTest.registrationStepTwoTest(RegistrationFrontTest.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationStepTwoTest -->
-        <test-method status="PASS" signature="registrationStepTwoThree()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211]" name="registrationStepTwoThree" duration-ms="4068" started-at="2020-02-24T16:20:02 MSK" depends-on-methods="by.stormnet.web.RegistrationFrontTest.registrationStepTwoTest" finished-at="2020-02-24T16:20:06 MSK">
+        <test-method status="PASS" signature="registrationStepTwoTest()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211]" name="registrationStepTwoTest" duration-ms="1757" started-at="2020-02-24T16:25:20 MSK" depends-on-methods="by.stormnet.web.RegistrationFrontTest.registrationStepOneTest" finished-at="2020-02-24T16:25:22 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationStepTwoTest -->
+        <test-method status="PASS" signature="registrationStepTwoThree()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211]" name="registrationStepTwoThree" duration-ms="4050" started-at="2020-02-24T16:25:22 MSK" depends-on-methods="by.stormnet.web.RegistrationFrontTest.registrationStepTwoTest" finished-at="2020-02-24T16:25:26 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationStepTwoThree -->
-        <test-method status="PASS" signature="registrationStepTwoFour()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211]" name="registrationStepTwoFour" duration-ms="3710" started-at="2020-02-24T16:20:06 MSK" depends-on-methods="by.stormnet.web.RegistrationFrontTest.registrationStepTwoThree" finished-at="2020-02-24T16:20:10 MSK">
+        <test-method status="PASS" signature="registrationStepTwoFour()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211]" name="registrationStepTwoFour" duration-ms="3722" started-at="2020-02-24T16:25:26 MSK" depends-on-methods="by.stormnet.web.RegistrationFrontTest.registrationStepTwoThree" finished-at="2020-02-24T16:25:30 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationStepTwoFour -->
       </class> <!-- by.stormnet.web.RegistrationFrontTest -->
       <class name="by.stormnet.web.CollectionTest">
-        <test-method status="PASS" signature="loanCollectionForSale()[pri:1, instance:by.stormnet.web.CollectionTest@58594a11]" name="loanCollectionForSale" duration-ms="4447" started-at="2020-02-24T16:20:58 MSK" finished-at="2020-02-24T16:21:03 MSK">
+        <test-method status="PASS" signature="loanCollectionForSale()[pri:1, instance:by.stormnet.web.CollectionTest@58594a11]" name="loanCollectionForSale" duration-ms="4400" started-at="2020-02-24T16:26:16 MSK" finished-at="2020-02-24T16:26:21 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loanCollectionForSale -->
-        <test-method status="PASS" signature="loanCollectionForOutSource()[pri:2, instance:by.stormnet.web.CollectionTest@58594a11]" name="loanCollectionForOutSource" duration-ms="4069" started-at="2020-02-24T16:21:03 MSK" finished-at="2020-02-24T16:21:07 MSK">
+        <test-method status="PASS" signature="loanCollectionForOutSource()[pri:2, instance:by.stormnet.web.CollectionTest@58594a11]" name="loanCollectionForOutSource" duration-ms="4254" started-at="2020-02-24T16:26:21 MSK" finished-at="2020-02-24T16:26:25 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loanCollectionForOutSource -->
-        <test-method status="PASS" signature="loanCollectionForLegalExpert()[pri:3, instance:by.stormnet.web.CollectionTest@58594a11]" name="loanCollectionForLegalExpert" duration-ms="4491" started-at="2020-02-24T16:21:07 MSK" finished-at="2020-02-24T16:21:11 MSK">
+        <test-method status="PASS" signature="loanCollectionForLegalExpert()[pri:3, instance:by.stormnet.web.CollectionTest@58594a11]" name="loanCollectionForLegalExpert" duration-ms="4819" started-at="2020-02-24T16:26:25 MSK" finished-at="2020-02-24T16:26:30 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loanCollectionForLegalExpert -->
-        <test-method status="PASS" signature="assigmentCollector()[pri:4, instance:by.stormnet.web.CollectionTest@58594a11]" name="assigmentCollector" duration-ms="3908" started-at="2020-02-24T16:21:11 MSK" finished-at="2020-02-24T16:21:15 MSK">
+        <test-method status="PASS" signature="assigmentCollector()[pri:4, instance:by.stormnet.web.CollectionTest@58594a11]" name="assigmentCollector" duration-ms="4235" started-at="2020-02-24T16:26:30 MSK" finished-at="2020-02-24T16:26:34 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assigmentCollector -->
-        <test-method status="PASS" signature="addCommentCollector()[pri:5, instance:by.stormnet.web.CollectionTest@58594a11]" name="addCommentCollector" duration-ms="4739" started-at="2020-02-24T16:21:15 MSK" finished-at="2020-02-24T16:21:20 MSK">
+        <test-method status="PASS" signature="addCommentCollector()[pri:5, instance:by.stormnet.web.CollectionTest@58594a11]" name="addCommentCollector" duration-ms="4748" started-at="2020-02-24T16:26:34 MSK" finished-at="2020-02-24T16:26:39 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCommentCollector -->
       </class> <!-- by.stormnet.web.CollectionTest -->
       <class name="api.ApiTest">
-        <test-method status="SKIP" signature="registrationStepOne()[pri:1, instance:api.ApiTest@4f74980d]" name="registrationStepOne" duration-ms="1717" retried="true" started-at="2020-02-24T16:20:10 MSK" finished-at="2020-02-24T16:20:12 MSK">
+        <test-method status="SKIP" signature="registrationStepOne()[pri:1, instance:api.ApiTest@4f74980d]" name="registrationStepOne" duration-ms="1746" retried="true" started-at="2020-02-24T16:25:30 MSK" finished-at="2020-02-24T16:25:32 MSK">
           <exception class="org.json.JSONException">
             <message>
               <![CDATA[JSONObject["code"] not found.]]>
@@ -125,104 +204,53 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationStepOne -->
-        <test-method status="PASS" signature="registrationStepOne()[pri:1, instance:api.ApiTest@4f74980d]" name="registrationStepOne" duration-ms="564" started-at="2020-02-24T16:20:12 MSK" finished-at="2020-02-24T16:20:12 MSK">
+        <test-method status="PASS" signature="registrationStepOne()[pri:1, instance:api.ApiTest@4f74980d]" name="registrationStepOne" duration-ms="534" started-at="2020-02-24T16:25:32 MSK" finished-at="2020-02-24T16:25:32 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationStepOne -->
-        <test-method status="PASS" signature="registrationStepTwo()[pri:0, instance:api.ApiTest@4f74980d]" name="registrationStepTwo" duration-ms="229" started-at="2020-02-24T16:20:12 MSK" depends-on-methods="api.ApiTest.registrationStepOne" finished-at="2020-02-24T16:20:12 MSK">
+        <test-method status="PASS" signature="registrationStepTwo()[pri:0, instance:api.ApiTest@4f74980d]" name="registrationStepTwo" duration-ms="226" started-at="2020-02-24T16:25:32 MSK" depends-on-methods="api.ApiTest.registrationStepOne" finished-at="2020-02-24T16:25:32 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationStepTwo -->
-        <test-method status="SKIP" signature="registrationStepThree()[pri:0, instance:api.ApiTest@4f74980d]" name="registrationStepThree" duration-ms="3966" retried="true" started-at="2020-02-24T16:20:12 MSK" depends-on-methods="api.ApiTest.registrationStepTwo" finished-at="2020-02-24T16:20:16 MSK">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [200] but found [422]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [200] but found [422]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:839)
-at org.testng.Assert.assertEquals(Assert.java:849)
-at api.ApiTest.registrationStepThree(ApiTest.java:131)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="registrationStepThree()[pri:0, instance:api.ApiTest@4f74980d]" name="registrationStepThree" duration-ms="2001" started-at="2020-02-24T16:25:32 MSK" depends-on-methods="api.ApiTest.registrationStepTwo" finished-at="2020-02-24T16:25:34 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationStepThree -->
-        <test-method status="PASS" signature="registrationStepThree()[pri:0, instance:api.ApiTest@4f74980d]" name="registrationStepThree" duration-ms="1821" started-at="2020-02-24T16:20:16 MSK" depends-on-methods="api.ApiTest.registrationStepTwo" finished-at="2020-02-24T16:20:18 MSK">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registrationStepThree -->
-        <test-method status="PASS" signature="registrationStepFour()[pri:0, instance:api.ApiTest@4f74980d]" name="registrationStepFour" duration-ms="2237" started-at="2020-02-24T16:20:18 MSK" depends-on-methods="api.ApiTest.registrationStepThree" finished-at="2020-02-24T16:20:20 MSK">
+        <test-method status="PASS" signature="registrationStepFour()[pri:0, instance:api.ApiTest@4f74980d]" name="registrationStepFour" duration-ms="2132" started-at="2020-02-24T16:25:34 MSK" depends-on-methods="api.ApiTest.registrationStepThree" finished-at="2020-02-24T16:25:37 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationStepFour -->
       </class> <!-- api.ApiTest -->
       <class name="by.stormnet.web.LoanTest">
-        <test-method status="PASS" signature="approvalLoanOne()[pri:1, instance:by.stormnet.web.LoanTest@6c372fe6]" name="approvalLoanOne" duration-ms="5971" started-at="2020-02-24T16:20:20 MSK" finished-at="2020-02-24T16:20:26 MSK">
+        <test-method status="PASS" signature="approvalLoanOne()[pri:1, instance:by.stormnet.web.LoanTest@6c372fe6]" name="approvalLoanOne" duration-ms="5964" started-at="2020-02-24T16:25:37 MSK" finished-at="2020-02-24T16:25:43 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- approvalLoanOne -->
-        <test-method status="PASS" signature="approvalLoanTwo()[pri:1, instance:by.stormnet.web.LoanTest@6c372fe6]" name="approvalLoanTwo" duration-ms="6316" started-at="2020-02-24T16:20:26 MSK" finished-at="2020-02-24T16:20:33 MSK">
+        <test-method status="PASS" signature="approvalLoanTwo()[pri:1, instance:by.stormnet.web.LoanTest@6c372fe6]" name="approvalLoanTwo" duration-ms="6125" started-at="2020-02-24T16:25:43 MSK" finished-at="2020-02-24T16:25:49 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- approvalLoanTwo -->
-        <test-method status="PASS" signature="approvalLoanClient()[pri:2, instance:by.stormnet.web.LoanTest@6c372fe6]" name="approvalLoanClient" duration-ms="3356" started-at="2020-02-24T16:20:33 MSK" finished-at="2020-02-24T16:20:36 MSK">
+        <test-method status="PASS" signature="approvalLoanClient()[pri:2, instance:by.stormnet.web.LoanTest@6c372fe6]" name="approvalLoanClient" duration-ms="3612" started-at="2020-02-24T16:25:49 MSK" finished-at="2020-02-24T16:25:52 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- approvalLoanClient -->
-        <test-method status="PASS" signature="approvalLoanClient()[pri:2, instance:by.stormnet.web.LoanTest@6c372fe6]" name="approvalLoanClient" duration-ms="3622" started-at="2020-02-24T16:20:36 MSK" finished-at="2020-02-24T16:20:40 MSK">
+        <test-method status="PASS" signature="approvalLoanClient()[pri:2, instance:by.stormnet.web.LoanTest@6c372fe6]" name="approvalLoanClient" duration-ms="3873" started-at="2020-02-24T16:25:52 MSK" finished-at="2020-02-24T16:25:56 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- approvalLoanClient -->
-        <test-method status="PASS" signature="giveOutLoan()[pri:3, instance:by.stormnet.web.LoanTest@6c372fe6]" name="giveOutLoan" duration-ms="3367" started-at="2020-02-24T16:20:40 MSK" finished-at="2020-02-24T16:20:43 MSK">
+        <test-method status="PASS" signature="giveOutLoan()[pri:3, instance:by.stormnet.web.LoanTest@6c372fe6]" name="giveOutLoan" duration-ms="3499" started-at="2020-02-24T16:25:56 MSK" finished-at="2020-02-24T16:26:00 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- giveOutLoan -->
-        <test-method status="PASS" signature="addCommenFromLoan()[pri:4, instance:by.stormnet.web.LoanTest@6c372fe6]" name="addCommenFromLoan" duration-ms="1328" started-at="2020-02-24T16:20:43 MSK" finished-at="2020-02-24T16:20:44 MSK">
+        <test-method status="PASS" signature="addCommenFromLoan()[pri:4, instance:by.stormnet.web.LoanTest@6c372fe6]" name="addCommenFromLoan" duration-ms="1388" started-at="2020-02-24T16:26:00 MSK" finished-at="2020-02-24T16:26:01 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCommenFromLoan -->
-        <test-method status="PASS" signature="changeLoanDate()[pri:5, instance:by.stormnet.web.LoanTest@6c372fe6]" name="changeLoanDate" duration-ms="1404" started-at="2020-02-24T16:20:44 MSK" finished-at="2020-02-24T16:20:46 MSK">
+        <test-method status="PASS" signature="changeLoanDate()[pri:5, instance:by.stormnet.web.LoanTest@6c372fe6]" name="changeLoanDate" duration-ms="1565" started-at="2020-02-24T16:26:01 MSK" finished-at="2020-02-24T16:26:03 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changeLoanDate -->
-        <test-method status="SKIP" signature="incameTest()[pri:6, instance:by.stormnet.web.LoanTest@6c372fe6]" name="incameTest" duration-ms="2813" retried="true" started-at="2020-02-24T16:20:46 MSK" finished-at="2020-02-24T16:20:49 MSK">
+        <test-method status="SKIP" signature="incameTest()[pri:6, instance:by.stormnet.web.LoanTest@6c372fe6]" name="incameTest" duration-ms="3096" retried="true" started-at="2020-02-24T16:26:03 MSK" finished-at="2020-02-24T16:26:06 MSK">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
               <![CDATA[element click intercepted: Element <button class="btn btn-success" type="submit" name="btn_preview_approve_to_loan_edit">...</button> is not clickable at point (408, 678). Other element would receive the click: <div class="sf-toolbar-icon">...</div>
@@ -230,8 +258,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="btn btn-success" type="submit" name="btn_preview_approve_to_loan_edit">...</button> is not clickable at point (408, 678). Other element would receive the click: <div class="sf-toolbar-icon">...</div>
@@ -239,8 +267,8 @@ Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -255,7 +283,7 @@ at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
 at by.stormnet.web.pages.loanPage.IncamePage.clickApproveIncame(IncamePage.java:69)
 at by.stormnet.web.helpers.loanHelpers.IncameHelper.addIncameLoan(IncameHelper.java:16)
-at by.stormnet.web.LoanTest.incameTest(LoanTest.java:57)
+at by.stormnet.web.LoanTest.incameTest(LoanTest.java:60)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -294,7 +322,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- incameTest -->
-        <test-method status="SKIP" signature="incameTest()[pri:6, instance:by.stormnet.web.LoanTest@6c372fe6]" name="incameTest" duration-ms="496" retried="true" started-at="2020-02-24T16:20:49 MSK" finished-at="2020-02-24T16:20:49 MSK">
+        <test-method status="SKIP" signature="incameTest()[pri:6, instance:by.stormnet.web.LoanTest@6c372fe6]" name="incameTest" duration-ms="531" retried="true" started-at="2020-02-24T16:26:06 MSK" finished-at="2020-02-24T16:26:06 MSK">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='s04cb01c657_incomeDate']"}
@@ -303,8 +331,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=xpath, value=//input[@id='s04cb01c657_incomeDate']}]]>
             </message>
             <full-stacktrace>
@@ -314,8 +342,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=xpath, value=//input[@id='s04cb01c657_incomeDate']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -334,7 +362,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at by.stormnet.web.pages.AbstractPage.getElement(AbstractPage.java:120)
 at by.stormnet.web.pages.loanPage.IncamePage.fillDateCash(IncamePage.java:46)
 at by.stormnet.web.helpers.loanHelpers.IncameHelper.addIncameLoan(IncameHelper.java:13)
-at by.stormnet.web.LoanTest.incameTest(LoanTest.java:57)
+at by.stormnet.web.LoanTest.incameTest(LoanTest.java:60)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -373,7 +401,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- incameTest -->
-        <test-method status="SKIP" signature="incameTest()[pri:6, instance:by.stormnet.web.LoanTest@6c372fe6]" name="incameTest" duration-ms="549" retried="true" started-at="2020-02-24T16:20:49 MSK" finished-at="2020-02-24T16:20:50 MSK">
+        <test-method status="SKIP" signature="incameTest()[pri:6, instance:by.stormnet.web.LoanTest@6c372fe6]" name="incameTest" duration-ms="574" retried="true" started-at="2020-02-24T16:26:06 MSK" finished-at="2020-02-24T16:26:07 MSK">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='s04cb01c657_incomeDate']"}
@@ -382,8 +410,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=xpath, value=//input[@id='s04cb01c657_incomeDate']}]]>
             </message>
             <full-stacktrace>
@@ -393,8 +421,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=xpath, value=//input[@id='s04cb01c657_incomeDate']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -413,7 +441,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at by.stormnet.web.pages.AbstractPage.getElement(AbstractPage.java:120)
 at by.stormnet.web.pages.loanPage.IncamePage.fillDateCash(IncamePage.java:46)
 at by.stormnet.web.helpers.loanHelpers.IncameHelper.addIncameLoan(IncameHelper.java:13)
-at by.stormnet.web.LoanTest.incameTest(LoanTest.java:57)
+at by.stormnet.web.LoanTest.incameTest(LoanTest.java:60)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -452,7 +480,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- incameTest -->
-        <test-method status="SKIP" signature="incameTest()[pri:6, instance:by.stormnet.web.LoanTest@6c372fe6]" name="incameTest" duration-ms="431" retried="true" started-at="2020-02-24T16:20:50 MSK" finished-at="2020-02-24T16:20:50 MSK">
+        <test-method status="SKIP" signature="incameTest()[pri:6, instance:by.stormnet.web.LoanTest@6c372fe6]" name="incameTest" duration-ms="589" retried="true" started-at="2020-02-24T16:26:07 MSK" finished-at="2020-02-24T16:26:07 MSK">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='s04cb01c657_incomeDate']"}
@@ -461,8 +489,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=xpath, value=//input[@id='s04cb01c657_incomeDate']}]]>
             </message>
             <full-stacktrace>
@@ -472,8 +500,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=xpath, value=//input[@id='s04cb01c657_incomeDate']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -492,7 +520,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at by.stormnet.web.pages.AbstractPage.getElement(AbstractPage.java:120)
 at by.stormnet.web.pages.loanPage.IncamePage.fillDateCash(IncamePage.java:46)
 at by.stormnet.web.helpers.loanHelpers.IncameHelper.addIncameLoan(IncameHelper.java:13)
-at by.stormnet.web.LoanTest.incameTest(LoanTest.java:57)
+at by.stormnet.web.LoanTest.incameTest(LoanTest.java:60)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -531,7 +559,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- incameTest -->
-        <test-method status="FAIL" signature="incameTest()[pri:6, instance:by.stormnet.web.LoanTest@6c372fe6]" name="incameTest" duration-ms="615" started-at="2020-02-24T16:20:50 MSK" finished-at="2020-02-24T16:20:51 MSK">
+        <test-method status="FAIL" signature="incameTest()[pri:6, instance:by.stormnet.web.LoanTest@6c372fe6]" name="incameTest" duration-ms="472" started-at="2020-02-24T16:26:07 MSK" finished-at="2020-02-24T16:26:08 MSK">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='s04cb01c657_incomeDate']"}
@@ -540,8 +568,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=xpath, value=//input[@id='s04cb01c657_incomeDate']}]]>
             </message>
             <full-stacktrace>
@@ -551,8 +579,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=xpath, value=//input[@id='s04cb01c657_incomeDate']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -571,7 +599,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at by.stormnet.web.pages.AbstractPage.getElement(AbstractPage.java:120)
 at by.stormnet.web.pages.loanPage.IncamePage.fillDateCash(IncamePage.java:46)
 at by.stormnet.web.helpers.loanHelpers.IncameHelper.addIncameLoan(IncameHelper.java:13)
-at by.stormnet.web.LoanTest.incameTest(LoanTest.java:57)
+at by.stormnet.web.LoanTest.incameTest(LoanTest.java:60)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -610,7 +638,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- incameTest -->
-        <test-method status="SKIP" signature="assigmentVerifier()[pri:7, instance:by.stormnet.web.LoanTest@6c372fe6]" name="assigmentVerifier" duration-ms="11" retried="true" started-at="2020-02-24T16:20:51 MSK" finished-at="2020-02-24T16:20:51 MSK">
+        <test-method status="SKIP" signature="assigmentVerifier()[pri:7, instance:by.stormnet.web.LoanTest@6c372fe6]" name="assigmentVerifier" duration-ms="13" retried="true" started-at="2020-02-24T16:26:08 MSK" finished-at="2020-02-24T16:26:08 MSK">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".btn.btn-warning"}
@@ -619,8 +647,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=css selector, value=.btn.btn-warning}]]>
             </message>
             <full-stacktrace>
@@ -630,8 +658,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=css selector, value=.btn.btn-warning}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -650,7 +678,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at by.stormnet.web.pages.AbstractPage.getElementByCss(AbstractPage.java:128)
 at by.stormnet.web.pages.loanPage.LoanActivePage.clickButtonVerifire(LoanActivePage.java:127)
 at by.stormnet.web.helpers.loanHelpers.LoanActiveHelper.assigmentVerifier(LoanActiveHelper.java:55)
-at by.stormnet.web.LoanTest.assigmentVerifier(LoanTest.java:62)
+at by.stormnet.web.LoanTest.assigmentVerifier(LoanTest.java:65)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -689,7 +717,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assigmentVerifier -->
-        <test-method status="SKIP" signature="assigmentVerifier()[pri:7, instance:by.stormnet.web.LoanTest@6c372fe6]" name="assigmentVerifier" duration-ms="9" retried="true" started-at="2020-02-24T16:20:51 MSK" finished-at="2020-02-24T16:20:51 MSK">
+        <test-method status="SKIP" signature="assigmentVerifier()[pri:7, instance:by.stormnet.web.LoanTest@6c372fe6]" name="assigmentVerifier" duration-ms="9" retried="true" started-at="2020-02-24T16:26:08 MSK" finished-at="2020-02-24T16:26:08 MSK">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".btn.btn-warning"}
@@ -698,8 +726,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=css selector, value=.btn.btn-warning}]]>
             </message>
             <full-stacktrace>
@@ -709,8 +737,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=css selector, value=.btn.btn-warning}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -729,7 +757,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at by.stormnet.web.pages.AbstractPage.getElementByCss(AbstractPage.java:128)
 at by.stormnet.web.pages.loanPage.LoanActivePage.clickButtonVerifire(LoanActivePage.java:127)
 at by.stormnet.web.helpers.loanHelpers.LoanActiveHelper.assigmentVerifier(LoanActiveHelper.java:55)
-at by.stormnet.web.LoanTest.assigmentVerifier(LoanTest.java:62)
+at by.stormnet.web.LoanTest.assigmentVerifier(LoanTest.java:65)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -768,7 +796,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assigmentVerifier -->
-        <test-method status="SKIP" signature="assigmentVerifier()[pri:7, instance:by.stormnet.web.LoanTest@6c372fe6]" name="assigmentVerifier" duration-ms="9" retried="true" started-at="2020-02-24T16:20:51 MSK" finished-at="2020-02-24T16:20:51 MSK">
+        <test-method status="SKIP" signature="assigmentVerifier()[pri:7, instance:by.stormnet.web.LoanTest@6c372fe6]" name="assigmentVerifier" duration-ms="8" retried="true" started-at="2020-02-24T16:26:08 MSK" finished-at="2020-02-24T16:26:08 MSK">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".btn.btn-warning"}
@@ -777,8 +805,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=css selector, value=.btn.btn-warning}]]>
             </message>
             <full-stacktrace>
@@ -788,8 +816,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=css selector, value=.btn.btn-warning}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -808,7 +836,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at by.stormnet.web.pages.AbstractPage.getElementByCss(AbstractPage.java:128)
 at by.stormnet.web.pages.loanPage.LoanActivePage.clickButtonVerifire(LoanActivePage.java:127)
 at by.stormnet.web.helpers.loanHelpers.LoanActiveHelper.assigmentVerifier(LoanActiveHelper.java:55)
-at by.stormnet.web.LoanTest.assigmentVerifier(LoanTest.java:62)
+at by.stormnet.web.LoanTest.assigmentVerifier(LoanTest.java:65)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -847,7 +875,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assigmentVerifier -->
-        <test-method status="SKIP" signature="assigmentVerifier()[pri:7, instance:by.stormnet.web.LoanTest@6c372fe6]" name="assigmentVerifier" duration-ms="8" retried="true" started-at="2020-02-24T16:20:51 MSK" finished-at="2020-02-24T16:20:51 MSK">
+        <test-method status="SKIP" signature="assigmentVerifier()[pri:7, instance:by.stormnet.web.LoanTest@6c372fe6]" name="assigmentVerifier" duration-ms="9" retried="true" started-at="2020-02-24T16:26:08 MSK" finished-at="2020-02-24T16:26:08 MSK">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".btn.btn-warning"}
@@ -856,8 +884,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=css selector, value=.btn.btn-warning}]]>
             </message>
             <full-stacktrace>
@@ -867,8 +895,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=css selector, value=.btn.btn-warning}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -887,7 +915,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at by.stormnet.web.pages.AbstractPage.getElementByCss(AbstractPage.java:128)
 at by.stormnet.web.pages.loanPage.LoanActivePage.clickButtonVerifire(LoanActivePage.java:127)
 at by.stormnet.web.helpers.loanHelpers.LoanActiveHelper.assigmentVerifier(LoanActiveHelper.java:55)
-at by.stormnet.web.LoanTest.assigmentVerifier(LoanTest.java:62)
+at by.stormnet.web.LoanTest.assigmentVerifier(LoanTest.java:65)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -926,7 +954,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assigmentVerifier -->
-        <test-method status="FAIL" signature="assigmentVerifier()[pri:7, instance:by.stormnet.web.LoanTest@6c372fe6]" name="assigmentVerifier" duration-ms="8" started-at="2020-02-24T16:20:51 MSK" finished-at="2020-02-24T16:20:51 MSK">
+        <test-method status="FAIL" signature="assigmentVerifier()[pri:7, instance:by.stormnet.web.LoanTest@6c372fe6]" name="assigmentVerifier" duration-ms="10" started-at="2020-02-24T16:26:08 MSK" finished-at="2020-02-24T16:26:08 MSK">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".btn.btn-warning"}
@@ -935,8 +963,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=css selector, value=.btn.btn-warning}]]>
             </message>
             <full-stacktrace>
@@ -946,8 +974,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=css selector, value=.btn.btn-warning}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -966,7 +994,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at by.stormnet.web.pages.AbstractPage.getElementByCss(AbstractPage.java:128)
 at by.stormnet.web.pages.loanPage.LoanActivePage.clickButtonVerifire(LoanActivePage.java:127)
 at by.stormnet.web.helpers.loanHelpers.LoanActiveHelper.assigmentVerifier(LoanActiveHelper.java:55)
-at by.stormnet.web.LoanTest.assigmentVerifier(LoanTest.java:62)
+at by.stormnet.web.LoanTest.assigmentVerifier(LoanTest.java:65)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1005,7 +1033,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assigmentVerifier -->
-        <test-method status="SKIP" signature="stopCashFromLoan()[pri:8, instance:by.stormnet.web.LoanTest@6c372fe6]" name="stopCashFromLoan" duration-ms="22" retried="true" started-at="2020-02-24T16:20:51 MSK" finished-at="2020-02-24T16:20:51 MSK">
+        <test-method status="SKIP" signature="stopCashFromLoan()[pri:8, instance:by.stormnet.web.LoanTest@6c372fe6]" name="stopCashFromLoan" duration-ms="32" retried="true" started-at="2020-02-24T16:26:08 MSK" finished-at="2020-02-24T16:26:08 MSK">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -1013,8 +1041,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -1022,8 +1050,8 @@ Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1038,7 +1066,7 @@ at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
 at by.stormnet.web.pages.loanPage.LoanActivePage.clickStopCashButton(LoanActivePage.java:122)
 at by.stormnet.web.helpers.loanHelpers.LoanActiveHelper.stopCash(LoanActiveHelper.java:45)
-at by.stormnet.web.LoanTest.stopCashFromLoan(LoanTest.java:67)
+at by.stormnet.web.LoanTest.stopCashFromLoan(LoanTest.java:70)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1077,7 +1105,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopCashFromLoan -->
-        <test-method status="SKIP" signature="stopCashFromLoan()[pri:8, instance:by.stormnet.web.LoanTest@6c372fe6]" name="stopCashFromLoan" duration-ms="17" retried="true" started-at="2020-02-24T16:20:51 MSK" finished-at="2020-02-24T16:20:51 MSK">
+        <test-method status="SKIP" signature="stopCashFromLoan()[pri:8, instance:by.stormnet.web.LoanTest@6c372fe6]" name="stopCashFromLoan" duration-ms="22" retried="true" started-at="2020-02-24T16:26:08 MSK" finished-at="2020-02-24T16:26:08 MSK">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -1085,8 +1113,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -1094,8 +1122,8 @@ Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1110,7 +1138,7 @@ at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
 at by.stormnet.web.pages.loanPage.LoanActivePage.clickStopCashButton(LoanActivePage.java:122)
 at by.stormnet.web.helpers.loanHelpers.LoanActiveHelper.stopCash(LoanActiveHelper.java:45)
-at by.stormnet.web.LoanTest.stopCashFromLoan(LoanTest.java:67)
+at by.stormnet.web.LoanTest.stopCashFromLoan(LoanTest.java:70)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1149,7 +1177,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopCashFromLoan -->
-        <test-method status="SKIP" signature="stopCashFromLoan()[pri:8, instance:by.stormnet.web.LoanTest@6c372fe6]" name="stopCashFromLoan" duration-ms="19" retried="true" started-at="2020-02-24T16:20:51 MSK" finished-at="2020-02-24T16:20:51 MSK">
+        <test-method status="SKIP" signature="stopCashFromLoan()[pri:8, instance:by.stormnet.web.LoanTest@6c372fe6]" name="stopCashFromLoan" duration-ms="19" retried="true" started-at="2020-02-24T16:26:08 MSK" finished-at="2020-02-24T16:26:08 MSK">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -1157,8 +1185,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -1166,8 +1194,8 @@ Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1182,7 +1210,7 @@ at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
 at by.stormnet.web.pages.loanPage.LoanActivePage.clickStopCashButton(LoanActivePage.java:122)
 at by.stormnet.web.helpers.loanHelpers.LoanActiveHelper.stopCash(LoanActiveHelper.java:45)
-at by.stormnet.web.LoanTest.stopCashFromLoan(LoanTest.java:67)
+at by.stormnet.web.LoanTest.stopCashFromLoan(LoanTest.java:70)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1221,7 +1249,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopCashFromLoan -->
-        <test-method status="SKIP" signature="stopCashFromLoan()[pri:8, instance:by.stormnet.web.LoanTest@6c372fe6]" name="stopCashFromLoan" duration-ms="18" retried="true" started-at="2020-02-24T16:20:51 MSK" finished-at="2020-02-24T16:20:51 MSK">
+        <test-method status="SKIP" signature="stopCashFromLoan()[pri:8, instance:by.stormnet.web.LoanTest@6c372fe6]" name="stopCashFromLoan" duration-ms="20" retried="true" started-at="2020-02-24T16:26:08 MSK" finished-at="2020-02-24T16:26:08 MSK">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -1229,8 +1257,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -1238,8 +1266,8 @@ Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1254,7 +1282,7 @@ at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
 at by.stormnet.web.pages.loanPage.LoanActivePage.clickStopCashButton(LoanActivePage.java:122)
 at by.stormnet.web.helpers.loanHelpers.LoanActiveHelper.stopCash(LoanActiveHelper.java:45)
-at by.stormnet.web.LoanTest.stopCashFromLoan(LoanTest.java:67)
+at by.stormnet.web.LoanTest.stopCashFromLoan(LoanTest.java:70)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1293,7 +1321,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopCashFromLoan -->
-        <test-method status="FAIL" signature="stopCashFromLoan()[pri:8, instance:by.stormnet.web.LoanTest@6c372fe6]" name="stopCashFromLoan" duration-ms="19" started-at="2020-02-24T16:20:51 MSK" finished-at="2020-02-24T16:20:51 MSK">
+        <test-method status="FAIL" signature="stopCashFromLoan()[pri:8, instance:by.stormnet.web.LoanTest@6c372fe6]" name="stopCashFromLoan" duration-ms="15" started-at="2020-02-24T16:26:08 MSK" finished-at="2020-02-24T16:26:08 MSK">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -1301,8 +1329,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -1310,8 +1338,8 @@ Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1326,7 +1354,7 @@ at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
 at by.stormnet.web.pages.loanPage.LoanActivePage.clickStopCashButton(LoanActivePage.java:122)
 at by.stormnet.web.helpers.loanHelpers.LoanActiveHelper.stopCash(LoanActiveHelper.java:45)
-at by.stormnet.web.LoanTest.stopCashFromLoan(LoanTest.java:67)
+at by.stormnet.web.LoanTest.stopCashFromLoan(LoanTest.java:70)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1365,7 +1393,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopCashFromLoan -->
-        <test-method status="SKIP" signature="returnCashFromLoan()[pri:9, instance:by.stormnet.web.LoanTest@6c372fe6]" name="returnCashFromLoan" duration-ms="19" retried="true" started-at="2020-02-24T16:20:51 MSK" finished-at="2020-02-24T16:20:51 MSK">
+        <test-method status="SKIP" signature="returnCashFromLoan()[pri:9, instance:by.stormnet.web.LoanTest@6c372fe6]" name="returnCashFromLoan" duration-ms="19" retried="true" started-at="2020-02-24T16:26:08 MSK" finished-at="2020-02-24T16:26:08 MSK">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -1373,8 +1401,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -1382,8 +1410,8 @@ Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1398,7 +1426,7 @@ at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
 at by.stormnet.web.pages.loanPage.LoanActivePage.clickStopCashButton(LoanActivePage.java:122)
 at by.stormnet.web.helpers.loanHelpers.LoanActiveHelper.returnCash(LoanActiveHelper.java:50)
-at by.stormnet.web.LoanTest.returnCashFromLoan(LoanTest.java:72)
+at by.stormnet.web.LoanTest.returnCashFromLoan(LoanTest.java:75)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1437,7 +1465,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- returnCashFromLoan -->
-        <test-method status="SKIP" signature="returnCashFromLoan()[pri:9, instance:by.stormnet.web.LoanTest@6c372fe6]" name="returnCashFromLoan" duration-ms="21" retried="true" started-at="2020-02-24T16:20:51 MSK" finished-at="2020-02-24T16:20:51 MSK">
+        <test-method status="SKIP" signature="returnCashFromLoan()[pri:9, instance:by.stormnet.web.LoanTest@6c372fe6]" name="returnCashFromLoan" duration-ms="20" retried="true" started-at="2020-02-24T16:26:08 MSK" finished-at="2020-02-24T16:26:08 MSK">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -1445,8 +1473,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -1454,8 +1482,8 @@ Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1470,7 +1498,7 @@ at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
 at by.stormnet.web.pages.loanPage.LoanActivePage.clickStopCashButton(LoanActivePage.java:122)
 at by.stormnet.web.helpers.loanHelpers.LoanActiveHelper.returnCash(LoanActiveHelper.java:50)
-at by.stormnet.web.LoanTest.returnCashFromLoan(LoanTest.java:72)
+at by.stormnet.web.LoanTest.returnCashFromLoan(LoanTest.java:75)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1509,7 +1537,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- returnCashFromLoan -->
-        <test-method status="SKIP" signature="returnCashFromLoan()[pri:9, instance:by.stormnet.web.LoanTest@6c372fe6]" name="returnCashFromLoan" duration-ms="18" retried="true" started-at="2020-02-24T16:20:51 MSK" finished-at="2020-02-24T16:20:51 MSK">
+        <test-method status="SKIP" signature="returnCashFromLoan()[pri:9, instance:by.stormnet.web.LoanTest@6c372fe6]" name="returnCashFromLoan" duration-ms="33" retried="true" started-at="2020-02-24T16:26:08 MSK" finished-at="2020-02-24T16:26:08 MSK">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -1517,8 +1545,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -1526,8 +1554,8 @@ Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1542,7 +1570,7 @@ at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
 at by.stormnet.web.pages.loanPage.LoanActivePage.clickStopCashButton(LoanActivePage.java:122)
 at by.stormnet.web.helpers.loanHelpers.LoanActiveHelper.returnCash(LoanActiveHelper.java:50)
-at by.stormnet.web.LoanTest.returnCashFromLoan(LoanTest.java:72)
+at by.stormnet.web.LoanTest.returnCashFromLoan(LoanTest.java:75)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1581,7 +1609,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- returnCashFromLoan -->
-        <test-method status="SKIP" signature="returnCashFromLoan()[pri:9, instance:by.stormnet.web.LoanTest@6c372fe6]" name="returnCashFromLoan" duration-ms="18" retried="true" started-at="2020-02-24T16:20:51 MSK" finished-at="2020-02-24T16:20:51 MSK">
+        <test-method status="SKIP" signature="returnCashFromLoan()[pri:9, instance:by.stormnet.web.LoanTest@6c372fe6]" name="returnCashFromLoan" duration-ms="17" retried="true" started-at="2020-02-24T16:26:08 MSK" finished-at="2020-02-24T16:26:08 MSK">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -1589,8 +1617,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -1598,8 +1626,8 @@ Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1614,7 +1642,7 @@ at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
 at by.stormnet.web.pages.loanPage.LoanActivePage.clickStopCashButton(LoanActivePage.java:122)
 at by.stormnet.web.helpers.loanHelpers.LoanActiveHelper.returnCash(LoanActiveHelper.java:50)
-at by.stormnet.web.LoanTest.returnCashFromLoan(LoanTest.java:72)
+at by.stormnet.web.LoanTest.returnCashFromLoan(LoanTest.java:75)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1653,7 +1681,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- returnCashFromLoan -->
-        <test-method status="FAIL" signature="returnCashFromLoan()[pri:9, instance:by.stormnet.web.LoanTest@6c372fe6]" name="returnCashFromLoan" duration-ms="18" started-at="2020-02-24T16:20:51 MSK" finished-at="2020-02-24T16:20:51 MSK">
+        <test-method status="FAIL" signature="returnCashFromLoan()[pri:9, instance:by.stormnet.web.LoanTest@6c372fe6]" name="returnCashFromLoan" duration-ms="17" started-at="2020-02-24T16:26:08 MSK" finished-at="2020-02-24T16:26:08 MSK">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -1661,8 +1689,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -1670,8 +1698,8 @@ Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1686,7 +1714,7 @@ at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
 at by.stormnet.web.pages.loanPage.LoanActivePage.clickStopCashButton(LoanActivePage.java:122)
 at by.stormnet.web.helpers.loanHelpers.LoanActiveHelper.returnCash(LoanActiveHelper.java:50)
-at by.stormnet.web.LoanTest.returnCashFromLoan(LoanTest.java:72)
+at by.stormnet.web.LoanTest.returnCashFromLoan(LoanTest.java:75)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1725,7 +1753,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- returnCashFromLoan -->
-        <test-method status="SKIP" signature="makeOverdue()[pri:10, instance:by.stormnet.web.LoanTest@6c372fe6]" name="makeOverdue" duration-ms="11" retried="true" started-at="2020-02-24T16:20:51 MSK" finished-at="2020-02-24T16:20:51 MSK">
+        <test-method status="SKIP" signature="makeOverdue()[pri:10, instance:by.stormnet.web.LoanTest@6c372fe6]" name="makeOverdue" duration-ms="12" retried="true" started-at="2020-02-24T16:26:08 MSK" finished-at="2020-02-24T16:26:08 MSK">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[5]"}
@@ -1734,8 +1762,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=xpath, value=//button[5]}]]>
             </message>
             <full-stacktrace>
@@ -1745,8 +1773,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=xpath, value=//button[5]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -1765,7 +1793,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at by.stormnet.web.pages.AbstractPage.getElement(AbstractPage.java:120)
 at by.stormnet.web.pages.loanPage.LoanActivePage.clickOverdueButton(LoanActivePage.java:71)
 at by.stormnet.web.helpers.loanHelpers.LoanActiveHelper.makeOverdueLoan(LoanActiveHelper.java:22)
-at by.stormnet.web.LoanTest.makeOverdue(LoanTest.java:77)
+at by.stormnet.web.LoanTest.makeOverdue(LoanTest.java:80)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1804,7 +1832,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- makeOverdue -->
-        <test-method status="SKIP" signature="makeOverdue()[pri:10, instance:by.stormnet.web.LoanTest@6c372fe6]" name="makeOverdue" duration-ms="9" retried="true" started-at="2020-02-24T16:20:51 MSK" finished-at="2020-02-24T16:20:51 MSK">
+        <test-method status="SKIP" signature="makeOverdue()[pri:10, instance:by.stormnet.web.LoanTest@6c372fe6]" name="makeOverdue" duration-ms="10" retried="true" started-at="2020-02-24T16:26:08 MSK" finished-at="2020-02-24T16:26:08 MSK">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[5]"}
@@ -1813,8 +1841,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=xpath, value=//button[5]}]]>
             </message>
             <full-stacktrace>
@@ -1824,8 +1852,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=xpath, value=//button[5]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -1844,7 +1872,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at by.stormnet.web.pages.AbstractPage.getElement(AbstractPage.java:120)
 at by.stormnet.web.pages.loanPage.LoanActivePage.clickOverdueButton(LoanActivePage.java:71)
 at by.stormnet.web.helpers.loanHelpers.LoanActiveHelper.makeOverdueLoan(LoanActiveHelper.java:22)
-at by.stormnet.web.LoanTest.makeOverdue(LoanTest.java:77)
+at by.stormnet.web.LoanTest.makeOverdue(LoanTest.java:80)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1883,7 +1911,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- makeOverdue -->
-        <test-method status="SKIP" signature="makeOverdue()[pri:10, instance:by.stormnet.web.LoanTest@6c372fe6]" name="makeOverdue" duration-ms="10" retried="true" started-at="2020-02-24T16:20:51 MSK" finished-at="2020-02-24T16:20:51 MSK">
+        <test-method status="SKIP" signature="makeOverdue()[pri:10, instance:by.stormnet.web.LoanTest@6c372fe6]" name="makeOverdue" duration-ms="9" retried="true" started-at="2020-02-24T16:26:08 MSK" finished-at="2020-02-24T16:26:08 MSK">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[5]"}
@@ -1892,8 +1920,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=xpath, value=//button[5]}]]>
             </message>
             <full-stacktrace>
@@ -1903,8 +1931,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=xpath, value=//button[5]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -1923,7 +1951,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at by.stormnet.web.pages.AbstractPage.getElement(AbstractPage.java:120)
 at by.stormnet.web.pages.loanPage.LoanActivePage.clickOverdueButton(LoanActivePage.java:71)
 at by.stormnet.web.helpers.loanHelpers.LoanActiveHelper.makeOverdueLoan(LoanActiveHelper.java:22)
-at by.stormnet.web.LoanTest.makeOverdue(LoanTest.java:77)
+at by.stormnet.web.LoanTest.makeOverdue(LoanTest.java:80)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1962,7 +1990,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- makeOverdue -->
-        <test-method status="SKIP" signature="makeOverdue()[pri:10, instance:by.stormnet.web.LoanTest@6c372fe6]" name="makeOverdue" duration-ms="8" retried="true" started-at="2020-02-24T16:20:51 MSK" finished-at="2020-02-24T16:20:51 MSK">
+        <test-method status="SKIP" signature="makeOverdue()[pri:10, instance:by.stormnet.web.LoanTest@6c372fe6]" name="makeOverdue" duration-ms="9" retried="true" started-at="2020-02-24T16:26:08 MSK" finished-at="2020-02-24T16:26:08 MSK">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[5]"}
@@ -1971,8 +1999,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=xpath, value=//button[5]}]]>
             </message>
             <full-stacktrace>
@@ -1982,8 +2010,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=xpath, value=//button[5]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -2002,7 +2030,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at by.stormnet.web.pages.AbstractPage.getElement(AbstractPage.java:120)
 at by.stormnet.web.pages.loanPage.LoanActivePage.clickOverdueButton(LoanActivePage.java:71)
 at by.stormnet.web.helpers.loanHelpers.LoanActiveHelper.makeOverdueLoan(LoanActiveHelper.java:22)
-at by.stormnet.web.LoanTest.makeOverdue(LoanTest.java:77)
+at by.stormnet.web.LoanTest.makeOverdue(LoanTest.java:80)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2041,7 +2069,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- makeOverdue -->
-        <test-method status="FAIL" signature="makeOverdue()[pri:10, instance:by.stormnet.web.LoanTest@6c372fe6]" name="makeOverdue" duration-ms="10" started-at="2020-02-24T16:20:51 MSK" finished-at="2020-02-24T16:20:51 MSK">
+        <test-method status="FAIL" signature="makeOverdue()[pri:10, instance:by.stormnet.web.LoanTest@6c372fe6]" name="makeOverdue" duration-ms="9" started-at="2020-02-24T16:26:08 MSK" finished-at="2020-02-24T16:26:08 MSK">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[5]"}
@@ -2050,8 +2078,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=xpath, value=//button[5]}]]>
             </message>
             <full-stacktrace>
@@ -2061,8 +2089,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=xpath, value=//button[5]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -2081,7 +2109,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at by.stormnet.web.pages.AbstractPage.getElement(AbstractPage.java:120)
 at by.stormnet.web.pages.loanPage.LoanActivePage.clickOverdueButton(LoanActivePage.java:71)
 at by.stormnet.web.helpers.loanHelpers.LoanActiveHelper.makeOverdueLoan(LoanActiveHelper.java:22)
-at by.stormnet.web.LoanTest.makeOverdue(LoanTest.java:77)
+at by.stormnet.web.LoanTest.makeOverdue(LoanTest.java:80)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2120,7 +2148,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- makeOverdue -->
-        <test-method status="SKIP" signature="closeLoan()[pri:11, instance:by.stormnet.web.LoanTest@6c372fe6]" name="closeLoan" duration-ms="13" retried="true" started-at="2020-02-24T16:20:51 MSK" finished-at="2020-02-24T16:20:51 MSK">
+        <test-method status="SKIP" signature="closeLoan()[pri:11, instance:by.stormnet.web.LoanTest@6c372fe6]" name="closeLoan" duration-ms="12" retried="true" started-at="2020-02-24T16:26:08 MSK" finished-at="2020-02-24T16:26:08 MSK">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="divsd7abac8d1f_transition"]/button[2]"}
@@ -2129,8 +2157,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=xpath, value=//*[@id="divsd7abac8d1f_transition"]/button[2]}]]>
             </message>
             <full-stacktrace>
@@ -2140,8 +2168,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=xpath, value=//*[@id="divsd7abac8d1f_transition"]/button[2]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -2160,7 +2188,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at by.stormnet.web.pages.AbstractPage.getElement(AbstractPage.java:120)
 at by.stormnet.web.pages.loanPage.LoanActivePage.clickCloseLoanButton(LoanActivePage.java:86)
 at by.stormnet.web.helpers.loanHelpers.LoanActiveHelper.closeLoan(LoanActiveHelper.java:32)
-at by.stormnet.web.LoanTest.closeLoan(LoanTest.java:82)
+at by.stormnet.web.LoanTest.closeLoan(LoanTest.java:85)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2199,7 +2227,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeLoan -->
-        <test-method status="SKIP" signature="closeLoan()[pri:11, instance:by.stormnet.web.LoanTest@6c372fe6]" name="closeLoan" duration-ms="10" retried="true" started-at="2020-02-24T16:20:51 MSK" finished-at="2020-02-24T16:20:51 MSK">
+        <test-method status="SKIP" signature="closeLoan()[pri:11, instance:by.stormnet.web.LoanTest@6c372fe6]" name="closeLoan" duration-ms="9" retried="true" started-at="2020-02-24T16:26:08 MSK" finished-at="2020-02-24T16:26:08 MSK">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="divsd7abac8d1f_transition"]/button[2]"}
@@ -2208,8 +2236,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=xpath, value=//*[@id="divsd7abac8d1f_transition"]/button[2]}]]>
             </message>
             <full-stacktrace>
@@ -2219,11 +2247,10 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=xpath, value=//*[@id="divsd7abac8d1f_transition"]/button[2]}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.GeneratedConstructorAccessor30.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
@@ -2239,7 +2266,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at by.stormnet.web.pages.AbstractPage.getElement(AbstractPage.java:120)
 at by.stormnet.web.pages.loanPage.LoanActivePage.clickCloseLoanButton(LoanActivePage.java:86)
 at by.stormnet.web.helpers.loanHelpers.LoanActiveHelper.closeLoan(LoanActiveHelper.java:32)
-at by.stormnet.web.LoanTest.closeLoan(LoanTest.java:82)
+at by.stormnet.web.LoanTest.closeLoan(LoanTest.java:85)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2278,7 +2305,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeLoan -->
-        <test-method status="SKIP" signature="closeLoan()[pri:11, instance:by.stormnet.web.LoanTest@6c372fe6]" name="closeLoan" duration-ms="10" retried="true" started-at="2020-02-24T16:20:51 MSK" finished-at="2020-02-24T16:20:51 MSK">
+        <test-method status="SKIP" signature="closeLoan()[pri:11, instance:by.stormnet.web.LoanTest@6c372fe6]" name="closeLoan" duration-ms="10" retried="true" started-at="2020-02-24T16:26:08 MSK" finished-at="2020-02-24T16:26:08 MSK">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="divsd7abac8d1f_transition"]/button[2]"}
@@ -2287,8 +2314,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=xpath, value=//*[@id="divsd7abac8d1f_transition"]/button[2]}]]>
             </message>
             <full-stacktrace>
@@ -2298,10 +2325,10 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=xpath, value=//*[@id="divsd7abac8d1f_transition"]/button[2]}
-at sun.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source)
+at sun.reflect.GeneratedConstructorAccessor30.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
@@ -2317,7 +2344,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at by.stormnet.web.pages.AbstractPage.getElement(AbstractPage.java:120)
 at by.stormnet.web.pages.loanPage.LoanActivePage.clickCloseLoanButton(LoanActivePage.java:86)
 at by.stormnet.web.helpers.loanHelpers.LoanActiveHelper.closeLoan(LoanActiveHelper.java:32)
-at by.stormnet.web.LoanTest.closeLoan(LoanTest.java:82)
+at by.stormnet.web.LoanTest.closeLoan(LoanTest.java:85)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2356,7 +2383,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeLoan -->
-        <test-method status="SKIP" signature="closeLoan()[pri:11, instance:by.stormnet.web.LoanTest@6c372fe6]" name="closeLoan" duration-ms="9" retried="true" started-at="2020-02-24T16:20:51 MSK" finished-at="2020-02-24T16:20:51 MSK">
+        <test-method status="SKIP" signature="closeLoan()[pri:11, instance:by.stormnet.web.LoanTest@6c372fe6]" name="closeLoan" duration-ms="25" retried="true" started-at="2020-02-24T16:26:08 MSK" finished-at="2020-02-24T16:26:08 MSK">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="divsd7abac8d1f_transition"]/button[2]"}
@@ -2365,8 +2392,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=xpath, value=//*[@id="divsd7abac8d1f_transition"]/button[2]}]]>
             </message>
             <full-stacktrace>
@@ -2376,10 +2403,10 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=xpath, value=//*[@id="divsd7abac8d1f_transition"]/button[2]}
-at sun.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source)
+at sun.reflect.GeneratedConstructorAccessor30.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
@@ -2395,7 +2422,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at by.stormnet.web.pages.AbstractPage.getElement(AbstractPage.java:120)
 at by.stormnet.web.pages.loanPage.LoanActivePage.clickCloseLoanButton(LoanActivePage.java:86)
 at by.stormnet.web.helpers.loanHelpers.LoanActiveHelper.closeLoan(LoanActiveHelper.java:32)
-at by.stormnet.web.LoanTest.closeLoan(LoanTest.java:82)
+at by.stormnet.web.LoanTest.closeLoan(LoanTest.java:85)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2434,7 +2461,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeLoan -->
-        <test-method status="FAIL" signature="closeLoan()[pri:11, instance:by.stormnet.web.LoanTest@6c372fe6]" name="closeLoan" duration-ms="9" started-at="2020-02-24T16:20:51 MSK" finished-at="2020-02-24T16:20:51 MSK">
+        <test-method status="FAIL" signature="closeLoan()[pri:11, instance:by.stormnet.web.LoanTest@6c372fe6]" name="closeLoan" duration-ms="43" started-at="2020-02-24T16:26:08 MSK" finished-at="2020-02-24T16:26:08 MSK">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="divsd7abac8d1f_transition"]/button[2]"}
@@ -2443,8 +2470,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=xpath, value=//*[@id="divsd7abac8d1f_transition"]/button[2]}]]>
             </message>
             <full-stacktrace>
@@ -2454,10 +2481,10 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6dc6b8b01fd35bb8b26e6a770109bd13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 661cbaea550ee1f87cc8c76fefbc2093
 *** Element info: {Using=xpath, value=//*[@id="divsd7abac8d1f_transition"]/button[2]}
-at sun.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source)
+at sun.reflect.GeneratedConstructorAccessor30.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
@@ -2473,7 +2500,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at by.stormnet.web.pages.AbstractPage.getElement(AbstractPage.java:120)
 at by.stormnet.web.pages.loanPage.LoanActivePage.clickCloseLoanButton(LoanActivePage.java:86)
 at by.stormnet.web.helpers.loanHelpers.LoanActiveHelper.closeLoan(LoanActiveHelper.java:32)
-at by.stormnet.web.LoanTest.closeLoan(LoanTest.java:82)
+at by.stormnet.web.LoanTest.closeLoan(LoanTest.java:85)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2512,11 +2539,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeLoan -->
-        <test-method status="PASS" signature="errorWorkingLoan()[pri:12, instance:by.stormnet.web.LoanTest@6c372fe6]" name="errorWorkingLoan" duration-ms="3345" started-at="2020-02-24T16:20:51 MSK" finished-at="2020-02-24T16:20:54 MSK">
+        <test-method status="PASS" signature="errorWorkingLoan()[pri:12, instance:by.stormnet.web.LoanTest@6c372fe6]" name="errorWorkingLoan" duration-ms="3557" started-at="2020-02-24T16:26:08 MSK" finished-at="2020-02-24T16:26:12 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- errorWorkingLoan -->
-        <test-method status="PASS" signature="stopFromLoan()[pri:13, instance:by.stormnet.web.LoanTest@6c372fe6]" name="stopFromLoan" duration-ms="4042" started-at="2020-02-24T16:20:54 MSK" finished-at="2020-02-24T16:20:58 MSK">
+        <test-method status="PASS" signature="stopFromLoan()[pri:13, instance:by.stormnet.web.LoanTest@6c372fe6]" name="stopFromLoan" duration-ms="4404" started-at="2020-02-24T16:26:12 MSK" finished-at="2020-02-24T16:26:16 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopFromLoan -->

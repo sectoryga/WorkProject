@@ -12,10 +12,7 @@ public class IncamePage extends AbstractPage {
     private String approveIncameButton = "//button[@name='btn_preview_approve_to_loan_edit']";
     private String addIncameButtonMain = "/html/body/div[1]/div/section[1]/div/nav/div/div/div/ul[1]/li[4]/a";
     private String button = "/html/body/div[1]/div/section[1]/div/nav/div/div/ul[1]/li/a";
-    public IncamePage navigateToPageLoan() {
-        openUrl(baseUrl1);
-        return this;
-    }
+
 
     public IncamePage clickButtonAdd() {
         getElement(addIncameButtonMain).click();

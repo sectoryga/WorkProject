@@ -55,7 +55,7 @@ public class LoanTest {
         loanActiveHelper.changeDate();
     }
 
-    @Test(priority = 6, invocationCount = 3, skipFailedInvocations = true)
+    @Test(priority = 6, skipFailedInvocations = true)
     public void incameTest() {
         incameHelper.addIncameLoan();
     }

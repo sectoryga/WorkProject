@@ -18,11 +18,15 @@
       </class> <!-- by.stormnet.web.LoanTest -->
       <class name="api.ApiTest">
         <methods>
-          <include name="registrationStepThree"/>
           <include name="registrationStepOne"/>
-          <include name="registrationStepTwo"/>
         </methods>
       </class> <!-- api.ApiTest -->
+      <class name="by.stormnet.web.RegistrationFrontTest">
+        <methods>
+          <include name="registrationStepTwoTest"/>
+          <include name="registrationStepOneTest"/>
+        </methods>
+      </class> <!-- by.stormnet.web.RegistrationFrontTest -->
     </classes>
   </test> <!-- login test(failed) -->
 </suite> <!-- Failed suite [Acceptance suite] -->
