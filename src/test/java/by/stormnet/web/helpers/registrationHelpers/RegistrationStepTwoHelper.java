@@ -30,18 +30,15 @@ public class RegistrationStepTwoHelper extends AbsractHelper {
         int birth_dd = (int) (Math.random() * (18 + 1) + 10);
         int justice = (int) (Math.random() * (8888 + 1) + 1000);
         int sex = 1;
-        String brt = "19" + birth_yy + "-" + birth_mm + "-" + birth_dd;
         String date = "" + birth_yy + birth_mm + birth_dd + sex + justice;
         char[] strToArray = date.toCharArray();
-        for (int i = 0; i < strToArray.length; i++) {
-            tr += (i + 1) * strToArray[i];
-        }
-        int sum = tr % 11;
-        if (sum <= 10) {
-            inn = "" + date + sum;
-        } else {
-            generatorInn();
-        }
+        tr = (strToArray[0] + 2 * strToArray[1] +
+                3 * strToArray[2] + 4 * strToArray[3] +
+                5 * strToArray[4] + 6 * strToArray[5] +
+                7 * strToArray[6] + 8 * strToArray[7] +
+                9 * strToArray[8] + 10 * strToArray[9] +
+                11 * strToArray[10]) % 11;
+        inn = "" + date + tr;
         return inn;
     }
 

@@ -33,7 +33,7 @@ public class ApiTest {
         logger.info(responseHeader);
         String responseBody = response.body().asString();
         JSONObject myResposnseBody = new JSONObject(responseBody);
-        Thread.sleep(5000);
+        Thread.sleep(10000);
         SmsCode = myResposnseBody.getInt("code");
         UserId = myResposnseBody.getInt("id");
         UserToken = myResposnseBody.getString("token");
@@ -77,7 +77,6 @@ public class ApiTest {
                 7 * strToArray[6] + 8 * strToArray[7] +
                 9 * strToArray[8] + 10 * strToArray[9] +
                 11 * strToArray[10]) % 11;
-
         inn = "" + date + tr;
         RestAssured.baseURI = url + UserId;
         JSONObject requestParams = new JSONObject();

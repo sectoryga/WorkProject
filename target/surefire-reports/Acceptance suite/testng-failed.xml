@@ -8,27 +8,17 @@
     <classes>
       <class name="by.stormnet.web.LoanTest">
         <methods>
-          <include name="assigmentVerifier"/>
-          <include name="returnCashFromLoan"/>
-          <include name="changeLoanDate"/>
-          <include name="closeLoan"/>
-          <include name="approvalLoanOne"/>
-          <include name="addCommenFromLoan"/>
-          <include name="stopCashFromLoan"/>
-          <include name="approvalLoanClient"/>
-          <include name="giveOutLoan"/>
-          <include name="incameTest"/>
           <include name="approvalLoanTwo"/>
         </methods>
       </class> <!-- by.stormnet.web.LoanTest -->
-      <class name="api.ApiTest">
+      <class name="by.stormnet.web.RegistrationFrontTest">
         <methods>
-          <include name="registrationStepThree"/>
-          <include name="registrationStepOne"/>
-          <include name="registrationStepTwo"/>
-          <include name="registrationStepFour"/>
+          <include name="registrationStepTwoTest"/>
+          <include name="registrationStepOneTest"/>
+          <include name="registrationStepTwoThree"/>
+          <include name="registrationStepTwoFour"/>
         </methods>
-      </class> <!-- api.ApiTest -->
+      </class> <!-- by.stormnet.web.RegistrationFrontTest -->
     </classes>
   </test> <!-- login test(failed) -->
 </suite> <!-- Failed suite [Acceptance suite] -->
