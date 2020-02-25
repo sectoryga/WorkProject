@@ -19,20 +19,21 @@ public class ApiTest {
 
 
     @Test(priority = 1, skipFailedInvocations = true)
-    public void registrationStepOne() {
+    public void registrationApiStepOne() throws InterruptedException {
         RestAssured.baseURI = "https://api3.kz.aventus.work";
         RequestSpecification httpRequest = io.restassured.RestAssured.given();
         JSONObject requestParams = new JSONObject();
         requestParams.put("mobile_phone", "777" + (int) (Math.random() * 9999999 + 10));
-        requestParams.put("email", "test" + (int) (Math.random() * 999 + 10) + "@mail.ru");
+        requestParams.put("email", "test" + (int) (Math.random() * 9999 + 10) + "@mail.ru");
         requestParams.put("agreed", "1");
         httpRequest.header("Content-type", "application/json");
         httpRequest.body(requestParams.toString());
         io.restassured.response.Response response = httpRequest.request(Method.POST, "/user");
-        String responseBody = response.body().asString();
         String responseHeader = response.getHeader("X-Debug-Token-Link");
         logger.info(responseHeader);
+        String responseBody = response.body().asString();
         JSONObject myResposnseBody = new JSONObject(responseBody);
+        Thread.sleep(5000);
         SmsCode = myResposnseBody.getInt("code");
         UserId = myResposnseBody.getInt("id");
         UserToken = myResposnseBody.getString("token");
@@ -42,8 +43,8 @@ public class ApiTest {
     }
 
 
-    @Test(dependsOnMethods = "registrationStepOne", skipFailedInvocations = true)
-    protected void registrationStepTwo() {
+    @Test(dependsOnMethods = "registrationApiStepOne", skipFailedInvocations = true)
+    protected void registrationApiStepTwo() {
         RestAssured.baseURI = url + UserId + "/phone-confirmation";
         JSONObject requestParams = new JSONObject();
         RequestSpecification httpRequest = RestAssured.given();
@@ -58,8 +59,8 @@ public class ApiTest {
         logger.info("PhoneConfirmation complited");
     }
 
-    @Test(dependsOnMethods = "registrationStepTwo", skipFailedInvocations = true)
-    public void registrationStepThree() {
+    @Test(dependsOnMethods = "registrationApiStepTwo", skipFailedInvocations = true)
+    public void registrationApiStepThree() {
         int tr = 0;
         String inn = "";
         int birth_yy = (int) (Math.random() * (39 + 1) + 60);
@@ -70,15 +71,14 @@ public class ApiTest {
         String brt = "19" + birth_yy + "-" + birth_mm + "-" + birth_dd;
         String date = "" + birth_yy + birth_mm + birth_dd + sex + justice;
         char[] strToArray = date.toCharArray();
-        for (int i = 0; i < strToArray.length; i++) {
-            tr += (i + 1) * strToArray[i];
-        }
-        int sum = tr % 11;
-        if (sum < 10 && sum != 0) {
-            inn = "" + date + sum;
-        } else {
-            registrationStepThree();
-        }
+        tr = (strToArray[0] + 2 * strToArray[1] +
+                3 * strToArray[2] + 4 * strToArray[3] +
+                5 * strToArray[4] + 6 * strToArray[5] +
+                7 * strToArray[6] + 8 * strToArray[7] +
+                9 * strToArray[8] + 10 * strToArray[9] +
+                11 * strToArray[10]) % 11;
+
+        inn = "" + date + tr;
         RestAssured.baseURI = url + UserId;
         JSONObject requestParams = new JSONObject();
         RequestSpecification httpRequest = RestAssured.given();
@@ -132,8 +132,8 @@ public class ApiTest {
         logger.info("UpdateUserInformation complited");
     }
 
-    @Test(dependsOnMethods = "registrationStepThree", skipFailedInvocations = true)
-    public void registrationStepFour() {
+    @Test(dependsOnMethods = "registrationApiStepThree", skipFailedInvocations = true)
+    public void registrationApiStepFour() {
         RestAssured.baseURI = "https://api3.kz.aventus.work/loan";
         JSONObject requestParams = new JSONObject();
         RequestSpecification httpRequest = RestAssured.given();
@@ -149,7 +149,6 @@ public class ApiTest {
         logger.info(responseHeader);
         JSONObject myResposnseBody = new JSONObject(responseBody);
         logger.info(myResposnseBody);
-        LoanId = myResposnseBody.getInt("id");
         logger.info("LoanRequest sent successfully");
         Assert.assertEquals(response.getStatusCode(), 200);
         System.out.println("Create User id = " + UserId);
