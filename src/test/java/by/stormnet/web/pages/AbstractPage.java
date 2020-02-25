@@ -36,6 +36,7 @@ public class AbstractPage extends FrameworkCore {
     }
 
     public AbstractPage clickFinalButton() {
+        waitForElementClickable(getElementBy(finalButton));
         getElement(finalButton).click();
         return this;
     }
@@ -47,15 +48,15 @@ public class AbstractPage extends FrameworkCore {
 
 
     public AbstractPage checkMessage() {
-        WebElement element = getElement(checker);
         waitForElementVisible(getElementBy(checker));
+        WebElement element = getElement(checker);
         Assert.assertEquals(text, element.getText());
         return this;
     }
 
     public AbstractPage checkMessageCreate() {
-        WebElement element = getElement(checker);
         waitForElementVisible(getElementBy(checker));
+        WebElement element = getElement(checker);
         Assert.assertEquals(textCreate, element.getText());
         return this;
     }
@@ -108,7 +109,8 @@ public class AbstractPage extends FrameworkCore {
     public static By getElementBy(String element) {
         return By.xpath(element);
     }
-    public static By getElementByCssWaiter(String element){
+
+    public static By getElementByCssWaiter(String element) {
         return By.cssSelector(element);
     }
 
@@ -128,11 +130,16 @@ public class AbstractPage extends FrameworkCore {
         return driver.findElement(By.cssSelector(element));
     }
 
-    public WebElement getElementLinkText(String element){ return driver.findElement(By.linkText(element));}
+    public WebElement getElementLinkText(String element) {
+        return driver.findElement(By.linkText(element));
+    }
 
-    public WebElement getElementC(String element) { return driver.findElement(By.className(element)); }
+    public WebElement getElementC(String element) {
+        return driver.findElement(By.className(element));
+    }
 
-    public List<WebElement> getElements(String element) { return driver.findElements(By.cssSelector(element));
+    public List<WebElement> getElements(String element) {
+        return driver.findElements(By.cssSelector(element));
     }
 
     public List<String> getTabs() {

@@ -30,14 +30,19 @@ public class RegistrationStepFourPage extends AbstractPage {
         getElement(educationOne).click();
         getElementByCss(educationTwo).click();
         getElement(position).click();
-        getElementByCss(optionSelect).click();
+        waitOption();
         getElement(jobsSelect).click();
-        getElementByCss(optionSelect).click();
+        waitOption();
         getElement(workExpirionce).click();
-        getElementByCss(optionSelect).click();
+        waitOption();
         getElement(activity).click();
-        getElementByCss(optionSelect).click();
+        waitOption();
+        return this;
+    }
 
+    public RegistrationStepFourPage waitOption() {
+        waitForElementVisible(getElementByCssWaiter(optionSelect));
+        getElementByCss(optionSelect).click();
         return this;
     }
 
@@ -52,7 +57,7 @@ public class RegistrationStepFourPage extends AbstractPage {
         return this;
     }
 
-    public RegistrationStepFourPage updateIncome(String phone){
+    public RegistrationStepFourPage updateIncome(String phone) {
         waitForElementVisible(getElementBy(phoneField));
         getElement(phoneField).sendKeys(phone);
         getElement(familyField).click();
@@ -64,7 +69,7 @@ public class RegistrationStepFourPage extends AbstractPage {
         return this;
     }
 
-    public RegistrationStepFourPage updateIban(){
+    public RegistrationStepFourPage updateIban() {
         waitForElementVisible(getElementBy(ibanField));
         getElement(ibanField).sendKeys(iban);
         return this;

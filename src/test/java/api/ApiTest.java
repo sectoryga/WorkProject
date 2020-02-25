@@ -148,6 +148,7 @@ public class ApiTest {
         logger.info(responseHeader);
         JSONObject myResposnseBody = new JSONObject(responseBody);
         logger.info(myResposnseBody);
+        LoanId = myResposnseBody.getInt("id");
         logger.info("LoanRequest sent successfully");
         Assert.assertEquals(response.getStatusCode(), 200);
         System.out.println("Create User id = " + UserId);

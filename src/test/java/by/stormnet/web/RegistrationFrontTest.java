@@ -23,12 +23,12 @@ public class RegistrationFrontTest {
     }
 
     @Test(priority = 3)
-    public void registrationStepTwoThree() {
+    public void registrationStepThreeTest() {
         registrationStepThreeHelper.updateAdresInformation();
     }
 
     @Test(priority = 4)
-    public void registrationStepTwoFour() {
+    public void registrationStepFourTest() {
         registrationStepFourHelper.updateInformationEmployment();
     }
 
