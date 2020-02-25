@@ -39,6 +39,7 @@ public class IncamePage extends AbstractPage {
     }
 
     public IncamePage fillDateCash() {
+        waitForElementVisible(getElementBy(dateField));
         getElement(dateField).sendKeys("2020-01-11T09:03:59");
         return this;
     }

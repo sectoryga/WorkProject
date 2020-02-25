@@ -1,69 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="2" failed="2" ignored="0" retried="8" total="42" passed="30">
+<testng-results skipped="0" failed="0" ignored="0" retried="4" total="38" passed="34">
   <reporter-output>
   </reporter-output>
-  <suite name="Acceptance suite" duration-ms="141339" started-at="2020-02-25T11:38:34 MSK" finished-at="2020-02-25T11:40:56 MSK">
+  <suite name="Acceptance suite" duration-ms="133945" started-at="2020-02-25T13:43:05 MSK" finished-at="2020-02-25T13:45:19 MSK">
     <groups>
     </groups>
-    <test name="login test" duration-ms="141339" started-at="2020-02-25T11:38:34 MSK" finished-at="2020-02-25T11:40:56 MSK">
+    <test name="login test" duration-ms="133945" started-at="2020-02-25T13:43:05 MSK" finished-at="2020-02-25T13:45:19 MSK">
       <class name="by.stormnet.web.SettingsTest">
-        <test-method status="PASS" signature="addNewAdmin()[pri:1, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addNewAdmin" duration-ms="2285" started-at="2020-02-25T11:40:41 MSK" finished-at="2020-02-25T11:40:44 MSK">
+        <test-method status="PASS" signature="addNewAdmin()[pri:1, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addNewAdmin" duration-ms="2739" started-at="2020-02-25T13:45:04 MSK" finished-at="2020-02-25T13:45:07 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewAdmin -->
-        <test-method status="PASS" signature="addAffilate()[pri:2, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addAffilate" duration-ms="2081" started-at="2020-02-25T11:40:44 MSK" finished-at="2020-02-25T11:40:46 MSK">
+        <test-method status="PASS" signature="addAffilate()[pri:2, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addAffilate" duration-ms="2011" started-at="2020-02-25T13:45:07 MSK" finished-at="2020-02-25T13:45:09 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addAffilate -->
-        <test-method status="PASS" signature="addRemainder()[pri:3, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addRemainder" duration-ms="1855" started-at="2020-02-25T11:40:46 MSK" finished-at="2020-02-25T11:40:48 MSK">
+        <test-method status="PASS" signature="addRemainder()[pri:3, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addRemainder" duration-ms="2022" started-at="2020-02-25T13:45:09 MSK" finished-at="2020-02-25T13:45:11 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addRemainder -->
-        <test-method status="PASS" signature="addMarketingSettings()[pri:4, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addMarketingSettings" duration-ms="4423" started-at="2020-02-25T11:40:48 MSK" finished-at="2020-02-25T11:40:52 MSK">
+        <test-method status="PASS" signature="addMarketingSettings()[pri:4, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addMarketingSettings" duration-ms="4454" started-at="2020-02-25T13:45:11 MSK" finished-at="2020-02-25T13:45:15 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addMarketingSettings -->
-        <test-method status="PASS" signature="addRegion()[pri:5, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addRegion" duration-ms="1777" started-at="2020-02-25T11:40:52 MSK" finished-at="2020-02-25T11:40:54 MSK">
+        <test-method status="PASS" signature="addRegion()[pri:5, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addRegion" duration-ms="1770" started-at="2020-02-25T13:45:15 MSK" finished-at="2020-02-25T13:45:17 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addRegion -->
-        <test-method status="PASS" signature="addCity()[pri:6, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addCity" duration-ms="1834" started-at="2020-02-25T11:40:54 MSK" finished-at="2020-02-25T11:40:56 MSK">
+        <test-method status="PASS" signature="addCity()[pri:6, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="addCity" duration-ms="1808" started-at="2020-02-25T13:45:17 MSK" finished-at="2020-02-25T13:45:19 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCity -->
-        <test-method status="PASS" signature="tearDowmn()[pri:0, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="tearDowmn" is-config="true" duration-ms="52" started-at="2020-02-25T11:40:56 MSK" finished-at="2020-02-25T11:40:56 MSK">
+        <test-method status="PASS" signature="tearDowmn()[pri:0, instance:by.stormnet.web.SettingsTest@2a3888c1]" name="tearDowmn" is-config="true" duration-ms="51" started-at="2020-02-25T13:45:19 MSK" finished-at="2020-02-25T13:45:19 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDowmn -->
       </class> <!-- by.stormnet.web.SettingsTest -->
       <class name="by.stormnet.web.RegistrationFrontTest">
-        <test-method status="PASS" signature="registrationStepOneTest()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211]" name="registrationStepOneTest" duration-ms="11224" started-at="2020-02-25T11:38:34 MSK" finished-at="2020-02-25T11:38:46 MSK">
+        <test-method status="PASS" signature="registrationStepOneTest()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211]" name="registrationStepOneTest" duration-ms="11250" started-at="2020-02-25T13:43:05 MSK" finished-at="2020-02-25T13:43:16 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationStepOneTest -->
-        <test-method status="SKIP" signature="registrationStepTwoTest()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211]" name="registrationStepTwoTest" duration-ms="3258" retried="true" started-at="2020-02-25T11:38:46 MSK" depends-on-methods="by.stormnet.web.RegistrationFrontTest.registrationStepOneTest" finished-at="2020-02-25T11:38:49 MSK">
+        <test-method status="PASS" signature="registrationStepTwoTest()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211]" name="registrationStepTwoTest" duration-ms="4022" started-at="2020-02-25T13:43:16 MSK" depends-on-methods="by.stormnet.web.RegistrationFrontTest.registrationStepOneTest" finished-at="2020-02-25T13:43:20 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationStepTwoTest -->
+        <test-method status="PASS" signature="registrationStepTwoThree()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211]" name="registrationStepTwoThree" duration-ms="4495" started-at="2020-02-25T13:43:20 MSK" depends-on-methods="by.stormnet.web.RegistrationFrontTest.registrationStepTwoTest" finished-at="2020-02-25T13:43:25 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationStepTwoThree -->
+        <test-method status="SKIP" signature="registrationStepTwoFour()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211]" name="registrationStepTwoFour" duration-ms="1133" retried="true" started-at="2020-02-25T13:43:25 MSK" depends-on-methods="by.stormnet.web.RegistrationFrontTest.registrationStepTwoThree" finished-at="2020-02-25T13:43:26 MSK">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".ng-option-label.ng-star-inserted"}
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".ng-option.ng-star-inserted.ng-option-marked"}
   (Session info: chrome=80.0.3987.116)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56020}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: bcaceb6628df81bfae0df413acaff967
-*** Element info: {Using=css selector, value=.ng-option-label.ng-star-inserted}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55126}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f2f6d58db847802c5b49e5f906a25ad9
+*** Element info: {Using=css selector, value=.ng-option.ng-star-inserted.ng-option-marked}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".ng-option-label.ng-star-inserted"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".ng-option.ng-star-inserted.ng-option-marked"}
   (Session info: chrome=80.0.3987.116)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56020}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: bcaceb6628df81bfae0df413acaff967
-*** Element info: {Using=css selector, value=.ng-option-label.ng-star-inserted}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55126}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f2f6d58db847802c5b49e5f906a25ad9
+*** Element info: {Using=css selector, value=.ng-option.ng-star-inserted.ng-option-marked}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -79,9 +87,9 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWeb
 at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at by.stormnet.web.pages.AbstractPage.getElementByCss(AbstractPage.java:128)
-at by.stormnet.web.pages.registartionPage.RegistrationStepTwoPage.clickGiveOutPassport(RegistrationStepTwoPage.java:62)
-at by.stormnet.web.helpers.registrationHelpers.RegistrationStepTwoHelper.uploadInformation(RegistrationStepTwoHelper.java:18)
-at by.stormnet.web.RegistrationFrontTest.registrationStepTwoTest(RegistrationFrontTest.java:24)
+at by.stormnet.web.pages.registartionPage.RegistrationStepFourPage.updateEmployment(RegistrationStepFourPage.java:35)
+at by.stormnet.web.helpers.registrationHelpers.RegistrationStepFourHelper.updateInformationEmployment(RegistrationStepFourHelper.java:11)
+at by.stormnet.web.RegistrationFrontTest.registrationStepTwoFour(RegistrationFrontTest.java:34)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -119,30 +127,30 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registrationStepTwoTest -->
-        <test-method status="SKIP" signature="registrationStepTwoTest()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211]" name="registrationStepTwoTest" duration-ms="3075" retried="true" started-at="2020-02-25T11:38:49 MSK" depends-on-methods="by.stormnet.web.RegistrationFrontTest.registrationStepOneTest" finished-at="2020-02-25T11:38:52 MSK">
+        </test-method> <!-- registrationStepTwoFour -->
+        <test-method status="SKIP" signature="registrationStepTwoFour()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211]" name="registrationStepTwoFour" duration-ms="785" retried="true" started-at="2020-02-25T13:43:26 MSK" depends-on-methods="by.stormnet.web.RegistrationFrontTest.registrationStepTwoThree" finished-at="2020-02-25T13:43:27 MSK">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@data-id='reg-int-lastname']"}
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".ng-option.ng-star-inserted.ng-option-marked"}
   (Session info: chrome=80.0.3987.116)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56020}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: bcaceb6628df81bfae0df413acaff967
-*** Element info: {Using=xpath, value=//input[@data-id='reg-int-lastname']}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55126}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f2f6d58db847802c5b49e5f906a25ad9
+*** Element info: {Using=css selector, value=.ng-option.ng-star-inserted.ng-option-marked}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@data-id='reg-int-lastname']"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".ng-option.ng-star-inserted.ng-option-marked"}
   (Session info: chrome=80.0.3987.116)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56020}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: bcaceb6628df81bfae0df413acaff967
-*** Element info: {Using=xpath, value=//input[@data-id='reg-int-lastname']}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55126}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f2f6d58db847802c5b49e5f906a25ad9
+*** Element info: {Using=css selector, value=.ng-option.ng-star-inserted.ng-option-marked}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -154,13 +162,13 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at by.stormnet.web.pages.AbstractPage.getElement(AbstractPage.java:120)
-at by.stormnet.web.pages.registartionPage.RegistrationStepTwoPage.fillLastName(RegistrationStepTwoPage.java:26)
-at by.stormnet.web.helpers.registrationHelpers.RegistrationStepTwoHelper.uploadInformation(RegistrationStepTwoHelper.java:12)
-at by.stormnet.web.RegistrationFrontTest.registrationStepTwoTest(RegistrationFrontTest.java:24)
+at by.stormnet.web.pages.AbstractPage.getElementByCss(AbstractPage.java:128)
+at by.stormnet.web.pages.registartionPage.RegistrationStepFourPage.updateEmployment(RegistrationStepFourPage.java:37)
+at by.stormnet.web.helpers.registrationHelpers.RegistrationStepFourHelper.updateInformationEmployment(RegistrationStepFourHelper.java:11)
+at by.stormnet.web.RegistrationFrontTest.registrationStepTwoFour(RegistrationFrontTest.java:34)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -198,30 +206,30 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registrationStepTwoTest -->
-        <test-method status="SKIP" signature="registrationStepTwoTest()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211]" name="registrationStepTwoTest" duration-ms="3074" retried="true" started-at="2020-02-25T11:38:52 MSK" depends-on-methods="by.stormnet.web.RegistrationFrontTest.registrationStepOneTest" finished-at="2020-02-25T11:38:55 MSK">
+        </test-method> <!-- registrationStepTwoFour -->
+        <test-method status="SKIP" signature="registrationStepTwoFour()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211]" name="registrationStepTwoFour" duration-ms="1029" retried="true" started-at="2020-02-25T13:43:27 MSK" depends-on-methods="by.stormnet.web.RegistrationFrontTest.registrationStepTwoThree" finished-at="2020-02-25T13:43:28 MSK">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@data-id='reg-int-lastname']"}
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".ng-option.ng-star-inserted.ng-option-marked"}
   (Session info: chrome=80.0.3987.116)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56020}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: bcaceb6628df81bfae0df413acaff967
-*** Element info: {Using=xpath, value=//input[@data-id='reg-int-lastname']}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55126}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f2f6d58db847802c5b49e5f906a25ad9
+*** Element info: {Using=css selector, value=.ng-option.ng-star-inserted.ng-option-marked}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@data-id='reg-int-lastname']"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".ng-option.ng-star-inserted.ng-option-marked"}
   (Session info: chrome=80.0.3987.116)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56020}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: bcaceb6628df81bfae0df413acaff967
-*** Element info: {Using=xpath, value=//input[@data-id='reg-int-lastname']}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55126}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f2f6d58db847802c5b49e5f906a25ad9
+*** Element info: {Using=css selector, value=.ng-option.ng-star-inserted.ng-option-marked}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -233,13 +241,13 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at by.stormnet.web.pages.AbstractPage.getElement(AbstractPage.java:120)
-at by.stormnet.web.pages.registartionPage.RegistrationStepTwoPage.fillLastName(RegistrationStepTwoPage.java:26)
-at by.stormnet.web.helpers.registrationHelpers.RegistrationStepTwoHelper.uploadInformation(RegistrationStepTwoHelper.java:12)
-at by.stormnet.web.RegistrationFrontTest.registrationStepTwoTest(RegistrationFrontTest.java:24)
+at by.stormnet.web.pages.AbstractPage.getElementByCss(AbstractPage.java:128)
+at by.stormnet.web.pages.registartionPage.RegistrationStepFourPage.updateEmployment(RegistrationStepFourPage.java:39)
+at by.stormnet.web.helpers.registrationHelpers.RegistrationStepFourHelper.updateInformationEmployment(RegistrationStepFourHelper.java:11)
+at by.stormnet.web.RegistrationFrontTest.registrationStepTwoFour(RegistrationFrontTest.java:34)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -277,324 +285,45 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registrationStepTwoTest -->
-        <test-method status="SKIP" signature="registrationStepTwoTest()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211]" name="registrationStepTwoTest" duration-ms="3072" retried="true" started-at="2020-02-25T11:38:55 MSK" depends-on-methods="by.stormnet.web.RegistrationFrontTest.registrationStepOneTest" finished-at="2020-02-25T11:38:58 MSK">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@data-id='reg-int-lastname']"}
-  (Session info: chrome=80.0.3987.116)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56020}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: bcaceb6628df81bfae0df413acaff967
-*** Element info: {Using=xpath, value=//input[@data-id='reg-int-lastname']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@data-id='reg-int-lastname']"}
-  (Session info: chrome=80.0.3987.116)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56020}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: bcaceb6628df81bfae0df413acaff967
-*** Element info: {Using=xpath, value=//input[@data-id='reg-int-lastname']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at by.stormnet.web.pages.AbstractPage.getElement(AbstractPage.java:120)
-at by.stormnet.web.pages.registartionPage.RegistrationStepTwoPage.fillLastName(RegistrationStepTwoPage.java:26)
-at by.stormnet.web.helpers.registrationHelpers.RegistrationStepTwoHelper.uploadInformation(RegistrationStepTwoHelper.java:12)
-at by.stormnet.web.RegistrationFrontTest.registrationStepTwoTest(RegistrationFrontTest.java:24)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:204)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registrationStepTwoTest -->
-        <test-method status="FAIL" signature="registrationStepTwoTest()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211]" name="registrationStepTwoTest" duration-ms="3073" started-at="2020-02-25T11:38:58 MSK" depends-on-methods="by.stormnet.web.RegistrationFrontTest.registrationStepOneTest" finished-at="2020-02-25T11:39:01 MSK">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@data-id='reg-int-lastname']"}
-  (Session info: chrome=80.0.3987.116)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56020}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: bcaceb6628df81bfae0df413acaff967
-*** Element info: {Using=xpath, value=//input[@data-id='reg-int-lastname']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@data-id='reg-int-lastname']"}
-  (Session info: chrome=80.0.3987.116)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56020}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: bcaceb6628df81bfae0df413acaff967
-*** Element info: {Using=xpath, value=//input[@data-id='reg-int-lastname']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at by.stormnet.web.pages.AbstractPage.getElement(AbstractPage.java:120)
-at by.stormnet.web.pages.registartionPage.RegistrationStepTwoPage.fillLastName(RegistrationStepTwoPage.java:26)
-at by.stormnet.web.helpers.registrationHelpers.RegistrationStepTwoHelper.uploadInformation(RegistrationStepTwoHelper.java:12)
-at by.stormnet.web.RegistrationFrontTest.registrationStepTwoTest(RegistrationFrontTest.java:24)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:204)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registrationStepTwoTest -->
-        <test-method status="SKIP" signature="registrationStepTwoThree()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211]" name="registrationStepTwoThree" duration-ms="0" started-at="2020-02-25T11:39:01 MSK" depends-on-methods="by.stormnet.web.RegistrationFrontTest.registrationStepTwoTest" finished-at="2020-02-25T11:39:01 MSK">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method RegistrationFrontTest.registrationStepTwoThree()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method RegistrationFrontTest.registrationStepTwoThree()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211] depends on not successfully finished methods
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:99)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registrationStepTwoThree -->
-        <test-method status="SKIP" signature="registrationStepTwoFour()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211]" name="registrationStepTwoFour" duration-ms="0" started-at="2020-02-25T11:39:01 MSK" depends-on-methods="by.stormnet.web.RegistrationFrontTest.registrationStepTwoThree" finished-at="2020-02-25T11:39:01 MSK">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method RegistrationFrontTest.registrationStepTwoFour()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method RegistrationFrontTest.registrationStepTwoFour()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211] depends on not successfully finished methods
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:99)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        </test-method> <!-- registrationStepTwoFour -->
+        <test-method status="PASS" signature="registrationStepTwoFour()[pri:0, instance:by.stormnet.web.RegistrationFrontTest@68034211]" name="registrationStepTwoFour" duration-ms="4046" started-at="2020-02-25T13:43:28 MSK" depends-on-methods="by.stormnet.web.RegistrationFrontTest.registrationStepTwoThree" finished-at="2020-02-25T13:43:32 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationStepTwoFour -->
       </class> <!-- by.stormnet.web.RegistrationFrontTest -->
       <class name="by.stormnet.web.CollectionTest">
-        <test-method status="PASS" signature="loanCollectionForSale()[pri:1, instance:by.stormnet.web.CollectionTest@58594a11]" name="loanCollectionForSale" duration-ms="3742" started-at="2020-02-25T11:40:22 MSK" finished-at="2020-02-25T11:40:25 MSK">
+        <test-method status="PASS" signature="loanCollectionForSale()[pri:1, instance:by.stormnet.web.CollectionTest@58594a11]" name="loanCollectionForSale" duration-ms="3725" started-at="2020-02-25T13:44:42 MSK" finished-at="2020-02-25T13:44:46 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loanCollectionForSale -->
-        <test-method status="PASS" signature="loanCollectionForOutSource()[pri:2, instance:by.stormnet.web.CollectionTest@58594a11]" name="loanCollectionForOutSource" duration-ms="3791" started-at="2020-02-25T11:40:25 MSK" finished-at="2020-02-25T11:40:29 MSK">
+        <test-method status="PASS" signature="loanCollectionForOutSource()[pri:2, instance:by.stormnet.web.CollectionTest@58594a11]" name="loanCollectionForOutSource" duration-ms="4942" started-at="2020-02-25T13:44:46 MSK" finished-at="2020-02-25T13:44:50 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loanCollectionForOutSource -->
-        <test-method status="PASS" signature="loanCollectionForLegalExpert()[pri:3, instance:by.stormnet.web.CollectionTest@58594a11]" name="loanCollectionForLegalExpert" duration-ms="3979" started-at="2020-02-25T11:40:29 MSK" finished-at="2020-02-25T11:40:33 MSK">
+        <test-method status="PASS" signature="loanCollectionForLegalExpert()[pri:3, instance:by.stormnet.web.CollectionTest@58594a11]" name="loanCollectionForLegalExpert" duration-ms="4723" started-at="2020-02-25T13:44:50 MSK" finished-at="2020-02-25T13:44:55 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loanCollectionForLegalExpert -->
-        <test-method status="PASS" signature="assigmentCollector()[pri:4, instance:by.stormnet.web.CollectionTest@58594a11]" name="assigmentCollector" duration-ms="3751" started-at="2020-02-25T11:40:33 MSK" finished-at="2020-02-25T11:40:37 MSK">
+        <test-method status="PASS" signature="assigmentCollector()[pri:4, instance:by.stormnet.web.CollectionTest@58594a11]" name="assigmentCollector" duration-ms="4096" started-at="2020-02-25T13:44:55 MSK" finished-at="2020-02-25T13:44:59 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assigmentCollector -->
-        <test-method status="PASS" signature="addCommentCollector()[pri:5, instance:by.stormnet.web.CollectionTest@58594a11]" name="addCommentCollector" duration-ms="4312" started-at="2020-02-25T11:40:37 MSK" finished-at="2020-02-25T11:40:41 MSK">
+        <test-method status="PASS" signature="addCommentCollector()[pri:5, instance:by.stormnet.web.CollectionTest@58594a11]" name="addCommentCollector" duration-ms="4743" started-at="2020-02-25T13:44:59 MSK" finished-at="2020-02-25T13:45:04 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCommentCollector -->
       </class> <!-- by.stormnet.web.CollectionTest -->
       <class name="api.ApiTest">
-        <test-method status="PASS" signature="registrationApiStepOne()[pri:1, instance:api.ApiTest@4f74980d]" name="registrationApiStepOne" duration-ms="6504" started-at="2020-02-25T11:39:01 MSK" finished-at="2020-02-25T11:39:08 MSK">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registrationApiStepOne -->
-        <test-method status="PASS" signature="registrationApiStepTwo()[pri:0, instance:api.ApiTest@4f74980d]" name="registrationApiStepTwo" duration-ms="258" started-at="2020-02-25T11:39:08 MSK" depends-on-methods="api.ApiTest.registrationApiStepOne" finished-at="2020-02-25T11:39:08 MSK">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registrationApiStepTwo -->
-        <test-method status="PASS" signature="registrationApiStepThree()[pri:0, instance:api.ApiTest@4f74980d]" name="registrationApiStepThree" duration-ms="1853" started-at="2020-02-25T11:39:08 MSK" depends-on-methods="api.ApiTest.registrationApiStepTwo" finished-at="2020-02-25T11:39:10 MSK">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registrationApiStepThree -->
-        <test-method status="PASS" signature="registrationApiStepFour()[pri:0, instance:api.ApiTest@4f74980d]" name="registrationApiStepFour" duration-ms="2498" started-at="2020-02-25T11:39:10 MSK" depends-on-methods="api.ApiTest.registrationApiStepThree" finished-at="2020-02-25T11:39:12 MSK">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registrationApiStepFour -->
-      </class> <!-- api.ApiTest -->
-      <class name="by.stormnet.web.LoanTest">
-        <test-method status="PASS" signature="approvalLoanOne()[pri:1, instance:by.stormnet.web.LoanTest@6c372fe6]" name="approvalLoanOne" duration-ms="5780" started-at="2020-02-25T11:39:12 MSK" finished-at="2020-02-25T11:39:18 MSK">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- approvalLoanOne -->
-        <test-method status="SKIP" signature="approvalLoanTwo()[pri:1, instance:by.stormnet.web.LoanTest@6c372fe6]" name="approvalLoanTwo" duration-ms="5863" retried="true" started-at="2020-02-25T11:39:18 MSK" finished-at="2020-02-25T11:39:24 MSK">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="SKIP" signature="registrationApiStepOne()[pri:1, instance:api.ApiTest@4f74980d]" name="registrationApiStepOne" duration-ms="11813" retried="true" started-at="2020-02-25T13:43:32 MSK" finished-at="2020-02-25T13:43:44 MSK">
+          <exception class="org.json.JSONException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-success alert-dismissable']"}
-  (Session info: chrome=80.0.3987.116)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56020}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: bcaceb6628df81bfae0df413acaff967
-*** Element info: {Using=xpath, value=//div[@class='alert alert-success alert-dismissable']}]]>
+              <![CDATA[JSONObject["code"] not found.]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-success alert-dismissable']"}
-  (Session info: chrome=80.0.3987.116)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56020}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: bcaceb6628df81bfae0df413acaff967
-*** Element info: {Using=xpath, value=//div[@class='alert alert-success alert-dismissable']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at by.stormnet.web.pages.AbstractPage.getElement(AbstractPage.java:120)
-at by.stormnet.web.pages.AbstractPage.checkMessage(AbstractPage.java:50)
-at by.stormnet.web.helpers.loanHelpers.LoanDMEHelper.approvalLoanTwo(LoanDMEHelper.java:37)
-at by.stormnet.web.LoanTest.approvalLoanTwo(LoanTest.java:35)
+              <![CDATA[org.json.JSONException: JSONObject["code"] not found.
+at org.json.JSONObject.get(JSONObject.java:520)
+at org.json.JSONObject.getInt(JSONObject.java:694)
+at api.ApiTest.registrationApiStepOne(ApiTest.java:37)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -629,375 +358,85 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.json.JSONException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationApiStepOne -->
+        <test-method status="PASS" signature="registrationApiStepOne()[pri:1, instance:api.ApiTest@4f74980d]" name="registrationApiStepOne" duration-ms="10569" started-at="2020-02-25T13:43:44 MSK" finished-at="2020-02-25T13:43:54 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationApiStepOne -->
+        <test-method status="PASS" signature="registrationApiStepTwo()[pri:0, instance:api.ApiTest@4f74980d]" name="registrationApiStepTwo" duration-ms="199" started-at="2020-02-25T13:43:54 MSK" depends-on-methods="api.ApiTest.registrationApiStepOne" finished-at="2020-02-25T13:43:55 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationApiStepTwo -->
+        <test-method status="PASS" signature="registrationApiStepThree()[pri:0, instance:api.ApiTest@4f74980d]" name="registrationApiStepThree" duration-ms="1787" started-at="2020-02-25T13:43:55 MSK" depends-on-methods="api.ApiTest.registrationApiStepTwo" finished-at="2020-02-25T13:43:56 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationApiStepThree -->
+        <test-method status="PASS" signature="registrationApiStepFour()[pri:0, instance:api.ApiTest@4f74980d]" name="registrationApiStepFour" duration-ms="2175" started-at="2020-02-25T13:43:56 MSK" depends-on-methods="api.ApiTest.registrationApiStepThree" finished-at="2020-02-25T13:43:59 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationApiStepFour -->
+      </class> <!-- api.ApiTest -->
+      <class name="by.stormnet.web.LoanTest">
+        <test-method status="PASS" signature="approvalLoanOne()[pri:1, instance:by.stormnet.web.LoanTest@6c372fe6]" name="approvalLoanOne" duration-ms="5846" started-at="2020-02-25T13:43:59 MSK" finished-at="2020-02-25T13:44:04 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- approvalLoanOne -->
+        <test-method status="PASS" signature="approvalLoanTwo()[pri:1, instance:by.stormnet.web.LoanTest@6c372fe6]" name="approvalLoanTwo" duration-ms="5723" started-at="2020-02-25T13:44:04 MSK" finished-at="2020-02-25T13:44:10 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- approvalLoanTwo -->
-        <test-method status="SKIP" signature="approvalLoanTwo()[pri:1, instance:by.stormnet.web.LoanTest@6c372fe6]" name="approvalLoanTwo" duration-ms="5781" retried="true" started-at="2020-02-25T11:39:24 MSK" finished-at="2020-02-25T11:39:30 MSK">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-success alert-dismissable']"}
-  (Session info: chrome=80.0.3987.116)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56020}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: bcaceb6628df81bfae0df413acaff967
-*** Element info: {Using=xpath, value=//div[@class='alert alert-success alert-dismissable']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-success alert-dismissable']"}
-  (Session info: chrome=80.0.3987.116)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56020}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: bcaceb6628df81bfae0df413acaff967
-*** Element info: {Using=xpath, value=//div[@class='alert alert-success alert-dismissable']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at by.stormnet.web.pages.AbstractPage.getElement(AbstractPage.java:120)
-at by.stormnet.web.pages.AbstractPage.checkMessage(AbstractPage.java:50)
-at by.stormnet.web.helpers.loanHelpers.LoanDMEHelper.approvalLoanTwo(LoanDMEHelper.java:37)
-at by.stormnet.web.LoanTest.approvalLoanTwo(LoanTest.java:35)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:204)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- approvalLoanTwo -->
-        <test-method status="SKIP" signature="approvalLoanTwo()[pri:1, instance:by.stormnet.web.LoanTest@6c372fe6]" name="approvalLoanTwo" duration-ms="5760" retried="true" started-at="2020-02-25T11:39:30 MSK" finished-at="2020-02-25T11:39:36 MSK">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-success alert-dismissable']"}
-  (Session info: chrome=80.0.3987.116)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56020}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: bcaceb6628df81bfae0df413acaff967
-*** Element info: {Using=xpath, value=//div[@class='alert alert-success alert-dismissable']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-success alert-dismissable']"}
-  (Session info: chrome=80.0.3987.116)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56020}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: bcaceb6628df81bfae0df413acaff967
-*** Element info: {Using=xpath, value=//div[@class='alert alert-success alert-dismissable']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at by.stormnet.web.pages.AbstractPage.getElement(AbstractPage.java:120)
-at by.stormnet.web.pages.AbstractPage.checkMessage(AbstractPage.java:50)
-at by.stormnet.web.helpers.loanHelpers.LoanDMEHelper.approvalLoanTwo(LoanDMEHelper.java:37)
-at by.stormnet.web.LoanTest.approvalLoanTwo(LoanTest.java:35)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:204)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- approvalLoanTwo -->
-        <test-method status="SKIP" signature="approvalLoanTwo()[pri:1, instance:by.stormnet.web.LoanTest@6c372fe6]" name="approvalLoanTwo" duration-ms="5888" retried="true" started-at="2020-02-25T11:39:36 MSK" finished-at="2020-02-25T11:39:41 MSK">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-success alert-dismissable']"}
-  (Session info: chrome=80.0.3987.116)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56020}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: bcaceb6628df81bfae0df413acaff967
-*** Element info: {Using=xpath, value=//div[@class='alert alert-success alert-dismissable']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-success alert-dismissable']"}
-  (Session info: chrome=80.0.3987.116)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56020}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: bcaceb6628df81bfae0df413acaff967
-*** Element info: {Using=xpath, value=//div[@class='alert alert-success alert-dismissable']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at by.stormnet.web.pages.AbstractPage.getElement(AbstractPage.java:120)
-at by.stormnet.web.pages.AbstractPage.checkMessage(AbstractPage.java:50)
-at by.stormnet.web.helpers.loanHelpers.LoanDMEHelper.approvalLoanTwo(LoanDMEHelper.java:37)
-at by.stormnet.web.LoanTest.approvalLoanTwo(LoanTest.java:35)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:204)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- approvalLoanTwo -->
-        <test-method status="FAIL" signature="approvalLoanTwo()[pri:1, instance:by.stormnet.web.LoanTest@6c372fe6]" name="approvalLoanTwo" duration-ms="6705" started-at="2020-02-25T11:39:41 MSK" finished-at="2020-02-25T11:39:48 MSK">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-success alert-dismissable']"}
-  (Session info: chrome=80.0.3987.116)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56020}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: bcaceb6628df81bfae0df413acaff967
-*** Element info: {Using=xpath, value=//div[@class='alert alert-success alert-dismissable']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-success alert-dismissable']"}
-  (Session info: chrome=80.0.3987.116)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ALIAKSANDRDRYSC', ip: '192.168.246.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56020}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: bcaceb6628df81bfae0df413acaff967
-*** Element info: {Using=xpath, value=//div[@class='alert alert-success alert-dismissable']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at by.stormnet.web.pages.AbstractPage.getElement(AbstractPage.java:120)
-at by.stormnet.web.pages.AbstractPage.checkMessage(AbstractPage.java:50)
-at by.stormnet.web.helpers.loanHelpers.LoanDMEHelper.approvalLoanTwo(LoanDMEHelper.java:37)
-at by.stormnet.web.LoanTest.approvalLoanTwo(LoanTest.java:35)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:204)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- approvalLoanTwo -->
-        <test-method status="PASS" signature="approvalLoanClient()[pri:2, instance:by.stormnet.web.LoanTest@6c372fe6]" name="approvalLoanClient" duration-ms="3653" started-at="2020-02-25T11:39:48 MSK" finished-at="2020-02-25T11:39:52 MSK">
+        <test-method status="PASS" signature="approvalLoanClient()[pri:2, instance:by.stormnet.web.LoanTest@6c372fe6]" name="approvalLoanClient" duration-ms="3185" started-at="2020-02-25T13:44:10 MSK" finished-at="2020-02-25T13:44:13 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- approvalLoanClient -->
-        <test-method status="PASS" signature="approvalLoanClient()[pri:2, instance:by.stormnet.web.LoanTest@6c372fe6]" name="approvalLoanClient" duration-ms="3633" started-at="2020-02-25T11:39:52 MSK" finished-at="2020-02-25T11:39:55 MSK">
+        <test-method status="PASS" signature="approvalLoanClient()[pri:2, instance:by.stormnet.web.LoanTest@6c372fe6]" name="approvalLoanClient" duration-ms="3339" started-at="2020-02-25T13:44:13 MSK" finished-at="2020-02-25T13:44:17 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- approvalLoanClient -->
-        <test-method status="PASS" signature="giveOutLoan()[pri:3, instance:by.stormnet.web.LoanTest@6c372fe6]" name="giveOutLoan" duration-ms="3462" started-at="2020-02-25T11:39:55 MSK" finished-at="2020-02-25T11:39:59 MSK">
+        <test-method status="PASS" signature="giveOutLoan()[pri:3, instance:by.stormnet.web.LoanTest@6c372fe6]" name="giveOutLoan" duration-ms="3163" started-at="2020-02-25T13:44:17 MSK" finished-at="2020-02-25T13:44:20 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- giveOutLoan -->
-        <test-method status="PASS" signature="addCommenFromLoan()[pri:4, instance:by.stormnet.web.LoanTest@6c372fe6]" name="addCommenFromLoan" duration-ms="1106" started-at="2020-02-25T11:39:59 MSK" finished-at="2020-02-25T11:40:00 MSK">
+        <test-method status="PASS" signature="addCommenFromLoan()[pri:4, instance:by.stormnet.web.LoanTest@6c372fe6]" name="addCommenFromLoan" duration-ms="1154" started-at="2020-02-25T13:44:20 MSK" finished-at="2020-02-25T13:44:21 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCommenFromLoan -->
-        <test-method status="PASS" signature="changeLoanDate()[pri:5, instance:by.stormnet.web.LoanTest@6c372fe6]" name="changeLoanDate" duration-ms="1599" started-at="2020-02-25T11:40:00 MSK" finished-at="2020-02-25T11:40:02 MSK">
+        <test-method status="PASS" signature="changeLoanDate()[pri:5, instance:by.stormnet.web.LoanTest@6c372fe6]" name="changeLoanDate" duration-ms="1287" started-at="2020-02-25T13:44:21 MSK" finished-at="2020-02-25T13:44:22 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changeLoanDate -->
-        <test-method status="PASS" signature="incameTest()[pri:6, instance:by.stormnet.web.LoanTest@6c372fe6]" name="incameTest" duration-ms="3108" started-at="2020-02-25T11:40:02 MSK" finished-at="2020-02-25T11:40:05 MSK">
+        <test-method status="PASS" signature="incameTest()[pri:6, instance:by.stormnet.web.LoanTest@6c372fe6]" name="incameTest" duration-ms="2734" started-at="2020-02-25T13:44:22 MSK" finished-at="2020-02-25T13:44:25 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- incameTest -->
-        <test-method status="PASS" signature="assigmentVerifier()[pri:7, instance:by.stormnet.web.LoanTest@6c372fe6]" name="assigmentVerifier" duration-ms="5109" started-at="2020-02-25T11:40:05 MSK" finished-at="2020-02-25T11:40:10 MSK">
+        <test-method status="PASS" signature="assigmentVerifier()[pri:7, instance:by.stormnet.web.LoanTest@6c372fe6]" name="assigmentVerifier" duration-ms="5188" started-at="2020-02-25T13:44:25 MSK" finished-at="2020-02-25T13:44:30 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assigmentVerifier -->
-        <test-method status="PASS" signature="stopCashFromLoan()[pri:8, instance:by.stormnet.web.LoanTest@6c372fe6]" name="stopCashFromLoan" duration-ms="1058" started-at="2020-02-25T11:40:10 MSK" finished-at="2020-02-25T11:40:11 MSK">
+        <test-method status="PASS" signature="stopCashFromLoan()[pri:8, instance:by.stormnet.web.LoanTest@6c372fe6]" name="stopCashFromLoan" duration-ms="1033" started-at="2020-02-25T13:44:30 MSK" finished-at="2020-02-25T13:44:31 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopCashFromLoan -->
-        <test-method status="PASS" signature="returnCashFromLoan()[pri:9, instance:by.stormnet.web.LoanTest@6c372fe6]" name="returnCashFromLoan" duration-ms="1057" started-at="2020-02-25T11:40:11 MSK" finished-at="2020-02-25T11:40:12 MSK">
+        <test-method status="PASS" signature="returnCashFromLoan()[pri:9, instance:by.stormnet.web.LoanTest@6c372fe6]" name="returnCashFromLoan" duration-ms="1080" started-at="2020-02-25T13:44:31 MSK" finished-at="2020-02-25T13:44:32 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- returnCashFromLoan -->
-        <test-method status="PASS" signature="makeOverdue()[pri:10, instance:by.stormnet.web.LoanTest@6c372fe6]" name="makeOverdue" duration-ms="968" started-at="2020-02-25T11:40:12 MSK" finished-at="2020-02-25T11:40:13 MSK">
+        <test-method status="PASS" signature="makeOverdue()[pri:10, instance:by.stormnet.web.LoanTest@6c372fe6]" name="makeOverdue" duration-ms="972" started-at="2020-02-25T13:44:32 MSK" finished-at="2020-02-25T13:44:33 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- makeOverdue -->
-        <test-method status="PASS" signature="closeLoan()[pri:11, instance:by.stormnet.web.LoanTest@6c372fe6]" name="closeLoan" duration-ms="1639" started-at="2020-02-25T11:40:13 MSK" finished-at="2020-02-25T11:40:15 MSK">
+        <test-method status="PASS" signature="closeLoan()[pri:11, instance:by.stormnet.web.LoanTest@6c372fe6]" name="closeLoan" duration-ms="1730" started-at="2020-02-25T13:44:33 MSK" finished-at="2020-02-25T13:44:35 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeLoan -->
-        <test-method status="PASS" signature="errorWorkingLoan()[pri:12, instance:by.stormnet.web.LoanTest@6c372fe6]" name="errorWorkingLoan" duration-ms="3675" started-at="2020-02-25T11:40:15 MSK" finished-at="2020-02-25T11:40:18 MSK">
+        <test-method status="PASS" signature="errorWorkingLoan()[pri:12, instance:by.stormnet.web.LoanTest@6c372fe6]" name="errorWorkingLoan" duration-ms="3319" started-at="2020-02-25T13:44:35 MSK" finished-at="2020-02-25T13:44:38 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- errorWorkingLoan -->
-        <test-method status="PASS" signature="stopFromLoan()[pri:13, instance:by.stormnet.web.LoanTest@6c372fe6]" name="stopFromLoan" duration-ms="3446" started-at="2020-02-25T11:40:18 MSK" finished-at="2020-02-25T11:40:22 MSK">
+        <test-method status="PASS" signature="stopFromLoan()[pri:13, instance:by.stormnet.web.LoanTest@6c372fe6]" name="stopFromLoan" duration-ms="3496" started-at="2020-02-25T13:44:38 MSK" finished-at="2020-02-25T13:44:42 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopFromLoan -->

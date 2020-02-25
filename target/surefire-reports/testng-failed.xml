@@ -6,11 +6,11 @@
   </listeners>
   <test thread-count="5" verbose="0" name="login test(failed)">
     <classes>
-      <class name="by.stormnet.web.LoanTest">
+      <class name="api.ApiTest">
         <methods>
-          <include name="approvalLoanTwo"/>
+          <include name="registrationApiStepOne"/>
         </methods>
-      </class> <!-- by.stormnet.web.LoanTest -->
+      </class> <!-- api.ApiTest -->
       <class name="by.stormnet.web.RegistrationFrontTest">
         <methods>
           <include name="registrationStepTwoTest"/>

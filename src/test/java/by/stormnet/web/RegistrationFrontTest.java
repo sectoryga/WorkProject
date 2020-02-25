@@ -13,23 +13,21 @@ public class RegistrationFrontTest {
     RegistrationStepThreeHelper registrationStepThreeHelper = new RegistrationStepThreeHelper();
     RegistrationStepFourHelper registrationStepFourHelper = new RegistrationStepFourHelper();
 
-    @Test
+    @Test(priority = 1)
     public void registrationStepOneTest() {
-        registrationStepOneHelper.openUrlRegistration().clickGetMoneyButtonAndOneStep();
+        registrationStepOneHelper.openUrlRegistration().clickGetMoneyButtonAndOneStep(); }
 
-    }
-
-    @Test(dependsOnMethods = "registrationStepOneTest")
+    @Test(priority = 2)
     public void registrationStepTwoTest() {
         registrationStepTwoHelper.uploadInformation();
     }
 
-    @Test(dependsOnMethods = "registrationStepTwoTest")
+    @Test(priority = 3)
     public void registrationStepTwoThree() {
         registrationStepThreeHelper.updateAdresInformation();
     }
 
-    @Test(dependsOnMethods = "registrationStepTwoThree")
+    @Test(priority = 4)
     public void registrationStepTwoFour() {
         registrationStepFourHelper.updateInformationEmployment();
     }
