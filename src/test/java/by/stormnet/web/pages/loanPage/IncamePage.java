@@ -41,7 +41,8 @@ public class IncamePage extends AbstractPage {
         return this;
     }
 
-    public IncamePage fillDateCash() {
+    public IncamePage fillDateCash() throws InterruptedException {
+        Thread.sleep(2000);
         waitForElementVisible(getElementBy(dateField));
         getElement(dateField).sendKeys("2020-01-11T09:03:59");
         return this;
