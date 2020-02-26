@@ -8,18 +8,27 @@
     <classes>
       <class name="by.stormnet.web.LoanTest">
         <methods>
-          <include name="assigmentVerifier"/>
-          <include name="returnCashFromLoan"/>
           <include name="closeLoan"/>
-          <include name="stopCashFromLoan"/>
-          <include name="incameTest"/>
-          <include name="makeOverdue"/>
+          <include name="stopFromLoan"/>
+          <include name="errorWorkingLoan"/>
         </methods>
       </class> <!-- by.stormnet.web.LoanTest -->
+      <class name="api.ApiTest">
+        <methods>
+          <include name="registrationApiStepOne"/>
+          <include name="registrationApiStepThree"/>
+          <include name="registrationApiStepTwo"/>
+        </methods>
+      </class> <!-- api.ApiTest -->
       <class name="by.stormnet.web.SettingsTest">
         <methods>
+          <include name="addRegion"/>
           <include name="addRemainder"/>
           <include name="tearDowmn"/>
+          <include name="addNewAdmin"/>
+          <include name="addMarketingSettings"/>
+          <include name="addAffilate"/>
+          <include name="addCity"/>
         </methods>
       </class> <!-- by.stormnet.web.SettingsTest -->
       <class name="by.stormnet.web.RegistrationFrontTest">
@@ -27,6 +36,15 @@
           <include name="registrationStepTwoTest"/>
         </methods>
       </class> <!-- by.stormnet.web.RegistrationFrontTest -->
+      <class name="by.stormnet.web.CollectionTest">
+        <methods>
+          <include name="loanCollectionForOutSource"/>
+          <include name="loanCollectionForLegalExpert"/>
+          <include name="assigmentCollector"/>
+          <include name="loanCollectionForSale"/>
+          <include name="addCommentCollector"/>
+        </methods>
+      </class> <!-- by.stormnet.web.CollectionTest -->
     </classes>
   </test> <!-- login test(failed) -->
 </suite> <!-- Failed suite [Acceptance suite] -->

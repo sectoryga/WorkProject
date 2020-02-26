@@ -7,10 +7,9 @@ public class IncameHelper extends AbsractHelper {
 
     IncamePage incamePage = new IncamePage();
 
-    public IncameHelper addIncameLoan() throws InterruptedException {
+    public IncameHelper addIncameLoan()  {
         incamePage.clickButtonAdd()
                 .clickButtonElse();
-        Thread.sleep(3000);
         incamePage.fillDateCash()
                 .fillCash(getRandom())
                 .clickView()

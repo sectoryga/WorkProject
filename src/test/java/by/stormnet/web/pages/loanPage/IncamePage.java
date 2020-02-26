@@ -14,17 +14,20 @@ public class IncamePage extends AbstractPage {
     private String button = "/html/body/div[1]/div/section[1]/div/nav/div/div/ul[1]/li/a";
 
     public IncamePage clickButtonAdd() {
+        waitForElementClickable(getElementBy(addIncameButtonMain));
         getElement(addIncameButtonMain).click();
         return this;
     }
 
     public boolean cliakAddIncame() {
+        waitForElementVisible(getElementBy(button));
         getElement(button).isDisplayed();
         return true;
     }
 
     public IncamePage clickButtonElse() {
         if (cliakAddIncame()) {
+            waitForElementClickable(getElementBy(button));
             getElement(button).click();
         } else {
             clickIncame();
@@ -45,24 +48,22 @@ public class IncamePage extends AbstractPage {
     }
 
     public IncamePage fillCash(String sum) {
+        waitForElementVisible(getElementBy(cashField));
         getElement(cashField).sendKeys(sum);
         return this;
     }
 
     public IncamePage clickView() {
+        waitForElementClickable(getElementBy(viewButton));
         getElement(viewButton).click();
         return this;
     }
 
-    public IncamePage getFinalBtn() {
-        waitForElementVisible(getElementBy(approveIncameButton));
-        return this;
-    }
 
     public IncamePage clickApproveIncame() {
         jsScroll();
         jsScroll();
-        getFinalBtn();
+        waitForElementVisible(getElementBy(approveIncameButton));
         getElement(approveIncameButton).click();
         return this;
     }
