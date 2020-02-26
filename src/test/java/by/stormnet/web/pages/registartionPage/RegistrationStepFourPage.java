@@ -28,6 +28,7 @@ public class RegistrationStepFourPage extends AbstractPage {
     public RegistrationStepFourPage updateEmployment() {
         waitForElementVisible(getElementBy(educationOne));
         getElement(educationOne).click();
+        waitForElementVisible(getElementByCssWaiter(educationTwo));
         getElementByCss(educationTwo).click();
         getElement(position).click();
         waitOption();
