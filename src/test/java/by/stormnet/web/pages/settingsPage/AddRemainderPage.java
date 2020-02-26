@@ -30,6 +30,7 @@ public class AddRemainderPage extends AbstractPage {
     }
 
     public AddRemainderPage clickFinalBtn() {
+        waitForElementClickable(getElementBy(finalBtn));
         getElement(finalBtn).click();
         return this;
     }

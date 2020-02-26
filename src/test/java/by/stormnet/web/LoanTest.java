@@ -56,7 +56,7 @@ public class LoanTest {
     }
 
     @Test(priority = 6, invocationCount = 1, skipFailedInvocations = true)
-    public void incameTest() throws InterruptedException {
+    public void incameTest()  {
         incameHelper.addIncameLoan();
     }
 
