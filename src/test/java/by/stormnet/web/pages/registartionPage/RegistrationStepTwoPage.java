@@ -21,7 +21,8 @@ public class RegistrationStepTwoPage extends AbstractPage {
     private String date = "15082017";
 
 
-    public RegistrationStepTwoPage fillLastName() {
+    public RegistrationStepTwoPage fillLastName() throws InterruptedException {
+        Thread.sleep(2000);
         waitForElementVisible(getElementBy(lastNameField));
         getElement(lastNameField).sendKeys(lastName);
         return this;

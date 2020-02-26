@@ -18,7 +18,7 @@ public class RegistrationFrontTest {
         registrationStepOneHelper.openUrlRegistration().clickGetMoneyButtonAndOneStep(); }
 
     @Test(priority = 2)
-    public void registrationStepTwoTest() {
+    public void registrationStepTwoTest() throws InterruptedException {
         registrationStepTwoHelper.uploadInformation();
     }
 
@@ -31,6 +31,4 @@ public class RegistrationFrontTest {
     public void registrationStepFourTest() {
         registrationStepFourHelper.updateInformationEmployment();
     }
-
-
 }

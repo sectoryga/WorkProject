@@ -8,7 +8,7 @@ public class RegistrationStepTwoHelper extends AbsractHelper {
     RegistrationStepTwoPage registrationStepTwoPage = new RegistrationStepTwoPage();
 
 
-    public RegistrationStepTwoHelper uploadInformation() {
+    public RegistrationStepTwoHelper uploadInformation() throws InterruptedException {
         registrationStepTwoPage.fillLastName()
                 .fillFirstName()
                 .fillMiddleName()
