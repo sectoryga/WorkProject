@@ -28,6 +28,7 @@ public class RegistrationStepThreePage extends AbstractPage {
 
         getElementByCss(regionOne).click();
         getElementByCss(regionTwo).click();
+        waitForElementVisible(getElementByCssWaiter(regionThree));
         getElementByCss(regionThree).click();
         getElementByCss(regionFour).click();
         getElementByCss(regionFive).click();

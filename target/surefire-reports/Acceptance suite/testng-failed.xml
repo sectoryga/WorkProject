@@ -6,13 +6,18 @@
   </listeners>
   <test thread-count="5" verbose="0" name="login test(failed)">
     <classes>
-      <class name="api.ApiTest">
+      <class name="by.stormnet.web.LoanTest">
         <methods>
-          <include name="registrationApiStepOne"/>
-          <include name="registrationApiStepThree"/>
-          <include name="registrationApiStepTwo"/>
+          <include name="approvalLoanTwo"/>
         </methods>
-      </class> <!-- api.ApiTest -->
+      </class> <!-- by.stormnet.web.LoanTest -->
+      <class name="by.stormnet.web.RegistrationFrontTest">
+        <methods>
+          <include name="registrationStepTwoTest"/>
+          <include name="registrationStepThreeTest"/>
+          <include name="registrationStepFourTest"/>
+        </methods>
+      </class> <!-- by.stormnet.web.RegistrationFrontTest -->
     </classes>
   </test> <!-- login test(failed) -->
 </suite> <!-- Failed suite [Acceptance suite] -->
