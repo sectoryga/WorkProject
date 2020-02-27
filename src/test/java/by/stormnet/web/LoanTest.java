@@ -1,8 +1,6 @@
 package by.stormnet.web;
 
-import by.stormnet.automation.core.utils.IOUtils;
 import by.stormnet.web.helpers.loanHelpers.*;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class LoanTest {
@@ -14,16 +12,16 @@ public class LoanTest {
     private IncameHelper incameHelper = new IncameHelper();
 
 //    private String username;
-//    private String password;
-//
-//    @BeforeClass
-//    public void setUp() {
-//        username = IOUtils.loadGenericProperties("username", "configuration");
-//        password = IOUtils.loadGenericProperties("password", "configuration");
-//        verifyLoanHelper.openUrl();
-//        verifyLoanHelper.loginAdmin(username, password);
-//
-//    }
+////    private String password;
+////
+////    @BeforeClass
+////    public void setUp() {
+////        username = IOUtils.loadGenericProperties("username", "configuration");
+////        password = IOUtils.loadGenericProperties("password", "configuration");
+////        verifyLoanHelper.openUrl();
+////        verifyLoanHelper.loginAdmin(username, password);
+////
+////    }
 
     @Test(priority = 1, skipFailedInvocations = true)
     public void approvalLoanOne() {

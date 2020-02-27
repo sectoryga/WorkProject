@@ -5,6 +5,7 @@ C:\Users\USER\IdeaProjects\AutomationFramework\src\test\java\by\stormnet\web\Loa
 C:\Users\USER\IdeaProjects\AutomationFramework\src\test\java\api\entities\UserService.java
 C:\Users\USER\IdeaProjects\AutomationFramework\src\test\java\by\stormnet\web\SettingsTest.java
 C:\Users\USER\IdeaProjects\AutomationFramework\src\test\java\by\stormnet\web\helpers\registrationHelpers\RegistrationStepOneHelper.java
+C:\Users\USER\IdeaProjects\AutomationFramework\src\test\java\by\stormnet\web\pages\personalAreaPage\PersonalAreaPage.java
 C:\Users\USER\IdeaProjects\AutomationFramework\src\test\java\by\stormnet\web\helpers\loanHelpers\LoanDMEHelper.java
 C:\Users\USER\IdeaProjects\AutomationFramework\src\test\java\by\stormnet\web\helpers\settingsHelpers\AddCityHelper.java
 C:\Users\USER\IdeaProjects\AutomationFramework\src\test\java\by\stormnet\web\pages\registartionPage\RegistrationStepThreePage.java
@@ -18,10 +19,12 @@ C:\Users\USER\IdeaProjects\AutomationFramework\src\test\java\by\stormnet\web\hel
 C:\Users\USER\IdeaProjects\AutomationFramework\src\test\java\by\stormnet\web\helpers\registrationHelpers\RegistrationStepThreeHelper.java
 C:\Users\USER\IdeaProjects\AutomationFramework\src\test\java\by\stormnet\web\RegistrationFrontTest.java
 C:\Users\USER\IdeaProjects\AutomationFramework\src\test\java\by\stormnet\web\pages\settingsPage\AddRegionPage.java
+C:\Users\USER\IdeaProjects\AutomationFramework\src\test\java\by\stormnet\web\PersonalAreaTest.java
 C:\Users\USER\IdeaProjects\AutomationFramework\src\test\java\by\stormnet\web\pages\collectionPage\LoanAllCollectionPage.java
 C:\Users\USER\IdeaProjects\AutomationFramework\src\test\java\by\stormnet\web\pages\loanPage\LoanActivePage.java
 C:\Users\USER\IdeaProjects\AutomationFramework\src\test\java\api\entities\AbstractService.java
 C:\Users\USER\IdeaProjects\AutomationFramework\src\test\java\by\stormnet\web\pages\loanPage\LoanApprovalLoanClientPage.java
+C:\Users\USER\IdeaProjects\AutomationFramework\src\test\java\by\stormnet\web\helpers\personalAreaHelpers\PersonalAreaHelper.java
 C:\Users\USER\IdeaProjects\AutomationFramework\src\test\java\by\stormnet\web\pages\settingsPage\AddMarketingPage.java
 C:\Users\USER\IdeaProjects\AutomationFramework\src\test\java\by\stormnet\web\helpers\settingsHelpers\AdminAddHelper.java
 C:\Users\USER\IdeaProjects\AutomationFramework\src\test\java\by\stormnet\web\pages\settingsPage\AddRemainderPage.java
