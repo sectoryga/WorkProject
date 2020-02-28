@@ -13,10 +13,15 @@ public class PersonalAreaHelper extends AbsractHelper {
         return this;
     }
 
+    public PersonalAreaHelper openUrlFront() {
+        personalAreaPage.openUrlFront();
+        return this;
+    }
+
     public PersonalAreaHelper personalAreatest() throws InterruptedException {
         personalAreaPage.clickSwitchUserButton()
                 .nextPage();
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         personalAreaPage.checkInformation()
                 .checkHistory()
                 .checkDocument()
@@ -26,8 +31,12 @@ public class PersonalAreaHelper extends AbsractHelper {
     }
 
     public PersonalAreaHelper HowGetAndOutPersonal() {
-        personalAreaPage.checkHowGetLoan();
-
+        personalAreaPage.checkHowGetLoan()
+                .checkHowPay()
+                .checkHowProlongation()
+                .checkQuestions()
+                .checkAboutUs()
+                .quitPersonalArea();
         return this;
     }
 

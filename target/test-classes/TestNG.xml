@@ -11,6 +11,7 @@
             <class name="by.stormnet.web.LoanTest"/>
             <class name="by.stormnet.web.CollectionTest"/>
             <class name="by.stormnet.web.SettingsTest"/>
+            <class name="by.stormnet.web.PersonalAreaTest"/>
         </classes>
     </test>
 </suite>
