@@ -7,7 +7,7 @@ import org.testng.Assert;
 public class PersonalAreaPage extends AbstractPage {
 
     private String switchUserButton = "//tr[1]//td[1]//div[1]//a[1]";
-    private String fieldInformation = "//div[@class='panel myCredit']//div[@class='panel-header']//span";
+    private String fieldInformation = "//*[@id=\"wrapper\"]/div/app-account-wrapper/main/app-general-page/div/div/div[1]/div[1]/div/div[1]/span";
     private String informationText = "Активный заём";
     private String history = "//div[@id='wrapper']//li[2]//a[1]";
     private String document = "//div[@id='wrapper']//li[3]//a[1]";
