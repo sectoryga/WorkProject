@@ -14,7 +14,7 @@ public class PersonalAreaPage extends AbstractPage {
     private String personal = "//div[@id='wrapper']//li[4]//a[1]";
     private String personInformationField = "//li[@class='active']//a";
     private String text = "Личные данные";
-    private String howGetButton = "//li[2]//a[1]";
+    private String howGetButton = "/html/body/app-root/app-global-wrapper/app-wrapper/div/app-header/header/div/div[2]/div[2]/nav/ul[1]/li[3]/a";
     private String howGetField = "//h1[@class='page-title page-title_orange']";
     private String howGetText = "Как получить кредит?";
     private String howGetpayButton = "//li[3]//a[1]";
@@ -44,7 +44,7 @@ public class PersonalAreaPage extends AbstractPage {
 
     public PersonalAreaPage nextPage() {
         getTabs();
-        navigateToTab(1, getTabs());
+        navigateToTab(2, getTabs());
         return this;
     }
 
@@ -92,7 +92,7 @@ public class PersonalAreaPage extends AbstractPage {
         getElement(howGetpayButton).click();
         waitForElementVisible(getElementBy(howGetPayField));
         WebElement element = getElement(howGetPayField);
-        Assert.assertEquals(howPayText, element.getText());
+        Assert.assertEquals(howGetText, element.getText());
         return this;
     }
 
@@ -100,7 +100,7 @@ public class PersonalAreaPage extends AbstractPage {
         getElement(howGetProlongationButton).click();
         waitForElementVisible(getElementBy(howGetProlongationField));
         WebElement element = getElement(howGetProlongationField);
-        Assert.assertEquals(howProlongationText, element.getText());
+        Assert.assertEquals(howPayText, element.getText());
         return this;
     }
 
@@ -116,7 +116,7 @@ public class PersonalAreaPage extends AbstractPage {
         getElement(AboutUsButton).click();
         waitForElementVisible(getElementBy(AboutUsField));
         WebElement element = getElement(AboutUsField);
-        Assert.assertEquals(AboutUsText, element.getText());
+        Assert.assertEquals(howProlongationText, element.getText());
         return this;
     }
 

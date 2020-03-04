@@ -28,7 +28,7 @@ public class PersonalAreaTest {
         personalAreaHelper.openUrlFront().HowGetAndOutPersonal();
     }
 
-    @Test(dependsOnMethods = "howGetAndOutTest", skipFailedInvocations = true)
+    @Test(priority = 2, skipFailedInvocations = true)
     public void personalAreaTest() throws InterruptedException {
         personalAreaHelper.openUrl().personalAreatest();
     }
