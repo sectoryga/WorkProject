@@ -1,6 +1,8 @@
 package by.stormnet.web;
 
+import by.stormnet.automation.core.utils.IOUtils;
 import by.stormnet.web.helpers.loanHelpers.*;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class LoanTest {
@@ -12,16 +14,16 @@ public class LoanTest {
     private IncameHelper incameHelper = new IncameHelper();
 
 //    private String username;
-////    private String password;
-////
-////    @BeforeClass
-////    public void setUp() {
-////        username = IOUtils.loadGenericProperties("username", "configuration");
-////        password = IOUtils.loadGenericProperties("password", "configuration");
-////        verifyLoanHelper.openUrl();
-////        verifyLoanHelper.loginAdmin(username, password);
-////
-////    }
+//    private String password;
+//
+//    @BeforeClass
+//    public void setUp() {
+//        username = IOUtils.loadGenericProperties("username", "configuration");
+//        password = IOUtils.loadGenericProperties("password", "configuration");
+//        verifyLoanHelper.openUrl();
+//        verifyLoanHelper.loginAdmin(username, password);
+//
+//    }
 
     @Test(priority = 1, skipFailedInvocations = true)
     public void approvalLoanOne() {
@@ -53,15 +55,14 @@ public class LoanTest {
         loanActiveHelper.changeDate();
     }
 
-    @Test(priority = 6, invocationCount = 1, skipFailedInvocations = true)
-    public void incameTest()  {
+    @Test(priority = 6, skipFailedInvocations = true)
+    public void incameTest() {
         incameHelper.addIncameLoan();
     }
 
     @Test(priority = 7, skipFailedInvocations = true)
     public void assigmentVerifier() throws InterruptedException {
-        loanActiveHelper.assigmentVerifier();
-    }
+        loanActiveHelper.assigmentVerifier(); }
 
     @Test(priority = 8, skipFailedInvocations = true)
     public void stopCashFromLoan() {

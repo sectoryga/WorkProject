@@ -1,9 +1,7 @@
 package by.stormnet.web;
 
-import by.stormnet.automation.core.utils.IOUtils;
 import by.stormnet.web.helpers.personalAreaHelpers.PersonalAreaHelper;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class PersonalAreaTest {
