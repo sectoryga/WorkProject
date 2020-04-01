@@ -10,17 +10,17 @@ public class PersonalAreaTest {
 
     PersonalAreaHelper personalAreaHelper = new PersonalAreaHelper();
 
-    private String username;
-    private String password;
-
-    @BeforeClass
-    public void setUp() {
-        username = IOUtils.loadGenericProperties("username", "configuration");
-        password = IOUtils.loadGenericProperties("password", "configuration");
-        personalAreaHelper.openUrl();
-        personalAreaHelper.loginAdmin(username, password);
-
-    }
+//    private String username;
+//    private String password;
+//
+//    @BeforeClass
+//    public void setUp() {
+//        username = IOUtils.loadGenericProperties("username", "configuration");
+//        password = IOUtils.loadGenericProperties("password", "configuration");
+//        personalAreaHelper.openUrl();
+//        personalAreaHelper.loginAdmin(username, password);
+//
+//    }
 
 
     @Test(priority = 1, skipFailedInvocations = true)
