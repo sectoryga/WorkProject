@@ -23,7 +23,7 @@ public class RegistrationStepFourPage extends AbstractPage {
     private String amountOne = "//*[@data-id='incomes-int-monthly']";
     private String amountTwo = "//*[@data-id='incomes-int-amount']";
     private String ibanField = "//*[@data-id='payment-int-banckaccountnumber']";
-    private String iban = "KZ75 125K ZT20 6910 0100";
+    private String iban = "75 125K ZT20 6910 0100";
 
     public RegistrationStepFourPage updateEmployment() {
         waitForElementVisible(getElementBy(educationOne));

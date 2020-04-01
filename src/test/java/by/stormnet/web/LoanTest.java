@@ -60,9 +60,9 @@ public class LoanTest {
         incameHelper.addIncameLoan();
     }
 
-    @Test(priority = 7, skipFailedInvocations = true)
-    public void assigmentVerifier() throws InterruptedException {
-        loanActiveHelper.assigmentVerifier(); }
+//    @Test(priority = 7, skipFailedInvocations = true)
+//    public void assigmentVerifier() throws InterruptedException {
+//        loanActiveHelper.assigmentVerifier(); }
 
     @Test(priority = 8, skipFailedInvocations = true)
     public void stopCashFromLoan() {

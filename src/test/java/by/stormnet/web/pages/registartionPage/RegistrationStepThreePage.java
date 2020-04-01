@@ -37,6 +37,7 @@ public class RegistrationStepThreePage extends AbstractPage {
     }
 
     public RegistrationStepThreePage fillAdress() {
+        jsScroll();
         waitForElementVisible(getElementBy(streetField));
         getElement(streetField).sendKeys(street);
         getElement(houseField).sendKeys(house);
@@ -45,6 +46,7 @@ public class RegistrationStepThreePage extends AbstractPage {
     }
 
     public RegistrationStepThreePage fillPhone(String phone) {
+        waitForElementVisible(getElementBy(phoneField));
         getElement(phoneField).sendKeys(phone);
         return this;
     }
@@ -54,7 +56,7 @@ public class RegistrationStepThreePage extends AbstractPage {
         return this;
     }
 
-    public RegistrationStepThreePage addContactName(String phone){
+    public RegistrationStepThreePage addContactName(String phone) {
         waitForElementVisible(getElementBy(contactNameField));
         getElement(contactNameField).sendKeys(name);
         getElement(contactPhoneField).sendKeys(phone);

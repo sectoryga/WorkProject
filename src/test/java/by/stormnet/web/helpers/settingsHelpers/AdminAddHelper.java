@@ -19,7 +19,6 @@ public class AdminAddHelper extends AbsractHelper {
                 .fillFirstname()
                 .fillPhone()
                 .fillEmail()
-                .fillPassword()
                 .clickcheckBox()
                 .clickcreateButton()
                 .checkMessage();

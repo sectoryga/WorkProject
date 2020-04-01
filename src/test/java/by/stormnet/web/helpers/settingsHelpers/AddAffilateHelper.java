@@ -18,6 +18,7 @@ public class AddAffilateHelper extends AbsractHelper {
                 .fillAffilateName()
                 .fillUrlPostBack()
                 .fillParametr()
+                .fillUtmSource()
                 .clickSettings()
                 .clickFinalButtonThis()
                 .checkMessageCreate();

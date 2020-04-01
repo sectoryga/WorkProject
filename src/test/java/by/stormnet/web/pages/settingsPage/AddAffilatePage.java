@@ -2,6 +2,8 @@ package by.stormnet.web.pages.settingsPage;
 
 import by.stormnet.web.pages.AbstractPage;
 
+import javax.xml.soap.SAAJResult;
+
 public class AddAffilatePage extends AbstractPage {
 
     private String addButton = "//a[@class='sonata-action-element']";
@@ -13,6 +15,7 @@ public class AddAffilatePage extends AbstractPage {
     private String parametr = "MeParametr";
     private String settings = "//div[@class='content-wrapper']//li[2]//a[1]";
     private String finalButton = "//button[@name='btn_create_and_edit']";
+    private String utmField = "//input[@id='sb44d0e6657_utmSource']";
 
     public AddAffilatePage navigateToAffilatePage() {
         openUrl(baseUrl6);
@@ -31,6 +34,11 @@ public class AddAffilatePage extends AbstractPage {
 
     public AddAffilatePage fillUrlPostBack() {
         getElement(postBackField).sendKeys(postBack);
+        return this;
+    }
+
+    public AddAffilatePage fillUtmSource(){
+        getElement(utmField).sendKeys("wwww.onliner.by");
         return this;
     }
 

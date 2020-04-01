@@ -5,10 +5,10 @@ import by.stormnet.web.pages.AbstractPage;
 public class LoanAllCollectionPage extends AbstractPage {
 
     private String legalExpertButton = "//button[4]";
-    private String commentButton = "//button[6]";
+    private String commentButton = "//button[7]";
     private String outSourceButton = "//button[5]";
     private String assigmentButton = "//div[@class='row']//button[2]";
-    private String selectDropDawn = "//span[@id='select2-chosen-5']";
+    private String selectDropDawn = "//span[@id='select2-chosen-6']";
     private String resultsDropDawn = ".select2-results-dept-0.select2-result.select2-result-selectable:nth-child(3)";
     private String dataField = ".input_loan_collector_need_riview.form-control";
     private String commentField = ".input_loan_comment.form-control";
@@ -33,6 +33,7 @@ public class LoanAllCollectionPage extends AbstractPage {
     }
 
     public LoanAllCollectionPage dropDawnSelect() {
+        waitForElementVisible(getElementBy(selectDropDawn));
         getElement(selectDropDawn).click();
         return this;
     }
