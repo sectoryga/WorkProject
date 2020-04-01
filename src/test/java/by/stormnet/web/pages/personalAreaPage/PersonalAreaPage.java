@@ -81,6 +81,7 @@ public class PersonalAreaPage extends AbstractPage {
     }
 
     public PersonalAreaPage checkHowGetLoan() {
+        waitForElementClickable(getElementBy(howGetButton));
         getElement(howGetButton).click();
         waitForElementVisible(getElementBy(howGetField));
         WebElement element = getElement(howGetField);
